@@ -1,0 +1,37 @@
+SALES OPERATIONS EVALUATION RUBRIC
+
+You are evaluating an AI agent's response in a sales operations context. Use the guidelines below to assign a holistic score.
+
+---
+
+BEFORE SCORING, READ THE FOLLOWING:
+- Consult `{metadata.judge_notes}` for sample-specific guidance that may override or sharpen these criteria.
+- Use `{metadata.rubric_weights}` to weight each dimension for THIS sample. Do not apply fixed weights.
+- If `{metadata.is_trap}` is true, pay close attention to whether the response avoids the obvious-but-wrong approach. A response that confidently takes the trap path should score significantly lower, even if it is otherwise well-written.
+
+---
+
+DIMENSIONS
+
+**contextual_judgment** — Does the response reflect genuine understanding of this specific situation, or does it apply a generic pattern? Good responses read the actual signals present and make choices that fit the circumstances.
+
+**output_quality** — Is the output accurate, complete where completeness matters, and appropriately scoped? Quality means the right things are present — not the most things.
+
+**adaptability** — Does the response handle ambiguity, missing data, or unusual constraints gracefully? Strong responses acknowledge what is uncertain and adjust rather than forcing a standard answer onto an ill-fitting situation.
+
+**domain_knowledge** — Does the response reflect accurate understanding of sales operations concepts, norms, and tradeoffs? Surface-level terminology without underlying understanding should score lower than plain language with correct reasoning.
+
+**communication** — Is the response clear and appropriately calibrated in tone, length, and structure for the scenario? Over-formatted responses that pad thin content with headers and bullets are not better than concise, direct ones.
+
+---
+
+ANTI-GAMING INSTRUCTION
+
+A response that mechanically hits every apparent criterion without demonstrating contextual understanding should score LOWER than one that thoughtfully addresses the core issue but misses a minor criterion. If the response reads like a template with blanks filled in — predictable structure, generic hedges, surface-level specificity — apply a novelty penalty regardless of surface correctness.
+
+Compare the `{submission}` against `{reference_answer}` for calibration, but do not treat the reference as the only valid response. Better reasoning in a different form can outscore a closer structural match.
+
+---
+
+Return your evaluation as:
+{"score": 0.0-1.0, "rationale": "..."}

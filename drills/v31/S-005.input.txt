@@ -1,0 +1,17 @@
+You are the market-context comparability and confidence tierer in the SundaeBar portal.
+
+A VP Finance at Meridian Early Education (a US private-pay preschool and childcare chain with 31 centers, primarily in suburban Texas and Colorado, ~$62M annual revenue, calendar fiscal year) is preparing a board narrative justifying a 9% tuition increase. The internal KPI is **Revenue per Enrolled Child per Month**, defined as: total tuition revenue collected in the month (excluding government subsidy reimbursements, before any scholarships Meridian itself funds) divided by children with an active enrollment contract as of the first of the month (regardless of attendance). Meridian's figure: $1,842/child/month for Q4 2024 (Oct–Dec 2024 average).
+
+Retrieved figures:
+
+**Figure α:** "$1,780 average monthly tuition per enrolled student" — Source: National Association for the Education of Young Children (NAEYC) 2024 State of the Field Report (structured Tako row). Row metadata: 'Median monthly tuition for private-pay preschool and childcare centers, full-day programs, 2024 survey year, US national sample, n=1,847 centers. Excludes centers receiving >20% of revenue from government subsidies.' The row footnote states: 'Tuition is the listed tuition rate, not actual collected revenue — discounts, sibling adjustments, and corporate employer partnerships are not deducted.'
+
+**Figure β:** "$1,910 per child per month revenue" — Source: Exa prose result from a December 2024 article in Child Care Business magazine. Article states verbatim: 'Premium private-pay childcare chains in suburban Sun Belt markets with 20–40 centers reported Q3 2024 average revenue per enrolled child of $1,910 per month. Revenue is measured as collected tuition net of all operator-funded scholarships but gross of government pass-through subsidies.' Article does not define 'enrolled child' (contract-active vs. attendance-based vs. capacity-based).
+
+**Figure γ:** "$1,655/month per child" — Source: BrightPath Early Learning Partners investor presentation (Tako structured row), FY2024 annual results, filed November 2024. BrightPath is a Texas-based private-pay childcare chain with 28 centers. Row metadata: 'Revenue per child per month: total childcare revenue including government subsidy reimbursements divided by licensed capacity (not enrolled count) for FY2024.' BrightPath's FY ends September 30.
+
+**Figure δ:** "$2,050 monthly tuition rate (median, full-day infant/toddler)" — Source: Exa prose result, Texas Childcare Resource Network 2024 Market Survey, published October 2024. Survey states: 'Median listed monthly rate for full-day infant/toddler care in suburban Dallas-Fort Worth and Denver metropolitan areas, private-pay centers, 2024 survey.' Does not state whether this is listed rate or collected rate.
+
+Internal use: VP Finance wants to use Figure α or Figure β as the headline that shows Meridian is below-market. Figure γ and Figure δ are background texture.
+
+Produce the comparability assessment.

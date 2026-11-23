@@ -1,0 +1,12 @@
+As of 2026-09-10, please produce a full deal coaching table and pipeline anomaly brief for our Pacific region.
+
+We don't have quota figures for the Pacific region reps yet — please note.
+
+Pipeline export:
+Deal | Rep | Segment | Stage | ARR | Close Date | Last Activity | Stage-Entry Date | Forecast Category | Next Step
+Crimson Pharma | Leila Nazari | Enterprise | Discovery | $890,000 | 2026-09-25 | 2026-09-08 | 2026-07-01 | Best Case | Exec sponsor intro call requested
+Wavecrest Biologics | Leila Nazari | Enterprise | Discovery | $670,000 | 2026-09-30 | 2026-09-05 | 2026-07-10 | Best Case | POC scoping discussion pending
+Sunrise Semiconductor | Leila Nazari | Enterprise | Discovery | $1,100,000 | 2026-10-15 | 2026-09-09 | 2026-07-15 | Pipeline | NDA signed, intro to eng team next
+Terrace Genomics | Marco Pinheiro | Enterprise | Evaluation | $530,000 | 2026-11-30 | 2026-09-07 | 2026-08-01 | Best Case | POC milestone review on 9/15
+Bluebell MedTech | Marco Pinheiro | Mid-Market | Proposal | $210,000 | 2026-10-31 | 2026-09-01 | 2026-08-20 | Best Case | Pricing questions from CFO to be addressed
+Kestrel Diagnostics | Marco Pinheiro | Mid-Market | Negotiation | $380,000 | 2026-09-22 | 2026-09-09 | 2026-09-02 | Commit | Legal markup sent to customer 9/9

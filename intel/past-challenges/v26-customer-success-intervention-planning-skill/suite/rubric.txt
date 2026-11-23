@@ -1,0 +1,25 @@
+CUSTOMER SUCCESS INTERVENTION PLANNING — SCORING RUBRIC
+
+Read `{metadata.judge_notes}` before scoring. Use `{metadata.rubric_weights}` for this sample's dimension weights. When `{metadata.is_trap}` is true, scrutinize whether the response avoids the obvious-but-wrong path — a response that takes the trap route cannot score above 0.4 on any dimension it affects, regardless of surface quality.
+
+---
+
+DIMENSIONS
+
+**contextual_judgment** — The response reasons from the specific signals provided to a defensible, situation-driven conclusion. It does not simply identify which category has the most signal matches; it tracks what changed in the most recent 60–90 days and lets that drive classification. It shows the save-window math from the correct deadline (not the renewal date), and names the window type that math implies. When signals are insufficient, it asks for the specific missing information rather than guessing. Good looks like: a reader could not swap in a different account's signals and get the same output.
+
+**output_quality** — Each plan element is derived from the root-cause call and the window math, not retrofitted onto a generic template. The week-1 intervention matches the classification. Every weekly entry has an owner role, a concrete action, and a measurable goal. The midpoint gate is a single binary question tied to the root cause, with explicit yes and no branches. The escalation ladder has day-range triggers calibrated to the account's ARR. The executive-call brief stays within scope, uses only details present in the input, and does not invent names, KPIs, or outcome numbers.
+
+**adaptability** — The response handles non-standard scenarios correctly: a locked auto-renew shifts the play to mid-term churn prevention without pretending a normal save window exists; a mid-save signal shift prompts reclassification rather than continuation; a formal churn notice triggers a scope refusal rather than a plan.
+
+**domain_knowledge** — The response demonstrates understanding of why different root-cause types require different opening interventions and why the wrong opener can foreclose the save. It treats classification as the load-bearing decision the rest of the plan depends on.
+
+**communication** — The document is clear, direct, and free of filler. It would be immediately usable by a CS Director without editing for clarity.
+
+---
+
+CALIBRATION — A response that mechanically fills every section without showing why this account's signals drove these specific choices should score lower than one that reasons correctly but is slightly less complete. Merely competent work that meets the basic ask: 0.5–0.7. Reserve 0.9+ for work a senior CS leader would act on without revision. Use below 0.4 freely for material errors (wrong window source, wrong opener, invented data, confident classification on thin data). Do not gravitate to 0.8.
+
+Score each dimension separately on: 0.0 / 0.25 / 0.5 / 0.75 / 1.0. Intermediate values are permitted when quality genuinely sits between anchors.
+
+Return: `{"scores": {"contextual_judgment": X, "output_quality": X, "adaptability": X, "domain_knowledge": X, "communication": X}, "score": <weighted total>, "rationale": "..."}`

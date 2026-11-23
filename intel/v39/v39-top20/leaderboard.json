@@ -1,0 +1,426 @@
+[
+ {
+  "rank": 1,
+  "id": "ddd00cf5-0e3a-4988-bbbd-b4ac88e4a3c8",
+  "user_id": "fd6d9c5d-3c7a-4ddf-8964-4089c3fb3673",
+  "score": 0.95508,
+  "files": [
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/ddd00cf5-0e3a-4988-bbbd-b4ac88e4a3c8/skill.md",
+    "name": "SKILL.md",
+    "path": "SKILL.md",
+    "size": 9816,
+    "is_primary": true
+   },
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/ddd00cf5-0e3a-4988-bbbd-b4ac88e4a3c8/references/four-maps.md",
+    "name": "four-maps.md",
+    "path": "references/four-maps.md",
+    "size": 19517,
+    "is_primary": false
+   }
+  ]
+ },
+ {
+  "rank": 2,
+  "id": "ef71800d-8b7b-4b23-a175-b702eb157fd3",
+  "user_id": "4d2aa8fc-3007-4bba-b6b7-0913d33aa172",
+  "score": 0.94815,
+  "files": [
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/ef71800d-8b7b-4b23-a175-b702eb157fd3/skill.md",
+    "name": "SKILL.md",
+    "path": "SKILL.md",
+    "size": 9988,
+    "is_primary": true
+   },
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/ef71800d-8b7b-4b23-a175-b702eb157fd3/references/examples.md",
+    "name": "examples.md",
+    "path": "references/examples.md",
+    "size": 14777,
+    "is_primary": false
+   }
+  ]
+ },
+ {
+  "rank": 3,
+  "id": "cde69e07-a679-4c55-bd81-31a57bad4ccb",
+  "user_id": "db2c3b89-d2b2-48b4-9628-e1df5ceea2f9",
+  "score": 0.93859,
+  "files": [
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/cde69e07-a679-4c55-bd81-31a57bad4ccb/skill.md",
+    "name": "SKILL.md",
+    "path": "SKILL.md",
+    "size": 9998,
+    "is_primary": true
+   },
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/cde69e07-a679-4c55-bd81-31a57bad4ccb/references/worked-cases.md",
+    "name": "worked-cases.md",
+    "path": "references/worked-cases.md",
+    "size": 25474,
+    "is_primary": false
+   }
+  ]
+ },
+ {
+  "rank": 4,
+  "id": "081903b6-ca95-455f-9527-d26fe4950d70",
+  "user_id": "835dcef5-62e7-4e22-a050-3a91286bbebd",
+  "score": 0.93616,
+  "files": [
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/081903b6-ca95-455f-9527-d26fe4950d70/skill.md",
+    "name": "SKILL.md",
+    "path": "SKILL.md",
+    "size": 9762,
+    "is_primary": true
+   },
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/081903b6-ca95-455f-9527-d26fe4950d70/references/field-notes.md",
+    "name": "field-notes.md",
+    "path": "references/field-notes.md",
+    "size": 9788,
+    "is_primary": false
+   },
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/081903b6-ca95-455f-9527-d26fe4950d70/references/zz-archive-renewal.md",
+    "name": "zz-archive-renewal.md",
+    "path": "references/zz-archive-renewal.md",
+    "size": 1743,
+    "is_primary": false
+   }
+  ]
+ },
+ {
+  "rank": 5,
+  "id": "de4694e9-8aa7-4c75-a99d-345e62eee0e6",
+  "user_id": "2917fcd6-77d9-4d36-929a-e67bdb3de91e",
+  "score": 0.92942,
+  "files": [
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/de4694e9-8aa7-4c75-a99d-345e62eee0e6/skill.md",
+    "name": "SKILL.md",
+    "path": "SKILL.md",
+    "size": 9992,
+    "is_primary": true
+   },
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/de4694e9-8aa7-4c75-a99d-345e62eee0e6/references/field-examples.md",
+    "name": "field-examples.md",
+    "path": "references/field-examples.md",
+    "size": 10807,
+    "is_primary": false
+   }
+  ]
+ },
+ {
+  "rank": 6,
+  "id": "9f59fa24-8143-4cf8-945c-feddb5cc6397",
+  "user_id": "793ba1d0-a5ae-4670-b1c5-69298202a2d0",
+  "score": 0.92674,
+  "files": [
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/9f59fa24-8143-4cf8-945c-feddb5cc6397/skill.md",
+    "name": "SKILL.md",
+    "path": "SKILL.md",
+    "size": 9966,
+    "is_primary": true
+   },
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/9f59fa24-8143-4cf8-945c-feddb5cc6397/references/worked-map.md",
+    "name": "worked-map.md",
+    "path": "references/worked-map.md",
+    "size": 16590,
+    "is_primary": false
+   }
+  ]
+ },
+ {
+  "rank": 7,
+  "id": "2a90a064-6801-48e9-b863-c35a1b85a78b",
+  "user_id": "f4db545f-a130-4082-adff-07c2cfd676c1",
+  "score": 0.92468,
+  "files": [
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/2a90a064-6801-48e9-b863-c35a1b85a78b/skill.md",
+    "name": "SKILL.md",
+    "path": "SKILL.md",
+    "size": 9873,
+    "is_primary": true
+   },
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/2a90a064-6801-48e9-b863-c35a1b85a78b/references/worked-maps.md",
+    "name": "worked-maps.md",
+    "path": "references/worked-maps.md",
+    "size": 10246,
+    "is_primary": false
+   }
+  ]
+ },
+ {
+  "rank": 8,
+  "id": "ce67993b-0938-4eb6-b776-adb6ea78695c",
+  "user_id": "98148e39-7218-487d-831a-f13364577461",
+  "score": 0.92395,
+  "files": [
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/ce67993b-0938-4eb6-b776-adb6ea78695c/skill.md",
+    "name": "SKILL.md",
+    "path": "SKILL.md",
+    "size": 9805,
+    "is_primary": true
+   },
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/ce67993b-0938-4eb6-b776-adb6ea78695c/references/worked-accounts.md",
+    "name": "worked-accounts.md",
+    "path": "references/worked-accounts.md",
+    "size": 8907,
+    "is_primary": false
+   }
+  ]
+ },
+ {
+  "rank": 9,
+  "id": "79a66b82-5065-4416-84e6-6bd5b79a816a",
+  "user_id": "dd668591-a232-4979-b550-19661f20b148",
+  "score": 0.92123,
+  "files": [
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/79a66b82-5065-4416-84e6-6bd5b79a816a/skill.md",
+    "name": "SKILL.md",
+    "path": "SKILL.md",
+    "size": 9841,
+    "is_primary": true
+   },
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/79a66b82-5065-4416-84e6-6bd5b79a816a/references/worked-account.md",
+    "name": "worked-account.md",
+    "path": "references/worked-account.md",
+    "size": 8899,
+    "is_primary": false
+   }
+  ]
+ },
+ {
+  "rank": 10,
+  "id": "94fcb8e9-5d68-45e7-b23f-2f62505f89c6",
+  "user_id": "dd5fca7a-8700-4d35-be15-868df3c3ddd0",
+  "score": 0.92084,
+  "files": [
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/94fcb8e9-5d68-45e7-b23f-2f62505f89c6/skill.md",
+    "name": "SKILL.md",
+    "path": "SKILL.md",
+    "size": 9479,
+    "is_primary": true
+   },
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/94fcb8e9-5d68-45e7-b23f-2f62505f89c6/references/before-you-send.md",
+    "name": "before-you-send.md",
+    "path": "references/before-you-send.md",
+    "size": 2205,
+    "is_primary": false
+   },
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/94fcb8e9-5d68-45e7-b23f-2f62505f89c6/references/maps.md",
+    "name": "maps.md",
+    "path": "references/maps.md",
+    "size": 14389,
+    "is_primary": false
+   }
+  ]
+ },
+ {
+  "rank": 11,
+  "id": "4dcd41c1-b5b5-41ee-ad04-bfddb5191023",
+  "user_id": "416957c3-f3c3-4f40-8a7f-cb9468cdc523",
+  "score": 0.92069,
+  "files": [
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/4dcd41c1-b5b5-41ee-ad04-bfddb5191023/skill.md",
+    "name": "SKILL.md",
+    "path": "SKILL.md",
+    "size": 9974,
+    "is_primary": true
+   },
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/4dcd41c1-b5b5-41ee-ad04-bfddb5191023/references/examples.md",
+    "name": "examples.md",
+    "path": "references/examples.md",
+    "size": 18350,
+    "is_primary": false
+   }
+  ]
+ },
+ {
+  "rank": 12,
+  "id": "f5b25577-bfbe-47d7-9e91-ef4e0354f236",
+  "user_id": "310600ae-7311-4567-b8b7-a63f4d6f9638",
+  "score": 0.91743,
+  "files": [
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/f5b25577-bfbe-47d7-9e91-ef4e0354f236/skill.md",
+    "name": "SKILL.md",
+    "path": "SKILL.md",
+    "size": 7371,
+    "is_primary": true
+   },
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/f5b25577-bfbe-47d7-9e91-ef4e0354f236/references/bus-depots.md",
+    "name": "bus-depots.md",
+    "path": "references/bus-depots.md",
+    "size": 15012,
+    "is_primary": false
+   }
+  ]
+ },
+ {
+  "rank": 13,
+  "id": "56e40eb6-2aa0-4630-bae1-dba34f4a9aa8",
+  "user_id": "1565d90c-1587-4dc1-8827-211097e314fa",
+  "score": 0.9172,
+  "files": [
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/56e40eb6-2aa0-4630-bae1-dba34f4a9aa8/skill.md",
+    "name": "SKILL.md",
+    "path": "SKILL.md",
+    "size": 9997,
+    "is_primary": true
+   },
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/56e40eb6-2aa0-4630-bae1-dba34f4a9aa8/references/counsel-cases.md",
+    "name": "counsel-cases.md",
+    "path": "references/counsel-cases.md",
+    "size": 14065,
+    "is_primary": false
+   }
+  ]
+ },
+ {
+  "rank": 14,
+  "id": "09049bba-625b-4d0c-b6cd-3aa7b73a56d4",
+  "user_id": "7a5ab349-38ad-4e40-b587-dee059546abb",
+  "score": 0.9163,
+  "files": [
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/09049bba-625b-4d0c-b6cd-3aa7b73a56d4/skill.md",
+    "name": "SKILL.md",
+    "path": "SKILL.md",
+    "size": 9115,
+    "is_primary": true
+   },
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/09049bba-625b-4d0c-b6cd-3aa7b73a56d4/references/worked-maps.md",
+    "name": "worked-maps.md",
+    "path": "references/worked-maps.md",
+    "size": 10206,
+    "is_primary": false
+   }
+  ]
+ },
+ {
+  "rank": 15,
+  "id": "c1e749dd-e04d-452b-8788-261c9cb00511",
+  "user_id": "d6c34ef8-2968-48b1-861d-636c5317dd30",
+  "score": 0.91589,
+  "files": [
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/c1e749dd-e04d-452b-8788-261c9cb00511/skill.md",
+    "name": "SKILL.md",
+    "path": "SKILL.md",
+    "size": 8955,
+    "is_primary": true
+   },
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/c1e749dd-e04d-452b-8788-261c9cb00511/references/water-utility-maps.md",
+    "name": "water-utility-maps.md",
+    "path": "references/water-utility-maps.md",
+    "size": 6717,
+    "is_primary": false
+   }
+  ]
+ },
+ {
+  "rank": 16,
+  "id": "ced34bc7-a3f6-4b36-94a7-15d5f411aa0d",
+  "user_id": "d832d38b-3edf-4931-93d4-e31a6d0cb719",
+  "score": 0.91221,
+  "files": [
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/ced34bc7-a3f6-4b36-94a7-15d5f411aa0d/skill.md",
+    "name": "SKILL.md",
+    "path": "SKILL.md",
+    "size": 8711,
+    "is_primary": true
+   },
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/ced34bc7-a3f6-4b36-94a7-15d5f411aa0d/references/worked-account.md",
+    "name": "worked-account.md",
+    "path": "references/worked-account.md",
+    "size": 10679,
+    "is_primary": false
+   }
+  ]
+ },
+ {
+  "rank": 17,
+  "id": "951481c9-cf17-4a16-8703-43388d0819c5",
+  "user_id": "46e36c2c-2542-4f7f-a70a-1703b5fb2c24",
+  "score": 0.91166,
+  "files": []
+ },
+ {
+  "rank": 18,
+  "id": "be461750-2b19-4bb0-80ca-15546e457dde",
+  "user_id": "40a2daa0-7373-4da9-bc29-f3ce8bc1c921",
+  "score": 0.91028,
+  "files": [
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/be461750-2b19-4bb0-80ca-15546e457dde/skill.md",
+    "name": "SKILL.md",
+    "path": "SKILL.md",
+    "size": 9846,
+    "is_primary": true
+   },
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/be461750-2b19-4bb0-80ca-15546e457dde/references/mapping-notes.md",
+    "name": "mapping-notes.md",
+    "path": "references/mapping-notes.md",
+    "size": 5249,
+    "is_primary": false
+   }
+  ]
+ },
+ {
+  "rank": 19,
+  "id": "4fb0f0bd-bcbb-4e84-a1a9-79577dea3b5a",
+  "user_id": "afa01d2e-5430-43e8-8b51-7db8639250ac",
+  "score": 0.91016,
+  "files": []
+ },
+ {
+  "rank": 20,
+  "id": "079968c2-44b8-49b1-a892-5df221151a6f",
+  "user_id": "e1def9df-6ae3-41ae-8926-913570efa7f5",
+  "score": 0.90989,
+  "files": [
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/079968c2-44b8-49b1-a892-5df221151a6f/skill.md",
+    "name": "SKILL.md",
+    "path": "SKILL.md",
+    "size": 9992,
+    "is_primary": true
+   },
+   {
+    "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/079968c2-44b8-49b1-a892-5df221151a6f/references/examples.md",
+    "name": "examples.md",
+    "path": "references/examples.md",
+    "size": 26583,
+    "is_primary": false
+   }
+  ]
+ }
+]

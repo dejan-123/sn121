@@ -1,0 +1,17 @@
+As of 2026-07-14, I need the pipeline coaching table and anomaly brief for our LATAM team.
+
+One of our deals (Espejo Retail) has its close date in the data as 2026-07-01 — note that date is in the past relative to our reference date. Handle this appropriately.
+
+Also note: this deal's close date has been pulled forward twice since it was opened — it was originally set for 2026-09-30, then moved to 2026-08-15, then to 2026-07-01. I mention this because it's unusual.
+
+Quota:
+- Valentina Cruz | Enterprise | Q3 Remaining Quota: $700,000
+- Omar Tafur | Enterprise | Q3 Remaining Quota: $650,000
+
+Pipeline export:
+Deal | Rep | Stage | ARR | Close Date | Last Activity | Stage-Entry Date | Forecast Category | Next Step
+Espejo Retail | Valentina Cruz | Evaluation | $520,000 | 2026-07-01 | 2026-07-10 | 2026-06-01 | Commit | POC running; stakeholder debrief planned
+Aguila Financial | Valentina Cruz | Negotiation | $340,000 | 2026-08-31 | 2026-07-12 | 2026-07-01 | Commit | Redlines sent to Aguila counsel 7/12
+Cordova Shipping | Omar Tafur | Proposal | $275,000 | 2026-08-30 | 2026-07-07 | 2026-06-23 | Best Case | Executive sponsor review pending
+Sierra Textile | Omar Tafur | Discovery | $190,000 | 2026-09-30 | 2026-07-14 | 2026-06-30 | Pipeline | Intro call today; discovery notes to follow
+Andean Cloud | Omar Tafur | Negotiation | $480,000 | 2026-07-31 | 2026-06-30 | 2026-06-15 | Commit | Waiting for final pricing approval from their CFO

@@ -1,0 +1,44 @@
+INBOUND EMAIL TRIAGE AND REPLY DRAFTING — SCORING RUBRIC
+
+You are judging an AI agent's response to an email triage and reply drafting task.
+
+---
+
+BEFORE SCORING, READ THESE:
+- This sample's dimension weights: {metadata.rubric_weights}
+- Sample-specific guidance: {metadata.judge_notes}
+- Scenario type: {metadata.scenario_type} | Capability focus: {metadata.capability_focus}
+- Is this a trap scenario? {metadata.is_trap}
+
+---
+
+DIMENSIONS
+
+**contextual_judgment** — Does the response reflect genuine reading of this specific situation, or does it apply a generic template? Good responses recognize nuance, implicit stakes, and what the sender actually needs versus what they literally said.
+
+**output_quality** — Is the drafted reply (or triage decision) appropriate in form, tone, and precision? Quality means fit-for-purpose, not polished-but-wrong.
+
+**adaptability** — Does the response adjust appropriately to constraints, unusual scenarios, or information that should change the default approach? Rigidly following a standard playbook when the situation calls for deviation is a failure here.
+
+**domain_knowledge** — Does the response demonstrate accurate understanding of email triage conventions, business communication norms, and relevant domain context? This is not about jargon—it is about whether decisions make sense given real-world stakes.
+
+**communication** — Is the response clear, appropriately concise, and free of confusion? A response that buries the key action or decision in verbose hedging is worse than a shorter, direct one.
+
+---
+
+SCORING GUIDANCE
+
+Use {metadata.rubric_weights} to weight each dimension for this sample. A dimension with weight 0 should be ignored entirely.
+
+If {metadata.is_trap} is true: scrutinize whether the response avoids the obvious-but-wrong approach. Falling into the trap should substantially reduce the score even if other dimensions appear strong.
+
+Penalize template-like responses: if the output reads as though blanks were filled into a fixed structure—generic opener, generic action, generic close—reduce scores across dimensions. Genuine engagement looks different from mechanical coverage.
+
+A response that thoughtfully addresses the core issue but omits a minor criterion should score HIGHER than one that mechanically hits every criterion without demonstrating real understanding.
+
+Compare against {reference_answer} to calibrate what good looks like for this specific sample.
+
+---
+
+Return your evaluation as JSON only:
+{"score": 0.0-1.0, "rationale": "..."}

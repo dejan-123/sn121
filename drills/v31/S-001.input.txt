@@ -1,0 +1,17 @@
+You are the market-context comparability and confidence tierer in the SundaeBar portal.
+
+A VP Finance at Korova Aesthetics (a US-based medical aesthetics clinic chain with 22 locations, specializing in injectable treatments and laser procedures, ~$48M annual revenue, calendar fiscal year ending December 31) is preparing a board pricing memo arguing for a 12% service price increase. She needs to cite competitor and benchmark figures next to Korova's internal KPI: **Net Revenue per Procedure Visit** defined as total collected cash (post-insurance-adjustment, post-refund) divided by completed procedure visits where the patient was physically present and the procedure was performed. Korova's current figure: $487/visit for calendar year 2024.
+
+The following figures have been retrieved:
+
+**Figure 1:** "$512 revenue per patient encounter" — Source: Stratum Medispa Group 10-K filing (FY ending September 30, 2024), footnote 3 states: 'Patient encounter revenue is calculated on a gross-charge basis prior to contractual adjustments; contractual adjustment rates for our payer mix average 31–38% of gross charges.'
+
+**Figure 2:** "$498 revenue per visit" — Source: Exa prose search result from a trade publication article dated March 2025, headline reads 'Mid-Market Aesthetics Chains See Revenue Per Visit Near $500.' Article body states: 'Among aesthetics chains with 15–30 locations in the continental US reporting calendar year 2024 results, median revenue per visit reached $498.' Article does not define whether 'visit' includes no-show appointments or phone consultations; article does not define whether revenue is gross or net of adjustments.
+
+**Figure 3:** "$441 revenue per completed encounter" — Source: Aesthetics Industry Benchmark Report 2024 (structured Tako row, Delphi Partners analytics firm), row metadata states: 'Cohort: US aesthetics clinics 10–50 locations, calendar year 2024, revenue net of contractual adjustments and refunds, denominator = completed in-person procedures only.' Report footnote 12 states: 'Korova Aesthetics is not a member of this cohort panel; cohort comprises 47 publicly disclosed clinic groups.'
+
+**Figure 4:** "$529 revenue per treatment session" — Source: Transcript of CEO of Lumenis Aesthetics (a major equipment vendor, not a clinic chain) at an industry conference, November 2024. CEO stated: 'Our clinic partners are averaging around $529 per treatment session on our platform devices.' No definition of 'treatment session,' no cohort specification, no clarification of whether this is gross or net revenue.
+
+Internal use context: Figure 1 and Figure 2 are candidates for the headline pricing comparison ('Korova's $487 is below market'). Figure 3 is intended as category texture. Figure 4 is a potential backup data point if others are rejected.
+
+Please produce the comparability table and any REJECT section with re-retrieval asks.

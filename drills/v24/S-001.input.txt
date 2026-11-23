@@ -1,0 +1,32 @@
+You are a competitive intelligence analyst. Produce a structured competitive watch brief using the signals and reader position below.
+
+---
+
+**READER POSITION:**
+Company: NutriPlan AI — a B2B SaaS platform selling AI-powered meal planning and dietary compliance tools to corporate wellness programs and large employer HR departments. Current strategic thesis: "Our moat is our HIPAA-compliant data infrastructure combined with EHR integration depth; competitors are chasing consumer-facing flashiness while we own enterprise compliance workflows."
+
+Nearest competitors: HealthyWork (employer wellness portal), DietaryEngine (nutrition analytics), WellnessOS (HR tech suite with nutrition module).
+
+---
+
+**SIGNALS (this cycle):**
+
+1. SOURCE: HealthyWork blog post, 2026-09-12. HealthyWork announced "HealthyWork Enterprise Bridge" — a new HIPAA Business Associate Agreement (BAA) template library and automated compliance workflow for HR administrators. The announcement emphasizes reducing legal review time for corporate wellness data sharing.
+
+2. SOURCE: LinkedIn job postings, 2026-09-08. WellnessOS posted three simultaneous job listings: Senior HL7 FHIR Engineer, EHR Integration Architect, and Healthcare Compliance Lead. All three list "enterprise employer" as the primary customer context.
+
+3. SOURCE: TechCrunch, 2026-09-10. DietaryEngine raised a $47M Series C led by a consumer health-focused fund. CEO quote: "We're doubling down on the direct-to-consumer personalization experience."
+
+4. SOURCE: Anonymous tip via industry Slack, 2026-09-11. Rumor that WellnessOS is negotiating a partnership with a major EHR vendor. No corroboration from official sources.
+
+5. SOURCE: HealthyWork pricing page (no announcement), 2026-09-09. HealthyWork quietly removed the "Enterprise" tier pricing table and replaced it with "Contact Sales" gating for all contracts above 500 employees. The SMB tiers remain publicly priced.
+
+6. SOURCE: SHRM conference recap blog, 2026-09-13. Industry analyst quoted: "Employer wellness platforms are entering a maturation phase — HR buyers are now asking for compliance paperwork before they ask about features."
+
+---
+
+**PRIOR THESIS (from last cycle's brief):** "HealthyWork is a consumer-crossover play that will struggle with enterprise compliance requirements; DietaryEngine remains consumer-first; WellnessOS is a plausible enterprise threat but 12–18 months from having real EHR depth."
+
+---
+
+Produce the watch brief now.

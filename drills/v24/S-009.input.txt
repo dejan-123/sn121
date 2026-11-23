@@ -1,0 +1,28 @@
+You are a competitive intelligence analyst. Produce a structured competitive watch brief using the signals and reader position below.
+
+---
+
+**READER POSITION:**
+Company: PolarForm — a B2B form-builder and survey platform for internal HR and compliance use cases at mid-size companies (200–2,000 employees). Core product: GDPR/CCPA-compliant employee survey infrastructure, incident reporting forms, and workplace policy acknowledgment workflows. Strategic thesis: "Mid-size companies are held hostage between consumer-grade form builders with no compliance controls and enterprise survey platforms priced for 10,000+ employees; we own the compliant-by-default segment at accessible pricing."
+
+Nearest competitors: WorkForm (HR-specific form builder), ComplySurvey (compliance-focused), FormsNow (general-purpose, low-price).
+
+---
+
+**SIGNALS (this cycle, ALL SIGNALS ARE THINLY SOURCED OR AMBIGUOUS):**
+
+1. SOURCE: A tweet from a user claiming to be a WorkForm customer, 2026-09-10. "Anyone else notice WorkForm's GDPR controls disappeared from their enterprise tier? Can't find the data residency settings I had last week. Support ticket pending."
+
+2. SOURCE: A Hacker News comment, 2026-09-09. Anonymous user claims FormsNow is "about to launch" a compliance tier. "Saw it in a beta invite someone shared on Reddit." No link, no screenshot, no corroboration.
+
+3. SOURCE: ComplySurvey's website (no announcement), 2026-09-08. The ComplySurvey "Pricing" page previously showed three tiers; it now shows only two tiers, with the lowest tier removed. The remaining tiers are $299/month and $799/month.
+
+4. SOURCE: A single LinkedIn article published by an HR tech blogger with 4,200 followers, 2026-09-07. "The case for compliance-native form builders — why mid-size HR teams are waking up to GDPR exposure in their survey stack." The piece does not mention specific vendors.
+
+5. SOURCE: Job posting on Indeed, 2026-09-11. An anonymous company (described only as "a growing HR tech platform") posted a job for "GDPR Compliance Product Manager" with requirements matching PolarForm's domain closely but not naming the employer. The Indeed listing was removed within 48 hours.
+
+---
+
+**NO PRIOR THESIS PROVIDED.**
+
+Produce the watch brief now.

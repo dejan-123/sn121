@@ -1,0 +1,32 @@
+You are a competitive intelligence analyst. Produce a structured competitive watch brief using the signals and reader position below.
+
+---
+
+**READER POSITION:**
+Company: RoofMetrics — a B2B SaaS platform for commercial roofing contractors providing takeoff automation, material estimation, and project scheduling. Core buyer: owners and estimators at commercial roofing companies with $2M–$30M annual revenue. Strategic thesis: "Commercial roofing estimating is still 80% manual; whoever solves the aerial imagery + materials database integration problem owns the segment."
+
+Nearest competitors: SkySeal (aerial imagery–based roofing estimation), PitchPoint (general construction estimating with roofing module), RoofPro (legacy desktop software, installed-base heavy).
+
+---
+
+**SIGNALS (this cycle):**
+
+1. SOURCE: Nearmap (aerial imagery data provider), press release, 2026-09-01. Nearmap announced an API expansion program allowing construction software vendors to access their high-resolution imagery library under a new "Developer Partner" pricing tier — $0.08 per query rather than the previous enterprise contract requirement. Previously available only to companies with $50K+ annual contracts.
+
+2. SOURCE: SkySeal changelog, 2026-09-03. SkySeal v4.2 release notes include: "Integrated CertainTeed, GAF, and Owens Corning materials pricing databases — live pricing updates daily."
+
+3. SOURCE: PitchPoint careers page, 2026-09-05. PitchPoint posted a job listing for "Commercial Roofing Vertical Lead" with a requirement for "5+ years in commercial roofing estimating or project management." The job description mentions building out a "dedicated commercial roofing workflow."
+
+4. SOURCE: Anonymous post on a commercial roofing contractor forum (ContractorTalk.com), 2026-09-04. A user claims: "Tried SkySeal for three estimates — the aerial imagery is still off by 10–15% on low-slope roofs. Going back to manual." Post has 12 upvotes and two confirming replies.
+
+5. SOURCE: RoofPro customer newsletter (obtained via mutual customer), 2026-09-02. RoofPro announced an "exclusive" distribution deal with a national roofing supply distributor, allowing RoofPro users to generate purchase orders directly from estimates and submit to the distributor. Available only to existing RoofPro customers.
+
+6. SOURCE: Nearmap press release (same as Signal 1), 2026-09-01. The same press release notes that SkySeal has already enrolled in the Nearmap Developer Partner program as a launch partner. This is noted in the second paragraph of the release.
+
+---
+
+**PRIOR THESIS (from last cycle):** "SkySeal has the imagery capability but not the materials database depth; we are building toward the integrated solution that neither SkySeal nor anyone else has yet. RoofPro's installed base is sticky but their product is stagnant."
+
+---
+
+Produce the watch brief now.

@@ -1,0 +1,35 @@
+You are scoring an AI agent's output on a sales forecast integrity analysis task. Use the guidance below to produce a JSON verdict.
+
+---
+
+## Per-sample configuration
+
+Read `{metadata.rubric_weights}` for the dimension weights that apply to THIS sample. Read `{metadata.judge_notes}` for any sample-specific guidance before scoring. Read `{metadata.scenario_type}` and `{metadata.capability_focus}` to understand what is being tested.
+
+If `{metadata.is_trap}` is true, pay close attention to whether the response avoids the obvious-but-wrong approach. Trap scenarios are designed so that a mechanically correct-looking response is actually wrong; genuine reasoning will diverge from the surface pattern.
+
+---
+
+## Dimensions
+
+**contextual_judgment** — Does the response demonstrate genuine situational reasoning — using coverage math, segment context, and snapshot deltas together — rather than flagging anomalies by rote pattern-matching? A strong response knows which slippages matter given the current coverage picture and which are benign; it does not treat every close-date movement as equally alarming.
+
+**output_quality** — Are the coverage waterfall, anomaly table, and narrative structurally sound and arithmetically defensible? Prioritization by dollar-exposure impact (not count or recency) should be evident. The anomaly table should concentrate on the exposure that actually threatens the period number.
+
+**adaptability** — Does the response handle missing or ambiguous inputs correctly? No prior snapshot means no slippage claims. No stated quota means asking rather than deriving one from pipeline size. Mixed currencies prompt a clarification request rather than silent assumptions.
+
+**domain_knowledge** — Does the response reflect accurate understanding of forecast mechanics — commit vs. best-case vs. pipeline coverage ratios, stage regression versus close-date movement, commit-category override conflicts with deal signals, and the difference between structural pipeline health and one-time anomalies?
+
+**communication** — Is the VP-ready narrative a single coherent paragraph that separates structural trends from isolated anomalies, names the single biggest risk with deal-level evidence, and avoids burying the lead with minor issues?
+
+---
+
+## Scoring instructions
+
+Weight each dimension by the values in `{metadata.rubric_weights}` and combine into a single score from 0.0 to 1.0.
+
+A response that mechanically hits every criterion without demonstrating contextual understanding should score LOWER than one that thoughtfully addresses the core issue but omits a minor criterion. If the response reads like blanks filled in a fixed template — regardless of surface coverage — penalize for lack of genuine situational reasoning.
+
+Compare against `{reference_answer}` to calibrate quality. The reference answer is not a ceiling; a response may exceed it in reasoning quality.
+
+Return: `{"score": 0.0-1.0, "rationale": "..."}`

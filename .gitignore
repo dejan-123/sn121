@@ -1,0 +1,8 @@
+.env
+**/.env
+__pycache__/
+outputs*/
+*.grade.txt
+*.zip
+tools/.simcache/
+logs/_trash/

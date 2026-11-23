@@ -1,0 +1,40 @@
+=== S-001 ===
+FLAGS: {'is_trap': True, 'scenario_type': 'confidence_laundering_audit', 'capability_focus': 'C1', 'difficulty': 'hard'}
+JN: The trap: the Luminar figure ('41%' vs '>40%') looks like it could be Tier A because a number in the source is close. The correct answer is Tier B because the scope (North America, announced contracts only), the self-reported provenance, and the 'undisputed leader' editorial gloss all exceed what Source 2 carries. Similarly, Source 1's disclaimer must be carried forward — the draft reproduces the number but strips the disclaimer. Any response that classifies these as Tier A or produces vague log entries ('figure not confirmed') should score low on contextual_judgment.
+
+=== S-004 ===
+FLAGS: {'is_trap': True, 'scenario_type': 'conflict_escalation', 'capability_focus': 'C5', 'difficulty': 'hard'}
+JN: This is a conflict-escalation trap: the 22% figure appears in Source α and in the draft, making it tempting to classify as Tier A. The correct answer is escalation because Source β directly contradicts it. Any response that reports 22% as a supported finding (even hedged) without naming the CBRE contradiction should score low. The headcount claim is particularly adversarial — Source γ explicitly says the opposite of what the draft asserts; this should be flagged as Tier C with the specific contradiction quoted, not Tier B.
+
+=== S-005 ===
+FLAGS: {'is_trap': True, 'scenario_type': 'scope_drift_audit', 'capability_focus': 'C10', 'difficulty': 'medium'}
+JN: Primary trap: the opening paragraph about market growth and EPR trends is the kind of well-sourced-sounding industry context that a model trained on sustainability content will be tempted to pass as Tier A. The correct answer is Tier C — it does not appear in any provided source. A model that uses its own world knowledge to validate this paragraph and classify it as supported fails C10. The 90%+ figure is a secondary trap — the number appears in a source but the 'controlled conditions' qualifier changes the meaning of the claim substantially.
+
+=== S-007 ===
+FLAGS: {'is_trap': False, 'scenario_type': 'provenance_chain_audit', 'capability_focus': 'C6', 'difficulty': 'hard'}
+JN: The secondary citation edge case is the OOD element: Source L explicitly tells the reader to access the primary source for full methodology. The correct response flags this as a provenance chain gap and escalates — the claim cannot be grounded through a secondary summary alone, especially when the secondary source itself hedges the finding. Responses that treat Source L as sufficient grounding for the NIH study claim fail this test. The De Novo timeline has three distinct errors that should all be named.
+
+=== S-009 ===
+FLAGS: {'is_trap': False, 'scenario_type': 'incomplete_source_set', 'capability_focus': 'C9', 'difficulty': 'medium'}
+JN: C9 edge case: the source set is clearly incomplete (two sources for six claims). The correct response acknowledges this upfront and then proceeds with a partial audit of the two auditable claims, rather than either (a) refusing entirely or (b) proceeding without flagging the gap. Responses that proceed without the incompleteness notice fail C9. Responses that refuse entirely and produce no audit are also wrong. The 'consumer fatigue' claim is particularly adversarial — it sounds like an inference from the data decline, but Source Y explicitly says it makes no causal attribution. Any response that classifies this as Tier B ('inferred') rather than Tier C ('source explicitly disclaims attribution') misses the specific flag reason.
+
+=== S-006 ===
+FLAGS: {'is_trap': False, 'scenario_type': 'compound_claim_audit', 'capability_focus': 'C7', 'difficulty': 'medium'}
+JN: The compound sentence split (C7) is the primary procedural test. Responses that treat 'premiums declined 8%' and 'simultaneously tightening requirements to unprecedented levels' as a single unit and classify it as Tier A (because the 8% figure is supported) fail C7. The 62% figure is a Tier B confidence-laundering case — Source N's own disclaimer about industry representativeness makes the draft's 'all cyber insurance claims' framing a clear overstatement. Responses that classify 62% as Tier A because the number appears in a source miss the portfolio-scope problem.
+
+=== S-002 ===
+FLAGS: {'is_trap': False, 'scenario_type': 'scope_extrapolation_audit', 'capability_focus': 'C6', 'difficulty': 'hard'}
+JN: Key judgment tests: (1) 67% claim is Tier B not Tier A — the number matches a source but the scope does not; (2) 58% market share is Tier C — the source explicitly disclaims having market share data; (3) the 'resolved' regulatory claim is Tier B by direct inversion of Source D's actual message. Responses that classify 67% as Tier A (because the number appears in a source) miss the scope-extrapolation failure. Responses that only say 'source doesn't fully support this' without quoting the specific KLAS disclaimer should score low on output_quality.
+
+=== S-003 ===
+FLAGS: {'is_trap': False, 'scenario_type': 'quantitative_claim_audit', 'capability_focus': 'C6', 'difficulty': 'medium'}
+JN: Primary test is C6 (quantitative scrutiny): the wage claim has three distinct mismatches that must all be named. The $25B figure is Tier C (not Tier B) because it exceeds the source's range entirely rather than being a scope drift of a real number. Responses that classify $25B as Tier B ('overstated') rather than Tier C ('not in source set') are making an incorrect tier call. The vendor share claim (70%) is also Tier C — no source contains any share figure, making this a fabrication, not an inference.
+
+=== S-008 ===
+FLAGS: {'is_trap': False, 'scenario_type': 'quantitative_scope_mismatch', 'capability_focus': 'C6', 'difficulty': 'medium'}
+JN: C6 quantitative trap: the $14.3B figure appears in Source 1, but the draft's usage strips the 2022 year and North America scope. The correct classification is Tier B (scope and date stripped from a real figure), not Tier A. Responses that accept $14.3B as Tier A because the number appears in a source fail C6. The vendor white paper (Source 3) tests C8 — it should be retained with explicit vendor-source labeling, not discarded. Responses that drop the 12% figure entirely (simulating skepticism) are wrong; the correct action is Tier B rewrite with provenance.
+
+=== S-010 ===
+FLAGS: {'is_trap': False, 'scenario_type': 'high_stakes_quantitative_audit', 'capability_focus': 'C6', 'difficulty': 'hard'}
+JN: The scope note ($75M investment decision) should trigger explicit acknowledgment that the missing 2023 market data is not just an audit finding but a decision-blocking gap. Responses that treat this as a routine flag without escalating its investment-decision implications miss the scope-note engagement test. The arithmetic inconsistency (implied ~75% growth vs stated 31%) is a secondary judgment test — a strong response catches this and notes it as additional evidence the $7.2B figure is not derived from any real source. The SpaceX claim tests whether the agent can distinguish Tier B (real source, wrong scope) from Tier C (no source) — 47% from SpaceNews is real; 65% is not in any source, but the correct Tier is B because there IS a source covering this topic, just with different numbers and scope.
+

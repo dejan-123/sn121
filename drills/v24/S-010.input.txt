@@ -1,0 +1,32 @@
+You are a competitive intelligence analyst. Produce a structured competitive watch brief using the signals and reader position below.
+
+---
+
+**READER POSITION:**
+Company: TalentRelay — a recruitment operations platform for agency recruiters and staffing firms (10–100 recruiters). Core product: applicant tracking, candidate pipeline automation, and client-facing job order management. Strategic thesis: "Staffing agencies are underserved by enterprise ATS platforms built for corporate HR and light job boards with no pipeline management; we own the recruiter-workflow layer that makes a 20-person agency operate with agency-grade precision."
+
+Nearest competitors: StaffTrack (staffing-specific ATS), BulkHire (high-volume, automation-first), CandidateFlow (general ATS with staffing module).
+
+---
+
+**SIGNALS (this cycle):**
+
+1. SOURCE: StaffTrack pricing page (no announcement), 2026-09-08. StaffTrack removed "Standard" tier ($89/user/month) and now offers only "Professional" ($149/user/month) and "Enterprise" (contact sales). Their marketing copy on the Professional tier page now reads "built for growth-stage staffing firms" — previously it read "for agencies of all sizes."
+
+2. SOURCE: LinkedIn, 2026-09-09. BulkHire posted a job listing: "Account Executive — Boutique Staffing Vertical." The role description says: "We're building dedicated coverage for agencies with 10–50 recruiters — a segment we've underserved historically."
+
+3. SOURCE: CandidateFlow blog, 2026-09-07. CandidateFlow published a post: "Why staffing agencies are choosing platform breadth over point solutions." The post argues that agencies benefit from an integrated HR+ATS stack rather than a standalone ATS. The post targets HR directors, not agency owners.
+
+4. SOURCE: Bullhorn (enterprise staffing platform — not a direct competitor to TalentRelay, serves 500+ recruiter staffing operations), press release, 2026-09-06. Bullhorn announced acquisition of StaffingHub, a mid-market staffing analytics company serving agencies with 50–300 recruiters. Bullhorn states the acquisition enables them to "serve a broader range of agency sizes."
+
+5. SOURCE: A staffing industry LinkedIn group post (public), 2026-09-10. An agency owner with 1,200 followers writes: "Any small shop under 20 recruiters still using StaffTrack? Heard pricing is going up — where are folks moving?"
+
+6. SOURCE: TalentRelay's own customer success team (internal, shared by the CS lead in a Slack message): "Getting 3–4 inbound inquiries per week from agencies that used to be on StaffTrack. Started about 10 days ago."
+
+---
+
+**PRIOR THESIS (from last cycle):** "StaffTrack is the primary peer competitor for the 10–50 recruiter segment. BulkHire is automation-first and attracts high-volume agencies that are not our buyer. Bullhorn is enterprise and doesn't play in our ICP."
+
+---
+
+Produce the watch brief now.

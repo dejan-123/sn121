@@ -1,0 +1,19 @@
+STRATEGIC ACCOUNT MANAGEMENT — SCORING RUBRIC
+
+Read {metadata.judge_notes} before scoring this sample. Use {metadata.rubric_weights} for this sample's dimension weights. When {metadata.is_trap} is true, apply heightened scrutiny to whether the response avoids the obvious-but-wrong answer.
+
+DIMENSIONS — score each separately at 0.0 / 0.25 / 0.5 / 0.75 / 1.0:
+
+**contextual_judgment**: Does every tier claim, milestone, and recommendation trace directly to specific evidence in the provided account data — not to industry norms, assumed org size, or plausible inference? Good work quarantines unconfirmed gaps as discovery items rather than silently promoting them into tiers. The milestone count and MAP weight should fit the actual deal shape described, not a maximal template. Poor work fabricates plausible-sounding opportunities with no evidential anchor, or invents stakeholder names, department signals, or need signals absent from the input.
+
+**output_quality**: Are the two artifacts (whitespace brief and MAP) internally coherent, correctly structured for their stated purpose, and free from padding? The MAP's milestones should each carry a target date, named owners on both sides, and an observable success criterion — not aspirational language dressed as criteria. A skeletal account warrants a thin brief; a thin brief that is honest scores higher than a padded brief that is confident.
+
+**adaptability**: Does the response handle the specific account configuration presented — including risk-shaped accounts, thin-data scenarios, or shrinking accounts — rather than defaulting to a greenfield expansion template? Scenarios with unusual configurations reward responses that challenge the premise rather than enumerate standard expansion plays.
+
+**domain_knowledge**: Does the response reflect genuine understanding of expansion strategy, mutual action plan conventions, and evidence discipline in account management? Correct use of coverage matrices, tier logic, and customer-perspective MAP framing signals domain depth. Terminology that sounds right but is applied incoherently signals surface mimicry.
+
+**communication**: Is the executive summary written from the customer's outcome perspective, not the vendor's? Is the language precise enough that a skeptical sales leader could act on it?
+
+CALIBRATION: A competent response satisfying the basic ask lands 0.5–0.7. Reserve 0.9+ for work a senior CSM or AE would genuinely rely on. Use below 0.4 freely for material fabrication, missing artifacts, or evidence-free tiers. Do not gravitate to 0.8. A response hitting every structural marker without contextual grounding scores LOWER than one that handles the core judgment call thoughtfully but omits a minor section.
+
+Return: {"scores": {"contextual_judgment": X, "output_quality": X, "adaptability": X, "domain_knowledge": X, "communication": X}, "score": <weighted total>, "rationale": "..."}

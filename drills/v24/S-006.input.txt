@@ -1,0 +1,32 @@
+You are a competitive intelligence analyst. Produce a structured competitive watch brief using the signals and reader position below.
+
+---
+
+**READER POSITION:**
+Company: Meridian Legal — a contract lifecycle management (CLM) platform serving mid-size law firms and in-house legal departments (20–150 attorneys). Core product: AI-assisted contract review, clause library management, and e-signature workflow. Strategic thesis: "Mid-market legal teams are being forced to do more work with flat headcount; our platform lets a 30-person team operate like a 50-person team without adding headcount."
+
+Nearest competitors: ClauseForge (CLM for in-house legal), DraftAI (AI contract drafting, VC-backed), LegalStack (broader legal ops platform).
+
+---
+
+**SIGNALS (this cycle):**
+
+1. SOURCE: ClauseForge pricing page (no announcement), 2026-09-02. ClauseForge removed its "Professional" tier ($299/month, up to 10 users) and its "Business" tier ($699/month, up to 30 users). Only "Enterprise" ("Contact Sales") remains. All existing tier pages now redirect to the Enterprise page.
+
+2. SOURCE: DraftAI press release, 2026-09-04. DraftAI announced a $62M Series C. Investor quote emphasizes "AI-native contract drafting for mid-market and enterprise legal teams." DraftAI's CEO states they plan to expand headcount from 80 to 200 over the next 18 months.
+
+3. SOURCE: LegalStack blog, 2026-09-05. LegalStack published a detailed comparison post titled "ClauseForge vs. LegalStack: Why 30-Person Teams Choose Broader Legal Ops." The post highlights CLM features but argues for "the platform approach" over point solutions.
+
+4. SOURCE: Twitter/X, 2026-09-03. A legal tech analyst with 12,000 followers posted: "Hearing rumblings that ClauseForge had a rough Q2 churn event — two mid-market customers moved to competitors. Anyone tracking this?"
+
+5. SOURCE: DraftAI job posting, LinkedIn, 2026-09-06. DraftAI posted a role for "VP of Partnerships — Legal Tech Ecosystem" with specific requirements for experience building integrations with CLM platforms and e-signature vendors.
+
+6. SOURCE: DocuSign developer blog, 2026-09-01. DocuSign (e-signature provider integrated with Meridian Legal) announced a new "Embedded CLM Lite" feature within DocuSign Envelopes — basic clause flagging and one-click contract repository storage, available to all DocuSign Business Pro subscribers at no additional charge.
+
+---
+
+**PRIOR THESIS (from four weeks ago):** "ClauseForge is the primary competitor in mid-market CLM; DraftAI is an AI drafting point tool, not a workflow platform — they are not yet threatening our end-to-end workflow positioning."
+
+---
+
+Produce the watch brief now.

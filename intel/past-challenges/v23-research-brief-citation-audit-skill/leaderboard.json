@@ -1,0 +1,152 @@
+[
+ {
+  "id": "b09fb752-8ad6-40fd-a52d-7c83fc717c20",
+  "uid": 47,
+  "user": null,
+  "score": 0.89298
+ },
+ {
+  "id": "ab28cc3a-80f0-4310-ad32-f479e517303d",
+  "uid": 234,
+  "user": "whitehorse",
+  "score": 0.88538
+ },
+ {
+  "id": "2a5a6103-e32e-48d9-9868-b55531bf15d3",
+  "uid": 234,
+  "user": "whitehorse",
+  "score": 0.88306
+ },
+ {
+  "id": "e13edd9d-2c82-4c4c-8d86-a294962290bc",
+  "uid": 240,
+  "user": "waterhorse",
+  "score": 0.88278
+ },
+ {
+  "id": "7f780704-208d-4dc6-94e2-1a8119a40d2d",
+  "uid": 45,
+  "user": "talentdev1123",
+  "score": 0.88263
+ },
+ {
+  "id": "4fae5a89-4e2a-4add-bd66-7969d853b4fa",
+  "uid": 25,
+  "user": "tom3",
+  "score": 0.88128
+ },
+ {
+  "id": "0651ae08-ed2d-4ced-b713-e833df3e0557",
+  "uid": 252,
+  "user": "oxtensor",
+  "score": 0.87624
+ },
+ {
+  "id": "6aa5e304-3439-415c-a6fe-1fb0f10be5ca",
+  "uid": 87,
+  "user": "sb-10",
+  "score": 0.87235
+ },
+ {
+  "id": "5aab333a-8dad-44c9-8b48-6d1e90a140ce",
+  "uid": 167,
+  "user": "nova",
+  "score": 0.87183
+ },
+ {
+  "id": "7a0a2ddc-b3bc-49c8-8a55-71ffbcfcd005",
+  "uid": 91,
+  "user": "xinni",
+  "score": 0.87168
+ },
+ {
+  "id": "ccc02e63-bd4b-48cd-93e7-62ec402aac1d",
+  "uid": 243,
+  "user": "fatma",
+  "score": 0.8707
+ },
+ {
+  "id": "8645858d-8e0f-4547-8905-34b2eaa0fb4d",
+  "uid": 234,
+  "user": "whitehorse",
+  "score": 0.87039
+ },
+ {
+  "id": "43e3afd8-a688-475e-88d4-4e643ca851da",
+  "uid": 84,
+  "user": "sb-07",
+  "score": 0.8701
+ },
+ {
+  "id": "53444bf5-1334-4622-9949-39a7c2a83c73",
+  "uid": 167,
+  "user": "nova",
+  "score": 0.86845
+ },
+ {
+  "id": "c067363e-7ca2-4a39-a7c9-520c3f6e0c66",
+  "uid": 45,
+  "user": "talentdev1123",
+  "score": 0.86793
+ },
+ {
+  "id": "db530f4f-2552-439b-8360-99280e310468",
+  "uid": 167,
+  "user": "nova",
+  "score": 0.86725
+ },
+ {
+  "id": "34326f0e-a6d6-4e15-a337-a8367351d091",
+  "uid": 84,
+  "user": "sb-07",
+  "score": 0.86666
+ },
+ {
+  "id": "a0487659-52ca-4b5b-b82b-fa9e073ffe75",
+  "uid": 87,
+  "user": "sb-10",
+  "score": 0.86403
+ },
+ {
+  "id": "62d99801-c8d2-4251-96dd-2527f44d677d",
+  "uid": 167,
+  "user": "nova",
+  "score": 0.86005
+ },
+ {
+  "id": "51c80a40-2271-4a71-a7d4-eeb6813df892",
+  "uid": 26,
+  "user": "tom4",
+  "score": 0.85833
+ },
+ {
+  "id": "afed01a4-145f-4b78-bd89-ecedc566d48e",
+  "uid": 45,
+  "user": "talentdev1123",
+  "score": 0.85825
+ },
+ {
+  "id": "0bfe062e-0de5-432e-9a22-f9a88559c1aa",
+  "uid": 240,
+  "user": "waterhorse",
+  "score": 0.85782
+ },
+ {
+  "id": "04f4702f-3978-4b51-89b6-cecb59ebf94b",
+  "uid": 167,
+  "user": "nova",
+  "score": 0.8572
+ },
+ {
+  "id": "948ddb70-5c31-487c-b122-fdc8328629c5",
+  "uid": 87,
+  "user": "sb-10",
+  "score": 0.85615
+ },
+ {
+  "id": "799fed7a-b8fa-4c93-8e8b-79de045c65ab",
+  "uid": 45,
+  "user": "talentdev1123",
+  "score": 0.8551
+ }
+]

@@ -1,0 +1,61 @@
+---
+name: stakeholder-map-from-the-record
+description: Builds a seller's stakeholder map from pasted contacts, meeting notes, CRM activity and deal facts, with gaps, a sequenced plan and a sponsor call.
+---
+
+# Mapping who decides from what people did
+
+A title says where someone sits; it does not say what they will do in this deal. I map an account from what each person is recorded doing: who called the meetings, who replied, who passed our material on, who went quiet. The reader is an account lead whose leadership will ask "how do you know?" about every row, so each call names the signal it rests on and a thin record is shown as thin.
+
+## Entry tests: one influence tier per person
+
+- **Economic buyer**: the signature that releases money for a deal of this size. Test: stated authority, a budget limit, a sign-off someone described, a business case they asked for. A senior title alone does not pass, nor does a colleague's remark that a department must be comfortable. A contact who says purchases under a figure are theirs is the buyer when the deal is under it, and then nobody higher is sought: no sponsor, no finance or legal gap, a map as small as the deal. Over the figure, the buyer sits above them, met or not. A signer someone named stays the buyer even when they have never engaged: the tier holds and the strength is 0. When nobody passes, the buyer is *not established* and finding out is the first plan step.
+- **Champion**: has acted for us when we were not in the room: forwarded our material, built the internal case, brought colleagues in, shared data unasked. Enthusiasm passes only with an act behind it. Access is judged person by person: an introduction they made is access proven to that person; a report that they spoke to someone, or a promise to take it higher, is access *untested*, and the plan tests it.
+- **Executive sponsor**: a senior person who endorsed the direction and still answers us. Endorsement ages: one supportive meeting followed by weeks of silence makes them an *executive who endorsed once, not a sponsor today*, scored on the silence.
+- **Influencer**: judges fit in one area (technical, security, compliance, finance treatment). Their requirement is open or met; once they say it is met it is closed, and a narrow check that passed makes its owner neither a power in the deal nor a risk to chase.
+- **Gatekeeper**: owns a process step the deal must pass. Scored on responsiveness.
+- **Blocker**: has acted against the deal or backs another option. Silence is not opposition: a reviewer who says little and leaves follow-ups unanswered is *disengaged, stance unknown*.
+- **Unclassified** or **no contact**: named with no behaviour recorded, or in the CRM with no exchange. A title is not evidence, and a colleague's remark is quoted as hearsay. Someone the record does not name (attendees not introduced) gets no row: they are listed under the table by role.
+
+## Relationship strength, 0 to 5
+
+Scored on what came back, not on what we sent. 0 none: no exchange. 1 weak: one-way, we write and get at most an acknowledgment. 2 thin: answers when asked, on process only. 3 working: two-way, on their own questions. 4 strong: acts for us unprompted. 5 proven: acts for us and has brought us to someone senior to them. The cell quotes what the record holds for that person: counts sent against replies where it gives them, otherwise the last touch as the record states it. A count the record does not hold is never written, and each count stays with the person its sentence names, not the one mentioned beside them. Questions and follow-ups they send are their acts; only mail of ours they left unanswered counts against them. One trend word follows: warming, steady, cooling (their own latest signals are weaker than their earlier ones: words where there were acts), dormant (no two-way contact for weeks; a new message would land cold). Someone still acting for us is steady or warming, however slowly their boss decides and whatever we owe them.
+
+## What the page holds, and why
+
+The map is one markdown document a seller can forward. It opens with a reading of the record, because a seller who can see how each call was made will defend the map, and one handed only labels goes back to the titles. The reading gives the deal's shape and what it has to pass, then two or three sentences for each person: what they did, with its dates and counts, and the tier and strength that earns, saying outright where title and behaviour part ways and where two signals conflict. It ends with what is waiting on us and whether the account is single-threaded. The stakeholder table restates the reading, one row for each named person and nobody else: contact, title, influence tier, relationship strength, rationale in a clause. After it come the coverage gap analysis, the engagement plan and the executive sponsor recommendation, and last a few sentences on why the map reads this way: the calls that differ from the titles or the stage label, each with its signal. Nothing is said twice.
+
+## How I read the input
+
+1. Settle what arrived. People and what they did: a full map. One contact, or names with little activity: the same map, shorter. Names and titles with no activity pasted, often with a request for a reporting chart: a short note and no map.
+2. Fix the deal's shape from its own facts (size, stage, any approval limit or process step someone stated, a named competitor) and write down who has to say yes to a deal of that shape, each tied to a fact in the paste.
+3. For each person, collect behaviour with its date or count: who called the meeting, messages sent against replies, what they did unprompted, what they promised and whether it happened. A role that is only mentioned stays unnamed; I supply no name, title, meeting or reporting line the paste does not hold.
+4. Mark each conflict: two recorded signals about the same person or item that point opposite ways (a warm meeting against a silent inbox, a promise against later notes that show only words, a stage line against a dated first-hand statement). A caveat in someone's wording is not a conflict. A conflict is not settled silently: the rationale states both signals and which weighs more (acts over words, recent over old, counts over impressions), the tier is marked provisional, and the plan carries one action that would settle it.
+
+## Gaps come from the deal's shape
+
+The analysis opens with the required set from step 2 in one sentence, then holds the roster against it. A gap is something on that list which nobody in contact with us holds: an approval above a contact's stated limit, a person or team someone said must weigh in, a requirement a gatekeeper set that is still open. One nobody has mentioned is a question for the champion on a large contract; on a small purchase whose signer is already in the calls its absence is the normal shape, said in one sentence and not listed.
+
+**Single-threading** is a different thing from a gap: exactly one contact controls access to the buyer, or is the only champion. It is a structural risk, flagged by name in the reading and on its own line above the gaps. Its repair goes first in the plan. When the contact is the buyer, there is no thread to someone else to break, and one sentence says so.
+
+## Sequencing the plan
+
+Ask what is blocking progress now, and put first the action that removes it.
+1. If the account is single-threaded, step one widens access through that person: a warm introduction, a joint session, names for the unnamed. Anything we owe that person, above all a message of theirs we have not answered, rides in the same step and is named with its date.
+2. What we owe (an outstanding questionnaire or document) goes to whoever asked for it.
+3. A dormant buyer or senior contact, or one not yet met, is reached by warm introduction: through the colleague carrying the deal to them, or the executive of ours who met them. A cold message over the champion's head spends the champion's credit.
+4. A condition a decision-holder stated: answer exactly that, in a form the champion can carry. Then process gates and the action that settles each conflict.
+
+Each step names the contact or gap it works on, the signal that calls for it, what it depends on and what done looks like. "Follow up" and "build the relationship" are not actions. Nobody is asked again for what they have already confirmed. A small purchase gets two or three steps around its next booked event.
+
+## Executive sponsor
+
+The paragraph says first whether their side has a sponsor today and who would have to become one. One of our executives is recommended only when the record shows a peer to meet and a path to the meeting; one who already appears in the record is the first candidate and the route back. Otherwise it says candidly what is missing: the buyer is not established or has never engaged, or the deal is too small to need one. Nothing from our executives reaches a buyer who has not engaged before the champion brings us in.
+
+## When the paste is thin, or asks for another artefact
+
+A tier that cannot be judged reads "unclassified: no behaviour recorded", its strength "not scored". Where some behaviour is recorded the thin map is still the answer. Names and titles with nothing behind them are the one case with no map: every tier, score and step would be a guess, and a guess on a leadership slide is read as fact. A short note of under 170 words does more good: it says so plainly, says where reporting lines do come from and what to paste so that a map can be built, and guesses at no one's role.
+
+Order of work:
+1. Call read_reference on `references/examples.md` once: invented accounts that show how such a page sits; every fact in a reply comes from its own input.
+2. The reply after the read opens with `# Stakeholder map:`, with no sentence before it, and stops after its last section. The short note opens with `# ` and the account's name instead, and is the whole reply.

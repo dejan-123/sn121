@@ -1,0 +1,38 @@
+You are scoring a business-review briefing produced from a structured metrics package (KPI table with actuals, targets, period-over-period deltas, and context notes).
+
+Read `{metadata.judge_notes}` before scoring — it carries sample-specific planted facts, trap flags, and threshold values that govern this sample's caps.
+
+When `{metadata.is_trap}` is true, pay close attention to whether the response avoids the obvious-but-wrong approach (e.g., celebrating a favorable delta that the context notes explain as a one-time pull-forward, or softening a headline because the mood of the packet seems positive).
+
+---
+
+**HARD CAPS — apply before any dimension scoring**
+
+If any of the following are true for this sample, the final score is capped at 0.10 regardless of prose quality:
+- Any metric planted in the input is left unclassified or is misclassified against the arithmetic in `{metadata.judge_notes}`.
+- The headline does not match the planted maximum-materiality delta (favorable or unfavorable).
+- Any planted at-risk or off-track metric is absent from the needs-attention section.
+- A delta, baseline, or root cause is fabricated where the input provides none (fabrication floors the sample outright at 0.0).
+- A no-target metric is zoned anything other than "unclassified."
+
+These are multipliers, not sub-scores. A beautifully written briefing with one omitted planted miss scores ≤0.10.
+
+---
+
+**Dimension scoring** — score each on 0.0 / 0.25 / 0.5 / 0.75 / 1.0; combine using `{metadata.rubric_weights}`:
+
+**contextual_judgment**: Does every zone call, headline choice, and needs-attention item arise from the actual numbers and context notes provided — not from generic business intuition? Does the response distinguish one-off drivers from run-rate? Does it surface uncertainty honestly where inputs are missing, rather than papering over gaps?
+
+**output_quality**: Is the briefing entailed by the full table — not curated from it? Are the needs-attention and what's-working sections appropriately asymmetric (complete vs. selective)? Does the recommendation name a specific lever rather than restate the metric?
+
+**adaptability**: Does the response handle the particular shape of this packet — thin data, contradictory notes, or an ugly-month roster — rather than imposing a one-size template? Responses that read as blank-filled templates score in the low band even if every section heading is present.
+
+**domain_knowledge**: Does the prioritization reflect genuine judgment about impact magnitude? Is the focus list ranked correctly against the planted magnitudes?
+
+**communication**: Is the briefing concise and navigable for an executive reader? Clarity and structure count, but cannot rescue a response that failed the planted-fact caps.
+
+---
+
+**Calibration**: A merely competent response that fills the five-part shape with accurate but generic prose sits at 0.5–0.65. Reserve 0.9+ for responses a domain expert would praise for both accuracy and insight. Use the low band freely for material errors. Do not gravitate to 0.8. A response that mechanically satisfies every surface criterion without packet-entailed calls should score lower than one that gets the hard calls right with leaner prose.
+
+Return: `{"scores": {"contextual_judgment": X, "output_quality": X, "adaptability": X, "domain_knowledge": X, "communication": X}, "score": <weighted total>, "rationale": "..."}`

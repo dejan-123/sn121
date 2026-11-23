@@ -1,0 +1,43 @@
+## Regulatory Applicability Classifier — Scoring Rubric
+
+You are scoring a regulatory applicability classification response. Read the submission against the reference answer, the scenario inputs, and the per-sample guidance before assigning any scores.
+
+---
+
+### Step 0 — Per-sample setup
+
+Read `{metadata.judge_notes}` now. It names the planted scoping fact, the profile value that decides the scenario, and the correct top-line label. These are CAPS, not bonus points: if the submission's top-line label differs from the planted verdict, or if its criterion rows cite neither the clause identifier nor the profile value stated in the inputs, the sample score is LOW regardless of prose quality. A fabricated profile attribute or threshold value where the input is silent floors the sample outright.
+
+When `{metadata.is_trap}` is true, check whether the submission avoided the obvious-but-wrong approach. A response that lands on the trap verdict — even with polished prose — is materially worse than one that reaches the correct label with minimal explanation.
+
+---
+
+### Step 1 — Score each dimension on 0.0 / 0.25 / 0.5 / 0.75 / 1.0
+
+**contextual_judgment** — Does the verdict and table reflect genuine reasoning about THIS scenario's specific clause and profile, or does it apply a generic pattern? High scores require the planted fact to visibly drive the outcome; a hedge where the profile provides a clean resolution is a material error.
+
+**output_quality** — Does the response deliver exactly what the task requires — a verdict table, a single top-line label from the permitted set, a ≤120-word rationale, and (only when applicable) a routing pointer? Extraneous obligation lists, remediation steps, or policy drafting reduce this score. A permitted one-line routing pointer and a one-clause triage disclaimer do NOT reduce this score.
+
+**adaptability** — Does the response handle the scenario's specific artefact type, profile format, and ambiguity conditions appropriately, rather than applying one fixed structure regardless of input shape?
+
+**domain_knowledge** — Are the criterion rows grounded in the actual clause structure and profile attributes, not generic regulatory language? Confidence tiers should reflect evidence quality, not be uniform.
+
+**communication** — Is the output concise, auditor-legible, and free of hedging language where the inputs support a definite answer?
+
+---
+
+### Step 2 — Calibration
+
+A merely competent response meeting the basic format lands 0.5–0.7. Reserve 0.9+ for work a compliance auditor would accept without revision. Use below 0.4 freely for material verdict errors or fabricated specifics. Do not gravitate to 0.8. A response that mechanically hits surface criteria without grounding in the scenario's planted facts should score LOWER than one that gets the core judgment right but misses a minor format detail.
+
+A structurally identical response across different scenario types signals template use — reduce scores accordingly.
+
+---
+
+### Step 3 — Combine and return
+
+Apply weights from `{metadata.rubric_weights}`. Return:
+
+```json
+{"scores": {"contextual_judgment": 0.0, "output_quality": 0.0, "adaptability": 0.0, "domain_knowledge": 0.0, "communication": 0.0}, "score": 0.0, "rationale": "..."}
+```

@@ -1,0 +1,32 @@
+You are a competitive intelligence analyst. Produce a structured competitive watch brief using the signals and reader position below.
+
+---
+
+**READER POSITION:**
+Company: ClearSpend — a spend management and corporate card platform targeting Series A–C startups and venture-backed scale-ups (50–400 employees). Core differentiation: real-time budget alerts, investor-grade reporting exports, and deep Quickbooks/Xero integration. Strategic thesis: "Venture-backed companies need spending controls that communicate in the language their CFOs and investors already use; we own the 'investor-ready finance stack' positioning."
+
+Nearest competitors: SpendPath (corporate card startup, recently Series B), CardFlow (SMB-focused), ExpensePal (employee expense reporting, not cards).
+
+**NO READER COMPETITIVE POSITION STATEMENT IS AVAILABLE BEYOND WHAT IS STATED ABOVE. The person requesting this brief has not specified which competitor signals are most relevant to their current strategic concerns.**
+
+---
+
+**SIGNALS (this cycle):**
+
+1. SOURCE: SpendPath blog, 2026-09-08. SpendPath launched "SpendPath Ventures" — a dedicated product tier for VC-backed companies with features including cap table–aware budget modeling and a one-click LP reporting export. Pricing listed as "custom." Launch blog post is explicitly targeted at startups with "board-meeting-ready financial dashboards."
+
+2. SOURCE: Stripe press release, 2026-09-09. Stripe (ClearSpend's payment infrastructure provider) announced that Stripe Issuing — the infrastructure behind ClearSpend's corporate cards — will add native real-time transaction categorization starting Q1 2027. The feature is available to all Stripe Issuing clients.
+
+3. SOURCE: CardFlow pricing page (no announcement), 2026-09-07. CardFlow silently updated their pricing page to add a new "Growth" tier at $149/month for up to 150 employees, including "QuickBooks sync" and "real-time spend alerts."
+
+4. SOURCE: LinkedIn, 2026-09-10. SpendPath's VP of Product left the company. No replacement announcement. LinkedIn shows the VP now lists themselves as an "independent advisor."
+
+5. SOURCE: Anonymous Reddit thread (r/startupfinance), 2026-09-06. Multiple commenters claim SpendPath's Q2 data export had a bug that corrupted Xero integrations for several customers. SpendPath has not publicly acknowledged the issue.
+
+---
+
+**PRIOR THESIS (from six weeks ago):** "SpendPath is positioning broadly for the startup segment but lacks the investor-reporting depth to take our CFO relationships; CardFlow is SMB-focused and not a threat in our ICP."
+
+---
+
+Produce the watch brief now.

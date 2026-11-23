@@ -1,0 +1,16 @@
+As of 2026-08-20, produce the weekly pipeline rollup for the Northeast Commercial team.
+
+We're overriding one threshold: for our team, a deal is sandbagging if close date is within 45 days (not 30) with no activity in 14 days and forecast not Commit. All other thresholds are default.
+
+Quota:
+- Renata Flores | Commercial | Q3 Remaining Quota: $350,000
+- Kwame Asante | Commercial | Q3 Remaining Quota: $420,000
+
+Pipeline export:
+Deal | Rep | Stage | ARR | Close Date | Last Activity | Stage-Entry Date | Forecast Category | Next Step
+Valley Creek Foods | Renata Flores | Proposal | $145,000 | 2026-09-10 | 2026-08-05 | 2026-07-28 | Best Case | Customer reviewing draft; follow-up planned
+Highline Property | Renata Flores | Negotiation | $290,000 | 2026-08-28 | 2026-08-19 | 2026-08-12 | Commit | Legal terms discussion Friday 8/21
+Olympic Paper Mfg | Kwame Asante | Evaluation | $180,000 | 2026-09-30 | 2026-08-18 | 2026-07-01 | Best Case | POC debrief meeting set for 8/24
+Ridgetop Staffing | Kwame Asante | Discovery | $95,000 | 2026-10-31 | 2026-08-10 | 2026-08-01 | Pipeline | Intro call completed, next steps TBD
+Silverstone Exports | Kwame Asante | Proposal | $230,000 | 2026-09-15 | 2026-08-19 | 2026-08-03 | Commit | Proposal sent; waiting for Silverstone sign-off
+Fairway Energy | Renata Flores | Discovery | $410,000 | 2026-11-30 | 2026-08-18 | 2026-08-04 | Pipeline | Initial deck shared, feedback awaited

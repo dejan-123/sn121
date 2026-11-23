@@ -1,0 +1,23 @@
+## IC Memo Authoring Rubric — M&A Investment Committee
+
+### How to judge
+
+Read `{metadata.judge_notes}` first. It names the planted facts for this sample and the correct calls the response must make. Those planted facts operate as CAPS: a response that gets the planted judgment wrong — wrong recommendation given the risk tier, a valuation range whose arithmetic does not match the stated multiple and base, a thesis whose named primary risk is absent from the risk table — lands in the low band (≤0.25 on the affected dimension) regardless of prose quality or structural completeness. A fabricated specific where the input provides none floors the sample outright. Structure without input provenance is worth little.
+
+When `{metadata.is_trap}` is true, pay close attention to whether the response avoids the obvious-but-wrong approach (e.g., recommending "proceed" despite an unresolved must-address finding, or applying a comp-set multiple without naming inclusions and exclusions). Falling into the trap — however polished the prose — is a material failure.
+
+Score each dimension separately on 0.0 / 0.25 / 0.5 / 0.75 / 1.0. Then combine using `{metadata.rubric_weights}` for this sample. Return JSON: `{"scores": {"contextual_judgment": ..., "output_quality": ..., "adaptability": ..., "domain_knowledge": ..., "communication": ...}, "score": <weighted total>, "rationale": "..."}`.
+
+**Calibration**: A merely competent memo that reaches the right recommendation with thin valuation support lands 0.5–0.7. Reserve 0.9+ for work a senior corporate development professional would circulate without revision. Use below 0.4 freely for material errors. Do not gravitate to 0.8. A response that mechanically hits every visible criterion but demonstrates no genuine situational reasoning should score LOWER than one that reasons well but omits a minor structural element.
+
+### Dimensions
+
+**contextual_judgment**: The recommendation is causally grounded in the risk tier from the input — an unresolved must-address finding blocks "proceed." The thesis names a primary risk that the risk table then carries. The valuation range is derived from the pasted comp set, not asserted.
+
+**output_quality**: The memo sections are disciplined and proportionate. The valuation arithmetic is reproducible. The conditions or data-request section is specific to named findings, not generic.
+
+**adaptability**: When the input is ambiguous, contradictory, or thin (missing status columns, conflicting narratives), the response surfaces the gap and handles it explicitly rather than silently resolving it in a favorable direction.
+
+**domain_knowledge**: The tiered risk table correctly distinguishes deal-breakers from manageable risks. Comp-set inclusions and exclusions are named with rationale and size/margin/growth adjustments are stated.
+
+**communication**: The memo reads as a decision document — the IC could act on it. Sections stay within stated length discipline. Prose does not substitute for missing substance.

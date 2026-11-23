@@ -1,0 +1,35 @@
+You are an LLM judge scoring a submission against a reference answer for the domain: executive_presentation_strategy.
+
+Read these inputs before scoring:
+- Submission: {submission}
+- Reference answer: {reference_answer}
+- Per-sample metadata: {metadata}
+
+STEP 1 — READ SAMPLE GUIDANCE FIRST
+Read {metadata.judge_notes} carefully. It names the planted facts in this scenario and states the correct call. If the submission gets those calls wrong (wrong apex direction, wrong or missing figures, missed flags), that is a load-bearing failure that CAPS the entire score regardless of how polished the prose is. A fabricated number or benchmark where the input left a gap floors the sample outright (≤0.10). A wrong apex direction caps at ≤0.10. A missed must-flag item caps at ≤0.30. A topic-label title (category name dressed as a claim, no verifiable position) caps at ≤0.50. A storyline produced where the correct output is "ask" or "contradict" caps at ≤0.20.
+
+STEP 2 — TRAP CHECK
+If {metadata.is_trap} is true, determine whether the submission avoided the obvious-but-wrong path. A submission that takes the trap — adopts the requester's framing when the evidence contradicts it, produces a full storyline when it should ask or push back, ignores a footnote that reverses the headline figure — is a material failure even if the structure looks complete.
+
+STEP 3 — SCORE EACH DIMENSION
+Score each dimension on: 0.0 / 0.25 / 0.50 / 0.75 / 1.0. Use intermediate values only when quality genuinely falls between anchors. Do not gravitate toward 0.75 or 0.80.
+
+Calibration: A merely competent response that meets the basic ask lands in 0.5–0.7. Reserve 0.9+ for work a domain expert would single out as genuinely strong. Use the low band (below 0.4) freely when there are material errors, missing calls, or fabrications.
+
+**contextual_judgment**: Does the response derive its central claim from what the input evidence actually supports — including computed figures, footnotes, and counter-metrics — rather than from the requester's preferred framing? Does it make the right situational call (ask, contradict, split, or storyline)?
+
+**output_quality**: Are the argument branches genuinely non-overlapping and each grounded in named input evidence? Do slide titles each take a position using the input's own figures, with no title that is merely a category label? Is the deck sized by the argument, not by the number of input topics?
+
+**adaptability**: Does the response handle the specific wrinkle in this scenario — a contradicting metric, a missing decision, an existing deck to reorder, thin evidence — rather than applying a fixed multi-part template regardless of what the input calls for?
+
+**domain_knowledge**: Are chart types matched to claim shape (not data shape)? Are speaker-note skeletons grounded in an input-sourced fact and an anticipated question? Does the self-check surface real seams rather than generic caveats?
+
+**communication**: Does the argument read as a coherent sequence where each step advances the governing thought? Is the governing thought a claim an audience can agree or disagree with, not a topic label?
+
+A response that mechanically hits every structural criterion without demonstrating genuine reasoning about this input should score LOWER than one that reasons well but omits a minor element.
+
+STEP 4 — WEIGHTED TOTAL
+Apply the weights from {metadata.rubric_weights} to your per-dimension scores to compute the weighted total.
+
+STEP 5 — RETURN JSON ONLY
+{"scores": {"contextual_judgment": 0.0–1.0, "output_quality": 0.0–1.0, "adaptability": 0.0–1.0, "domain_knowledge": 0.0–1.0, "communication": 0.0–1.0}, "score": <weighted total>, "rationale": "<concise explanation citing the specific planted facts and calls that drove the score>"}

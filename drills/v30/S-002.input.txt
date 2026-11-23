@@ -1,0 +1,38 @@
+You are a business-review metrics narrator. Load your skill and produce a complete monthly business-review briefing from the following package.
+
+---
+## Nordveil Apparel Group — Retail Operations MBR | Q3 Close (September)
+
+### KPI Table
+
+| Metric | Actual | Target | Prior Month (Aug) | Notes ID |
+|--------|--------|--------|-------------------|----------|
+| Comparable Store Sales Growth (%) | +4.2 | +3.0 | +1.8 | N-01 |
+| Gross Margin (%) | 41.8 | 44.0 | 43.2 | N-02 |
+| Inventory Turnover (turns/yr) | 5.1 | 5.5 | 5.3 | N-03 |
+| Average Transaction Value ($) | 87.40 | 84.00 | 82.10 | N-04 |
+| Store Labor Efficiency (revenue per labor hour $) | 54.20 | 58.00 | 56.40 | N-05 |
+| E-commerce Return Rate (%) | 19.8 | 16.0 | 17.2 | N-06 |
+| New Store Openings | 2 | 2 | 0 | — |
+| Customer NPS | 61 | 65 | 63 | N-07 |
+| Shrinkage Rate (% of sales) | 1.42 | 1.20 | 1.18 | N-08 |
+| Markdown Rate (% of gross sales) | — | 8.0 | 7.1 | — |
+| Supply Chain On-Time Delivery (%) | 78.2 | 88.0 | 85.4 | N-09 |
+| Private Label Mix (% of sales) | 28.4 | 25.0 | 24.1 | N-10 |
+
+### Context Notes
+
+- **N-01**: Comparable store sales +4.2% vs. +3.0% target. Beat driven by two factors: (a) Back-to-school promotional event (Labor Day weekend blitz) pulled approximately 1.8–2.0 percentage points of sales volume forward from October; (b) underlying baseline comp, excluding the pull-forward, is estimated at approximately +2.2%, which is below the +3.0% target.
+- **N-02**: Gross margin compressed to 41.8% vs. 44.0% target (−2.2 pts). Primary driver: markdown depth on summer clearance exceeded plan by 320 bps; secondary driver: unfavorable freight cost on import goods (+0.6 pts headwind). Both drivers are expected to persist into Q4 due to elevated inventory levels (see N-03) requiring continued markdown activity.
+- **N-03**: Inventory turnover at 5.1 turns vs. 5.5 target. Excess inventory in women's outerwear and accessories categories; markdown activity ongoing (see N-02). No near-term clearance path identified in available notes.
+- **N-04**: Average transaction value $87.40 vs. $84.00 target (+4.0%). Private label mix expansion contributed to higher ATV (see N-10). This improvement is assessed as structural, not promotional.
+- **N-07**: NPS declined from 63 to 61 vs. 65 target. Survey verbatims cite checkout wait times and sizing inconsistency as top detractors. Root cause for sizing issue not further identified in available notes.
+- **N-05**: Store labor efficiency $54.20/hr vs. $58.00 target (−$3.80, −6.6%). Driver: store manager headcount above optimal ratio following new store openings (N-01 related ramp period). Expected to normalize 60–90 days post-opening.
+- **N-06**: E-commerce return rate 19.8% vs. 16.0% target (+3.8 pts above target for a lower-is-better metric). Driver: sizing inconsistency in private label capsule collection launched August (same driver cited in N-07 NPS verbatims).
+- **N-08**: Shrinkage rate 1.42% vs. 1.20% target (18.3% above target for lower-is-better metric). Driver: two high-shrinkage stores identified (downtown flagship and outlet center); LP investigation ongoing. No resolution timeline in available notes.
+- **N-09**: Supply chain on-time delivery collapsed to 78.2% vs. 88.0% target (−9.8 pts, −11.1% below target). Driver: port congestion at primary West Coast import hub caused 3–4 week delays on 40% of fall inventory receipts. Port congestion ongoing as of report date; Q4 replenishment receipts at risk.
+- **N-10**: Private label mix 28.4% vs. 25.0% target (+3.4 pts). Mix expansion driven by strong sell-through on two new private label programs. Structural improvement per merchandising team.
+- **Markdown Rate**: No September actual reported; finance system cutover in progress.
+
+---
+Produce a complete briefing.

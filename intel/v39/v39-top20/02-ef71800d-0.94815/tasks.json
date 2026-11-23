@@ -1,0 +1,338 @@
+{
+ "tasks": [
+  {
+   "id": "7333cb6c-7027-44d3-9a38-13d20b6dd2c2",
+   "submission_id": "ef71800d-8b7b-4b23-a175-b702eb157fd3",
+   "validator_id": "a311305f-7bf6-4405-abfd-438789eeeb32",
+   "task_payload": {
+    "task_id": "a0f9204b-5a4b-4e06-a241-681ae61006b1-99b2384d-d6c9-4d57-abf8-b0f7679a053c-ef71800d-8b7b-4b23-a175-b702eb157fd3-a311305f-7bf6-4405-abfd-438789eeeb32",
+    "metadata": {
+     "challenge_id": "99b2384d-d6c9-4d57-abf8-b0f7679a053c",
+     "miner_hotkey": "5Fvhrrzs7jPEwACH4TsmxHk8LeXDaS5wtNHrm8cV4URYDJry",
+     "submission_id": "ef71800d-8b7b-4b23-a175-b702eb157fd3",
+     "competition_id": "99b2384d-d6c9-4d57-abf8-b0f7679a053c",
+     "challenge_title": "Enterprise Stakeholder Mapping & Relationship Intelligence Skill"
+    },
+    "priority": 1,
+    "skill_file_path": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/ef71800d-8b7b-4b23-a175-b702eb157fd3/skill.md",
+    "suite_file_path": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/challenges/99b2384d-d6c9-4d57-abf8-b0f7679a053c/PPnnlY4DN0NpmeYm/suite.yaml",
+    "rubric_file_path": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/challenges/99b2384d-d6c9-4d57-abf8-b0f7679a053c/BWTiOf1nWyYZ-fho/rubric.txt",
+    "dataset_file_path": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/challenges/99b2384d-d6c9-4d57-abf8-b0f7679a053c/TwoiMn9Y7xHxEjcA/dataset.jsonl",
+    "skill_reference_files": [
+     {
+      "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/ef71800d-8b7b-4b23-a175-b702eb157fd3/references/examples.md",
+      "path": "examples.md"
+     }
+    ],
+    "skill_backup_file_path": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/ef71800d-8b7b-4b23-a175-b702eb157fd3/skill.md",
+    "suite_backup_file_path": null,
+    "rubric_backup_file_path": null,
+    "dataset_backup_file_path": null
+   },
+   "status": "completed",
+   "result_data": {
+    "score": 0.94815,
+    "results": [
+     {
+      "id": "S-001",
+      "input": null,
+      "score": 0.9325,
+      "skill": null,
+      "domain": null,
+      "tokens": 15315,
+      "difficulty": null,
+      "grades_by_key": {
+       "rubric": {
+        "score": 0.83,
+        "feedback": "Meets most of the rubric, with minor shortfalls."
+       },
+       "skill_use": {
+        "score": 1,
+        "feedback": "Met: Novel knowledge, Knowledge applied, Situational judgment, Output naturalness."
+       },
+       "novelty_check": {
+        "score": 1,
+        "rationale": "First sample in novelty group \u2014 no comparison"
+       },
+       "dataset_derived": {
+        "score": 0.95
+       },
+       "skill_alignment": {
+        "score": 1
+       },
+       "scenario_quality": {
+        "score": 0.945,
+        "feedback": "5 of 5 scenario criteria met."
+       },
+       "skill_redundancy": {
+        "score": 1,
+        "rationale": "No verbatim redundancy detected"
+       }
+      },
+      "references_read": [
+       {
+        "path": "examples.md",
+        "chars": 14777
+       }
+      ],
+      "capability_cluster": null
+     },
+     {
+      "id": "S-002",
+      "input": null,
+      "score": 0.9712000000000001,
+      "skill": null,
+      "domain": null,
+      "tokens": 12843,
+      "difficulty": null,
+      "grades_by_key": {
+       "rubric": {
+        "score": 0.94,
+        "feedback": "Meets the rubric."
+       },
+       "skill_use": {
+        "score": 1,
+        "feedback": "Met: Novel knowledge, Knowledge applied, Situational judgment, Output naturalness."
+       },
+       "novelty_check": {
+        "score": 1,
+        "rationale": "First sample in novelty group \u2014 no comparison"
+       },
+       "dataset_derived": {
+        "score": 0.95
+       },
+       "skill_alignment": {
+        "score": 1
+       },
+       "scenario_quality": {
+        "score": 0.964,
+        "feedback": "5 of 5 scenario criteria met."
+       },
+       "skill_redundancy": {
+        "score": 1,
+        "rationale": "No verbatim redundancy detected"
+       }
+      },
+      "references_read": [
+       {
+        "path": "examples.md",
+        "chars": 14777
+       }
+      ],
+      "capability_cluster": null
+     },
+     {
+      "id": "S-003",
+      "input": null,
+      "score": 0.92695,
+      "skill": null,
+      "domain": null,
+      "tokens": 14645,
+      "difficulty": null,
+      "grades_by_key": {
+       "rubric": {
+        "score": 0.89,
+        "feedback": "Meets most of the rubric, with minor shortfalls."
+       },
+       "skill_use": {
+        "score": 1,
+        "feedback": "Met: Novel knowledge, Knowledge applied, Situational judgment, Output naturalness."
+       },
+       "novelty_check": {
+        "score": 1,
+        "rationale": "Novel response (max similarity 0.376 < 0.75, group=A, compared against 1 prior)"
+       },
+       "dataset_derived": {
+        "score": 0.95
+       },
+       "skill_alignment": {
+        "score": 1
+       },
+       "scenario_quality": {
+        "score": 0.8665,
+        "feedback": "4 of 5 scenario criteria met, 1 partly met."
+       },
+       "skill_redundancy": {
+        "score": 1,
+        "rationale": "No verbatim redundancy detected"
+       }
+      },
+      "references_read": [
+       {
+        "path": "examples.md",
+        "chars": 14777
+       }
+      ],
+      "capability_cluster": null
+     },
+     {
+      "id": "S-004",
+      "input": null,
+      "score": 0.96325,
+      "skill": null,
+      "domain": null,
+      "tokens": 11965,
+      "difficulty": null,
+      "grades_by_key": {
+       "rubric": {
+        "score": 0.93,
+        "feedback": "Meets the rubric."
+       },
+       "skill_use": {
+        "score": 1,
+        "feedback": "Met: Novel knowledge, Knowledge applied, Situational judgment, Output naturalness."
+       },
+       "novelty_check": {
+        "score": 1,
+        "rationale": "First sample in novelty group \u2014 no comparison"
+       },
+       "dataset_derived": {
+        "score": 0.95
+       },
+       "skill_alignment": {
+        "score": 1
+       },
+       "scenario_quality": {
+        "score": 0.9475,
+        "feedback": "5 of 5 scenario criteria met."
+       },
+       "skill_redundancy": {
+        "score": 1,
+        "rationale": "No verbatim redundancy detected"
+       }
+      },
+      "references_read": [
+       {
+        "path": "examples.md",
+        "chars": 14777
+       }
+      ],
+      "capability_cluster": null
+     },
+     {
+      "id": "S-005",
+      "input": null,
+      "score": 0.9358000000000001,
+      "skill": null,
+      "domain": null,
+      "tokens": 13758,
+      "difficulty": null,
+      "grades_by_key": {
+       "rubric": {
+        "score": 0.917,
+        "feedback": "Meets the rubric."
+       },
+       "skill_use": {
+        "score": 1,
+        "feedback": "Met: Novel knowledge, Knowledge applied, Situational judgment, Output naturalness."
+       },
+       "novelty_check": {
+        "score": 1,
+        "rationale": "Novel response (max similarity 0.205 < 0.75, group=B, compared against 1 prior)"
+       },
+       "dataset_derived": {
+        "score": 0.95
+       },
+       "skill_alignment": {
+        "score": 1
+       },
+       "scenario_quality": {
+        "score": 0.869,
+        "feedback": "4 of 5 scenario criteria met, 1 partly met."
+       },
+       "skill_redundancy": {
+        "score": 1,
+        "rationale": "No verbatim redundancy detected"
+       }
+      },
+      "references_read": [
+       {
+        "path": "examples.md",
+        "chars": 14777
+       }
+      ],
+      "capability_cluster": null
+     },
+     {
+      "id": "S-006",
+      "input": null,
+      "score": 0.9592,
+      "skill": null,
+      "domain": null,
+      "tokens": 14942,
+      "difficulty": null,
+      "grades_by_key": {
+       "rubric": {
+        "score": 0.89,
+        "feedback": "Meets most of the rubric, with minor shortfalls."
+       },
+       "skill_use": {
+        "score": 1,
+        "feedback": "Met: Novel knowledge, Knowledge applied, Situational judgment, Output naturalness."
+       },
+       "novelty_check": {
+        "score": 1,
+        "rationale": "First sample in novelty group \u2014 no comparison"
+       },
+       "dataset_derived": {
+        "score": 0.95
+       },
+       "skill_alignment": {
+        "score": 1
+       },
+       "scenario_quality": {
+        "score": 0.974,
+        "feedback": "5 of 5 scenario criteria met."
+       },
+       "skill_redundancy": {
+        "score": 1,
+        "rationale": "No verbatim redundancy detected"
+       }
+      },
+      "references_read": [
+       {
+        "path": "examples.md",
+        "chars": 14777
+       }
+      ],
+      "capability_cluster": null
+     }
+    ],
+    "scoring": {
+     "score": 0.94815,
+     "taskId": "7333cb6c-7027-44d3-9a38-13d20b6dd2c2",
+     "verdict": "passed",
+     "timestamp": "2026-11-19T22:21:57.360Z",
+     "miner_hotkey": "5Fvhrrzs7jPEwACH4TsmxHk8LeXDaS5wtNHrm8cV4URYDJry",
+     "competition_id": "99b2384d-d6c9-4d57-abf8-b0f7679a053c",
+     "validator_hotkey": "5EL9y2gdesAcPiPmoyFKABToiui3RkXewiKxdTMmes34ZdNf"
+    },
+    "timestamp": "2026-11-19T22:21:57.360Z",
+    "tests_count": 6,
+    "skill_bundle": {
+     "reference_chars": 14777,
+     "reference_files": 1,
+     "reference_reads": {
+      "examples.md": 6
+     }
+    },
+    "total_tokens": 83468,
+    "integrity_hash": "sha256:9630e765f81cdf789ba0656a34d682db56685d347aeb0291ed3f35b3286980d4",
+    "duration_seconds": 175.796
+   },
+   "error_message": null,
+   "score": 0.94815,
+   "created_at": "2026-11-19T19:38:13.249646+00:00",
+   "updated_at": "2026-11-19T22:21:57.860996+00:00",
+   "completed_at": "2026-11-19T22:21:57.734+00:00",
+   "tests_count": 6,
+   "raw_result_url": null,
+   "failure_reason": null,
+   "claimed_at": "2026-11-19T22:18:57.699+00:00",
+   "requeue_count": 0,
+   "validator_display_name": "SB Validator - London",
+   "validator_hotkey": "0x64410a7cec508c13b54984236b3239782c14ae2acbf6fc11d337d1ef4bf95221",
+   "rationales_withheld": true
+  }
+ ]
+}

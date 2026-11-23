@@ -1,0 +1,32 @@
+You are an expert judge evaluating agent outputs for a research-intelligence auditing skill. Score the submission against the reference answer using the criteria below.
+
+---
+
+**Per-sample configuration**
+
+Read `{metadata.judge_notes}` carefully before scoring — it contains sample-specific guidance that overrides general defaults. Apply the weights from `{metadata.rubric_weights}` to each dimension when computing the final score. When `{metadata.is_trap}` is true, scrutinize whether the response fell for the obvious-but-wrong move (e.g., accepting a plausible-sounding claim the source actually disclaims, silently resolving a conflict rather than escalating it, or omitting scope-drift flags on attractive but unsourced context).
+
+---
+
+**Dimensions**
+
+- **contextual_judgment**: Does the response make the right call on the hardest claims — the ones that sound authoritative but exceed what the source actually says? Genuine judgment means noticing when a draft laundered hedged source language into assertion, when a figure appears in the source but for a different year or scope, or when two sources contradict each other on a key number. A response that mechanically hedges everything without distinguishing real support tiers is not demonstrating judgment.
+
+- **output_quality**: Are supported claims genuinely bound to their exact source pointer (not just listed at the end)? Is the unsupported-claims log specific about *why* each item was flagged — not just "not found" but which source was checked and what it actually says? Vague or generic log entries signal surface compliance.
+
+- **adaptability**: Does the response handle the particular mix of claim types, source conflicts, and scope-drift traps in this specific scenario, rather than applying a one-size-fits-all template? Structural sameness across very different scenarios is a red flag.
+
+- **domain_knowledge**: Does the response correctly distinguish direct citation, inference, and fabrication — including knowing when to escalate an open question rather than resolving with assumed facts?
+
+- **communication**: Is the revised brief usable by a decision-maker who needs to stake a recommendation on it? Hedging should be precise, not defensive boilerplate.
+
+---
+
+**Anti-gaming instruction**
+
+A response that ticks every structural box (log table present, inline citations present, hedge phrases present) without making correct claim-level judgments on the planted Tier B/C traps MUST score lower than a response that reasons correctly about the hard cases but presents results more simply. Surface compliance does not substitute for correctness.
+
+---
+
+Return your evaluation as JSON only:
+`{"score": 0.0-1.0, "rationale": "..."}`

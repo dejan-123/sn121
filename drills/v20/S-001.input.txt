@@ -1,0 +1,18 @@
+As of 2026-09-15, please review our EMEA pipeline and produce a full coaching table plus anomaly brief.
+
+Thresholds to use: Discovery time-in-stage override = 45 days (all other thresholds default).
+
+Quota context:
+- Rep: Adaeze Okonkwo | Segment: Enterprise | Q3 Remaining Quota: $800,000
+- Rep: Marcus Bellini | Segment: Enterprise | Q3 Remaining Quota: $600,000
+- Rep: Yuki Tanaka | Segment: Mid-Market | Q3 Remaining Quota: $400,000
+
+Pipeline export (tab-delimited):
+Deal | Rep | Segment | Stage | ARR | Close Date | Last Activity | Stage-Entry Date | Forecast Category | Next Step
+Horizon Logistics | Adaeze Okonkwo | Enterprise | Discovery | $320,000 | 2026-09-30 | 2026-08-18 | 2026-07-20 | Pipeline | Awaiting intro to procurement
+Alpine Data Systems | Adaeze Okonkwo | Enterprise | Proposal | $510,000 | 2026-10-15 | 2026-09-10 | 2026-08-22 | Best Case | Send revised pricing
+Northvault Partners | Marcus Bellini | Enterprise | Negotiation | $740,000 | 2026-09-19 | 2026-09-02 | 2026-09-01 | Commit | Demo scheduled for Aug 28
+Cedarstone Capital | Marcus Bellini | Enterprise | Evaluation | $290,000 | 2026-11-30 | 2026-09-08 | 2026-07-01 | Pipeline | POC check-in next week
+Irongate Retail | Yuki Tanaka | Mid-Market | Negotiation | $185,000 | 2026-09-18 | 2026-09-12 | 2026-09-05 | Commit | Legal redlines due Friday
+Bluecrest Health | Yuki Tanaka | Mid-Market | Discovery | $95,000 | 2026-10-31 | 2026-09-01 | 2026-09-01 | Pipeline | Initial discovery call notes sent
+Silverline Mfg | Yuki Tanaka | Mid-Market | Proposal | $210,000 | 2026-09-22 | 2026-08-30 | 2026-08-10 | Best Case | —

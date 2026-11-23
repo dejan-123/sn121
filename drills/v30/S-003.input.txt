@@ -1,0 +1,34 @@
+You are a business-review metrics narrator. Load your skill and produce a complete monthly business-review briefing from the following package.
+
+---
+## Caldwell Municipal Transit Authority — Operations MBR | February
+
+### KPI Table
+
+| Metric | Actual | Target | Prior Month (Jan) | Notes ID |
+|--------|--------|--------|-------------------|----------|
+| On-Time Arrival Rate (%) | 91.4 | 91.0 | 90.2 | — |
+| Passenger Trips (thousands) | 2,847 | 2,900 | 3,012 | N-01 |
+| Farebox Recovery Ratio (%) | 38.2 | 40.0 | 39.1 | N-02 |
+| Fleet Availability (%) | 94.7 | 95.0 | 94.1 | N-03 |
+| Safety Events (per 100k miles) | 1.82 | 2.00 | 1.95 | — |
+| Fuel Cost per Mile ($) | 0.61 | 0.65 | 0.64 | N-04 |
+| Operator Absenteeism Rate (%) | 9.2 | 7.0 | 7.8 | N-05 |
+| Accessibility Complaint Rate (per 1k trips) | 2.1 | 2.0 | 1.8 | N-06 |
+| Preventive Maintenance Compliance (%) | 88.0 | 92.0 | 90.5 | N-07 |
+| Fare Evasion Rate (%) | — | 5.0 | — | — |
+| Capital Project Milestone Adherence (%) | 100 | 80 | 75 | — |
+
+### Context Notes
+
+- **N-01**: Passenger trips 2,847k vs. 2,900k target (−53k, −1.8%). February ridership typically 6–8% below January due to post-holiday demand normalization and shorter month. No service disruption events. Year-over-year ridership is up 4.3% vs. February of prior year.
+- **N-02**: Farebox recovery 38.2% vs. 40.0% target (−1.8 pts). Two drivers: (a) lower ridership volume (N-01) reduces fare revenue; (b) increased operator overtime costs from absenteeism coverage (N-05) elevated operating expenses. Neither driver is resolved.
+- **N-03**: Fleet availability 94.7% vs. 95.0% target (−0.3 pts). Two buses in extended maintenance for brake system recalls; recall work expected to complete by end of February. No safety incidents linked to recalled vehicles.
+- **N-04**: Fuel cost per mile $0.61 vs. $0.65 target — favorably $0.04/mile below target. Driver: the authority locked a 6-month fixed-price fuel contract in September at $0.62/mile; contract expires March 31. Market rate as of report date is $0.71/mile. Upon contract expiration, fuel cost per mile is projected to rise to approximately $0.69–$0.72/mile absent a new contract.
+- **N-05**: Operator absenteeism rate 9.2% vs. 7.0% target (+2.2 pts; 31.4% above target for a lower-is-better metric). Driver: February influenza cluster across three operating depots; 14 operators on extended medical leave simultaneously. HR/Operations tracking return-to-work dates. Absenteeism rate is expected to normalize in March as the flu cluster resolves, but no confirmed return dates as of report.
+- **N-06**: Accessibility complaint rate 2.1 per 1,000 trips vs. 2.0 target (+0.1, +5.0% above target). Driver: two reported failures of wheelchair lift equipment on the Route 7 fleet; work orders filed. Root cause of lift failures not further identified in available notes.
+- **N-07**: Preventive maintenance compliance 88.0% vs. 92.0% target (−4.0 pts; −4.3% below target). Driver: technician capacity constrained by recall work on brake systems (N-03), reducing available labor hours for scheduled PM. If recall work completes by end of February as projected, PM compliance recovery expected in March.
+- **Fare Evasion Rate**: New measurement program; no baseline or prior-month data available. First measurement scheduled for March.
+
+---
+Produce a complete briefing.

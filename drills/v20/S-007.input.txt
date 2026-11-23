@@ -1,0 +1,15 @@
+As of 2026-11-03, run a full pipeline coaching table and anomaly brief for our Central region. Quota is provided for some reps only — handle this appropriately.
+
+Quota context:
+- Tamsin Okafor | Enterprise | Q4 Remaining Quota: $1,200,000
+- [No quota provided for Gregor Vance or Pilar Mendez]
+
+Pipeline export:
+Deal | Rep | Segment | Stage | ARR | Close Date | Last Activity | Stage-Entry Date | Forecast Category | Next Step
+Midland Utilities Corp | Tamsin Okafor | Enterprise | Negotiation | $950,000 | 2026-11-20 | 2026-10-28 | 2026-10-15 | Commit | Contract draft circulating to their GC
+Quadrant Financial | Tamsin Okafor | Enterprise | Proposal | $380,000 | 2026-12-31 | 2026-11-01 | 2026-10-10 | Best Case | Sent executive summary; awaiting feedback
+Rockdale Aviation | Gregor Vance | Mid-Market | Evaluation | $265,000 | 2026-12-15 | 2026-10-01 | 2026-09-15 | Best Case | POC phase 2 criteria to be documented
+Pinecrest Telecom | Gregor Vance | Mid-Market | Discovery | $190,000 | 2027-01-31 | 2026-11-01 | 2026-10-20 | Pipeline | Qualification questions sent via email
+Delta Crane Rental | Pilar Mendez | Mid-Market | Proposal | $310,000 | 2026-11-30 | 2026-10-08 | 2026-10-01 | Commit | Proposal delivered; customer requested legal review
+PrairieView Schools | Pilar Mendez | Enterprise | Negotiation | $720,000 | 2026-11-15 | 2026-11-02 | 2026-10-22 | Commit | Term sheet signed by PrairieView VP; awaiting board ratification
+Wildflower Biotech | Gregor Vance | Mid-Market | Discovery | $155,000 | 2027-02-28 | 2026-10-30 | 2026-10-25 | Pipeline | Initial interest confirmed; scoping call TBD

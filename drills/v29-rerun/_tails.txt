@@ -1,0 +1,234 @@
+==================== S-001 ====================
+Tracker color: GREEN
+Last update: 2026-09-24
+Trend: on track; final validation run scheduled for 2026-09-29
+
+KR 2.3: Reduce scrap rate from 4.2% to 2.5%
+Progress: 60% (scrap rate currently at 3.1%, target 2.5%)
+Tracker color: YELLOW
+Last update: 2026-09-23
+Trend: improving but decelerating — gained 0.6 pp in weeks 1-8, only 0.05 pp in weeks 9-13
+
+---
+OBJECTIVE 3: Build a clinical evidence portfolio (3 published case studies)
+Owner: Dr. Fiona Ashworth (Chief Medical Officer)
+
+KR 3.1: Enroll 40 patients in observational study at 4 partner sites
+Progress: 70% (28 patients enrolled, 3 of 4 sites active)
+Tracker color: GREEN
+Last update: 2026-09-18
+Trend: improving; fourth site (St. Benedikt Hospital) pending IRB approval; IRB decision expected 2026-10-15 — which is next quarter
+
+KR 3.2: Submit first case-study manuscript to peer-reviewed journal
+Progress: 50%
+Tracker color: YELLOW
+Last update: 2026-09-10
+Trend: no trend data provided for this KR
+Note: Owner says manuscript is "in final review" but no draft has been shared with the CMO.
+
+KR 3.3: Secure IRB approval at all 4 study sites
+Progress: 75% (3 of 4 approved)
+Tracker color: GREEN
+Last update: 2026-09-15
+Trend: fourth IRB approval explicitly dependent on St. Benedikt site; expected 2026-10-15
+
+==================== S-002 ====================
+ update: 2026-08-12
+Trend: Progressing on schedule
+
+KR 2.2: Finalize turbine supply contract with Vestas (price lock and delivery schedule)
+Progress: 60%
+Tracker color: YELLOW
+Last update: 2026-08-01
+Trend: Negotiations ongoing; Vestas has indicated their price lock expires 2026-08-28, after which pricing resets to spot market (estimated 12% premium).
+Owner note: "Vestas needs the interconnection agreement reference number before finalizing the supply contract."
+
+KR 2.3: Obtain construction permits from county (3 of 3 required)
+Progress: 67% (2 of 3 permits)
+Tracker color: GREEN
+Last update: 2026-08-11
+Trend: Third permit application submitted; county processing time is 4-6 weeks; submitted week 6, so expected by week 10-12.
+
+---
+OBJECTIVE 3: Establish ESG reporting framework (new requirement from institutional LPs)
+Owner: Celia Drummond (Head of Investor Relations)
+
+KR 3.1: Select and implement ESG data platform
+Progress: 40%
+Tracker color: YELLOW
+Last update: 2026-07-01 (6 weeks ago)
+Trend: No updates since selection shortlist was completed in early July.
+
+KR 3.2: Publish Q1 ESG data report to LP portal
+Progress: 0%
+Tracker color: RED
+Last update: 2026-08-13
+Trend: Not started; depends on KR 3.1 platform being operational.
+Owner note: "This KR cannot begin until the platform is live."
+
+KR 3.3: Conduct ESG materiality assessment with board ESG committee
+Progress: 50%
+Tracker color: YELLOW
+Last update: 2026-08-10
+Trend: Workshop scheduled for 2026-08-27; expected to reach 90% after that session.
+
+==================== S-003 ====================
+VP Growth Marketing)
+
+KR 2.1: Reduce blended CAC from $48 to $38.40
+Progress: 55% ($42.80 current CAC)
+Tracker color: YELLOW
+Last update: 2026-06-30
+Trend: Improving steadily; pace has been consistent. Depends on DTC channel being live for attribution efficiency (DTC typically has 40% lower CAC than paid social).
+Note: This KR explicitly depends on KR 1.3 (DTC channel).
+
+KR 2.2: Implement unified attribution model across all paid channels
+Progress: 80%
+Tracker color: GREEN
+Last update: 2026-06-25
+Trend: On track; final QA in progress
+
+KR 2.3: Reduce cost-per-click on Google Ads by 15%
+Progress: 90% (13.8% reduction achieved)
+Tracker color: GREEN
+Last update: 2026-06-30
+Trend: On track
+
+---
+OBJECTIVE 3: Build a product innovation pipeline (5 concepts in stage-gate by Q2 close)
+Owner: Dr. Yasmin Torres (Chief Innovation Officer)
+
+KR 3.1: Complete consumer research on 3 candidate concepts
+Progress: 100%
+Tracker color: GREEN
+Last update: 2026-06-20
+Trend: Complete
+
+KR 3.2: Advance 2 concepts through stage-gate 2 (technical feasibility)
+Progress: 50% (1 of 2 concepts passed)
+Tracker color: YELLOW
+Last update: 2026-06-29
+Trend: Second concept failed technical feasibility; replacement concept is being assessed but started stage-gate 1 only in week 11.
+Note: No trend data provided for the replacement concept assessment.
+
+KR 3.3: File 2 provisional patent applications
+Progress: 50% (1 of 2 filed)
+Tracker color: YELLOW
+Last update: 2026-05-15 (7 weeks ago)
+Trend: No update since May 15.
+
+==================== S-004 ====================
+ne policy issuance time from 8.2 days to 5.7 days
+Progress: 30%
+Tracker color: YELLOW
+Last update: 2026-03-31
+Trend: Current issuance time is 7.6 days. Progress is gated on KR 2.1 go-live (April 3).
+Owner note: "We expect significant improvement in Q2 once the module is live."
+
+KR 2.3: Achieve 95% straight-through processing rate for renewal policies
+Progress: 10%
+Tracker color: RED
+Last update: 2026-03-29
+Trend: Currently at 71%; target is 95%. Also gated on KR 2.1 go-live.
+
+---
+OBJECTIVE 3: Strengthen reinsurance panel (reduce net retained risk by 15%)
+Owner: Priscilla Okonkwo (Chief Reinsurance Officer)
+
+KR 3.1: Execute treaty reinsurance renewal at improved terms (target: 12% rate reduction)
+Progress: 100%
+Tracker color: GREEN
+Last update: 2026-03-15
+Trend: Completed — 13.1% rate reduction achieved, exceeding target.
+
+KR 3.2: Add 2 new reinsurance panel members (AA-rated carriers)
+Progress: 100%
+Tracker color: GREEN
+Last update: 2026-03-20
+Trend: Complete — both new carriers signed.
+
+KR 3.3: Reduce net retention on individual risks above $5M from 40% to 30%
+Progress: 100%
+Tracker color: GREEN
+Last update: 2026-03-22
+Trend: Complete — net retention now at 28%, exceeding target.
+
+---
+NOTE from export system: No trend data is available for KR 1.2 beyond the last-update timestamp. The 'improving' descriptor was entered manually by the KR owner.
+
+==================== S-005 ====================
+15%/30.8% = 0.49.
+Note: Both mandates require the new investor portal (KR 1.2 data migration) to be operational for their internal due diligence process — specifically, they require live access to Granite Peak's reporting system to complete their operational due-diligence checklist.
+
+KR 2.2: Generate $200M from existing-client AUM expansion (upsell / additional allocations)
+Progress: 35% ($70M committed)
+Tracker color: GREEN
+Last update: 2026-07-30
+Trend: Improving; two additional clients in proposal stage.
+
+KR 2.3: Achieve net promoter score of 8.0+ from institutional clients (baseline: 7.2)
+Progress: 40%
+Tracker color: GREEN
+Last update: 2026-07-15
+Trend: No trend data provided; score is 7.6 (interim survey). Last update is 16 days ago.
+
+---
+OBJECTIVE 3: Achieve SEC regulatory compliance for Form PF enhanced reporting
+Owner: Amara Osei (Chief Compliance Officer)
+
+KR 3.1: Implement Form PF data collection workflow in compliance system
+Progress: 60%
+Tracker color: GREEN
+Last update: 2026-07-29
+Trend: Progressing; vendor implementation partner on site.
+Note: Form PF enhanced reporting has a regulatory deadline: Granite Peak's first enhanced report is due to SEC on 2026-09-15 (week 11 of Q3).
+
+KR 3.2: Complete regulatory data extract and validation (pulling from legacy and new systems)
+Progress: 20%
+Tracker color: YELLOW
+Last update: 2026-07-28
+Trend: The data migration team (same team as KR 1.2) is responsible for this extract. Note from export: 'resource constraint — migration team is allocated 80% to KR 1.2 portal migration, 20% to this KR.'
+Note: This extract must be complete by week 8 for KR 3.3 to begin on time.
+
+KR 3.3: Complete Form PF draft report and legal review
+Progress: 0%
+Tracker color: RED
+Last update: 2026-07-30
+Trend: Cannot begin until KR 3.2 data extract is complete. Must be complete by week 10 for legal review to finish by week 11 (SEC deadline).
+
+---
+Export note: No system-generated trend data is available for KR 2.3 beyond the single interim survey score. The 40% progress figure was calculated by the KR owner as proportional progress toward the 8.0 target from the 7.2 baseline.
+
+==================== S-006 ====================
+in West)
+Progress: 90%
+Tracker color: GREEN
+Last update: 2026-12-21
+Trend: Facility ready; final equipment commissioning scheduled 2026-12-29.
+
+---
+OBJECTIVE 3: Achieve DEA Schedule II/III controlled substance compliance upgrade
+Owner: Renata Bianchi (Chief Compliance Officer)
+
+KR 3.1: Complete DEA Automation of Reports and Consolidated Orders System (ARCOS) integration
+Progress: 100%
+Tracker color: GREEN
+Last update: 2026-12-15
+Trend: Complete
+
+KR 3.2: Pass DEA mock inspection (must achieve 'Satisfactory' rating or better)
+Progress: This is a binary milestone KR.
+Tracker color: GREEN
+Last update: 2026-12-24
+Owner note: "We completed a full mock inspection on December 23. The external inspector gave us a preliminary 'Conditional Satisfactory' rating with 3 findings — two minor, one significant (documentation gap in Schedule II destruction logs). The inspector said the significant finding would likely result in a 'Needs Improvement' rating on a real inspection."
+Tracker reflects: GREEN / "Passed"
+
+KR 3.3: Train all 47 controlled-substance handlers on updated SOPs
+Progress: 100% (47 of 47 trained)
+Tracker color: GREEN
+Last update: 2026-12-20
+Trend: Complete
+
+---
+NOTE: The DEA mock inspection finding (KR 3.2) was entered into the tracker as 'passed' by the compliance team before the official written report was received. The owner note above reflects the verbal preliminary feedback.
+

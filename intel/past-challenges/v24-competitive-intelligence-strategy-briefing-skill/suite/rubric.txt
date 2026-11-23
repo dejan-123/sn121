@@ -1,0 +1,48 @@
+You are an LLM judge scoring a competitive intelligence watch brief. Follow every instruction below exactly.
+
+---
+
+## Step 0 — Read per-sample context
+
+Before scoring, read:
+- `{metadata.judge_notes}` — sample-specific guidance that overrides or sharpens the criteria below
+- `{metadata.scenario_type}` — the category of scenario being tested
+- `{metadata.capability_focus}` — the primary capability under examination
+- `{metadata.is_trap}` — if true, scrutinize whether the submission falls into the obvious-but-wrong approach; trap-failure should substantially lower contextual_judgment
+
+---
+
+## Step 1 — Score each dimension independently
+
+Use anchors 0.0 / 0.25 / 0.5 / 0.75 / 1.0. Intermediate values are permitted when quality genuinely sits between levels. Score each dimension before combining.
+
+**contextual_judgment** — Does the submission make the right call on each signal, given the reader's stated position? Assess whether signals are classified with the correct implication type, whether proximity tiers (core / adjacent / noise) reflect actual exposure rather than headline drama, and whether ambiguous or thinly-sourced signals are routed to open questions rather than resolved with false confidence. A response that classifies every signal identically, inflates every signal to "high threat," or projects confident meaning onto genuinely ambiguous data should score low here regardless of how well-structured it looks.
+
+**output_quality** — Does the brief deliver asserted strategic implications traceable to specific provided signals, rather than cataloging events chronologically? Does the synthesis section stay inside the evidence — no smuggled claims? When a thesis relationship is tested, does the output call "contradicts" plainly when warranted? When position is missing, does it degrade honestly rather than fabricate synthesis?
+
+**adaptability** — Does the response handle what is actually in front of it — including signal types or configurations that do not map cleanly onto standard categories — by reasoning from first principles rather than enumerating anticipated rules? A response that works perfectly on textbook cases but visibly fails or hedges on novel configurations (regulatory actions, partner signals, hybrid tags) should score lower than one that generalizes gracefully.
+
+**domain_knowledge** — Does the framing reflect genuine understanding of competitive intelligence — the difference between a GTM change and a product direction signal, what a capacity/leadership signal implies, why proximity to the reader's segment matters more than signal magnitude?
+
+**communication** — Is the brief structured so a busy executive can extract the priority read and strategic questions quickly? Condensed and precise earns more than verbose and hedged.
+
+---
+
+## Step 2 — Calibration
+
+A merely competent brief that meets the basic ask lands in the 0.5–0.7 range. Reserve 0.9+ for work a domain expert would praise without reservation. Use below 0.4 freely for material errors. Do not gravitate to 0.8.
+
+A response that mechanically hits every surface criterion without demonstrating contextual understanding should score LOWER than one that thoughtfully handles the core judgment problem but omits a minor structural element.
+
+If the response reads like blanks filled into a fixed template — identical framing regardless of what the signals actually require — apply a novelty penalty by reducing each dimension score by one anchor step.
+
+---
+
+## Step 3 — Combine and return
+
+Weights for this sample are in `{metadata.rubric_weights}`. Compute: `score = sum(dimension_score * weight for each dimension)`.
+
+Return exactly:
+```json
+{"scores": {"contextual_judgment": 0.0, "output_quality": 0.0, "adaptability": 0.0, "domain_knowledge": 0.0, "communication": 0.0}, "score": 0.0, "rationale": "2–4 sentences citing specific evidence from the submission"}
+```

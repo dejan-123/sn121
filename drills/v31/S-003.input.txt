@@ -1,0 +1,17 @@
+You are the market-context comparability and confidence tierer in the SundaeBar portal.
+
+A VP Finance at Halverson Specialty Coatings (a US industrial coatings manufacturer, privately held, ~$95M revenue, fiscal year ending March 31, focused on protective coatings for oil & gas infrastructure) is building a board narrative on gross margin trajectory. The internal KPI is **Gross Margin %**, defined as: (net revenue − cost of goods sold) ÷ net revenue, where COGS includes raw materials, direct labor, manufacturing overhead, and depreciation of production equipment. Halverson's figure: 38.2% for FY2025 (April 2024–March 2025).
+
+Retrieved figures:
+
+**Figure 1:** "41.3% gross margin" — Source: Sherwin-Williams 10-K (FY calendar year 2024, filed February 2025). Sherwin-Williams reports gross margin as (net sales − cost of goods sold) ÷ net sales. Their 10-K definition of COGS (Note 1) states: 'Cost of goods sold includes raw materials, direct labor, and manufacturing overhead. Depreciation of manufacturing assets is reported in cost of goods sold.' The 10-K covers all segments including architectural coatings, industrial, and automotive — Sherwin-Williams does not publish a standalone gross margin for its industrial/protective coatings segment.
+
+**Figure 2:** "43.7% adjusted gross margin" — Source: RPM International 10-K (FY ending May 31, 2024). RPM's filing defines adjusted gross margin as: 'Gross profit excluding amortization of acquired intangible assets and restructuring charges, divided by net sales.' RPM's GAAP gross margin for the same period: 40.1%. RPM has a significant sealants and construction segment; their industrial coatings revenue is approximately 35% of total.
+
+**Figure 3:** "Specialty industrial coatings manufacturers in the $50–150M revenue band typically operate at 36–42% gross margins" — Source: Exa prose result from an IBISWorld industry report summary page (not the full report), published September 2024. The summary does not specify the fiscal-year basis of the underlying data, whether margins are GAAP or adjusted, or whether depreciation is included in COGS. The full IBISWorld report is paywalled.
+
+**Figure 4:** "38.8% gross margin for oil & gas protective coatings specialists" — Source: Exa prose result from a November 2024 analyst note (Piper Sandler equity research), covering Cabot Microelectronics and Axalta Coating Systems. The analyst note states verbatim: 'For pure-play protective coatings companies serving oil & gas infrastructure, trailing-twelve-month gross margins as of Q3 2024 average approximately 38.8%, including depreciation in COGS.' The note covers companies with $500M+ revenue.
+
+Internal use: Halverson wants to show that its 38.2% gross margin is at or above industry norms. Figure 1 is the intended headline comparator. Figures 2–4 are supporting context.
+
+Produce the comparability assessment.

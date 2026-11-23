@@ -1,0 +1,11 @@
+Can you help me turn this into something I can send up to our CFO? We're the legal ops team. We want to buy a contract lifecycle management (CLM) platform. Here's what I have so far:
+
+We currently manage contracts in a combination of shared drives, email threads, and a homegrown spreadsheet tracker. It takes our team about 3 weeks on average to get a standard vendor contract through review and signature. The industry benchmark is 5–7 days for comparable companies. Our legal team spends approximately 40% of their time on contract status follow-up — that's roughly 2 FTEs of effort annually just chasing emails. A CLM platform would automate routing, provide visibility, and reduce that follow-up overhead.
+
+We evaluated: Ironclad ($85K/year), ContractPodAi ($72K/year), and Agiloft (custom quote, estimated $95K). Ironclad scored highest on UX and integration with our existing Salesforce instance. We recommend Ironclad.
+
+Expected ROI: It's hard to put a number on it, but it would definitely pay for itself.
+
+Cost savings from reduced follow-up: We think it could save a lot.
+
+Security: We haven't done the security review yet.

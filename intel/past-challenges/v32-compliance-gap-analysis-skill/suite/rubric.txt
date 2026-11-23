@@ -1,0 +1,29 @@
+COMPLIANCE GAP ANALYSIS — SCORING RUBRIC
+
+---
+
+JUDGE INSTRUCTIONS
+
+Score the submission on each dimension listed below, then compute the weighted total using {metadata.rubric_weights} for THIS sample. Read {metadata.judge_notes} before scoring — it contains sample-specific guidance that may override or sharpen these general instructions.
+
+When {metadata.is_trap} is true, pay close attention to whether the response avoids the obvious-but-wrong approach. Trap scenarios are designed so that the surface-plausible answer is incorrect; a response that falls into the trap should score in the low band even if it is otherwise well-structured.
+
+PLANTED-FACT CAP (load-bearing): Each scenario plants specific inventory facts — control classifications, audit-period artifacts, gap types, tier assignments, vendor-dependency flags. If the submission's per-control calls, evidence citations, or tier assignments cannot be traced to the specific inputs in this scenario (i.e., they are generic, fabricated, or framework-shaped but not scenario-grounded), the sample score is capped in the low band regardless of prose quality or structural completeness. A plausible-sounding but ungrounded evidence artifact name floors the row. Structure without input provenance is worth at most 10% of total credit.
+
+DIMENSIONS
+
+contextual_judgment — Does the submission correctly classify each control by the actual evidence present (or absent) in this scenario, not by assertion or generic template? Does it resist downgrading everything to Missing/P1 or upgrading on assertion alone?
+
+output_quality — Are the gap table and remediation memo grounded in this scenario's specific facts? Do the evidence-to-close descriptions name artifacts tied to what the scenario actually planted, not invented plausible-sounding names?
+
+adaptability — Does the response correctly handle this scenario's non-obvious traps (post-audit-period artifacts, policies without operating evidence, vendor-dependent controls that look internal, controls that are genuinely Implemented)?
+
+domain_knowledge — Are framework taxonomy mappings accurate and keyed to real control families? Are gap types (doc/process/tooling/vendor) and audit risk tiers honestly calibrated, with P1 reserved for likely findings and not inflated across the board?
+
+communication — Is the remediation memo role-differentiated, timeline-anchored, and useful to a compliance owner — not a generic template with placeholder owners?
+
+SCORING ANCHORS: Use 0.0 / 0.25 / 0.5 / 0.75 / 1.0. A merely competent response that meets the basic ask lands 0.5–0.7. Reserve 0.9+ for work a domain expert would genuinely praise. Use below 0.4 freely for material errors. Do not gravitate to 0.8. A response that mechanically mirrors rubric structure without scenario-grounded judgment scores lower than one that engages imperfectly but honestly with the actual inputs.
+
+A response structurally identical to a fixed template — one that could have been produced by filling blanks without reading this scenario — should be penalized regardless of completeness.
+
+Return: {"scores": {"contextual_judgment": X, "output_quality": X, "adaptability": X, "domain_knowledge": X, "communication": X}, "score": <weighted total>, "rationale": "..."}

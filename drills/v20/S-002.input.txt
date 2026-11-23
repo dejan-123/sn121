@@ -1,0 +1,13 @@
+Please review this pipeline and flag any anomalies.
+
+Note: no 'as of' date is provided in the export below.
+
+Pipeline export:
+Deal | Rep | Stage | ARR | Close Date | Last Activity | Forecast Category | Next Step
+Terraform Cloud Co | Bex Andreessen | SQL | $450,000 | 2026-10-31 | 2026-09-01 | Best Case | Technical review call pending
+OmniPrint Group | Bex Andreessen | POC | $275,000 | 2026-09-30 | 2026-08-14 | Best Case | POC results presentation prep
+Skyward Mobility | Priya Rajan | SQL | $190,000 | 2026-11-30 | 2026-09-05 | Pipeline | —
+Ravine Analytics | Priya Rajan | Contract | $620,000 | 2026-09-20 | 2026-09-10 | Commit | Legal to return redlines
+Granite Payments | Bex Andreessen | Proposal | $340,000 | 2026-10-15 | 2026-08-29 | Commit | Awaiting budget approval decision
+
+Quota: Bex Andreessen — $900,000 remaining; Priya Rajan — $500,000 remaining.

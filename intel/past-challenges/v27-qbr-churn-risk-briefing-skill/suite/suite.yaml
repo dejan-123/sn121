@@ -1,0 +1,74 @@
+name: customer_success_account_intelligence_skill_challenge
+description: 'Evaluation for customer_success_account_intelligence. Grader tier 3:
+  full anti-gaming stack. 10 scenarios.'
+dataset: dataset.jsonl
+target:
+  kind: agent
+  agent_file: agent.json
+graders:
+  skill_redundancy:
+    kind: tool
+    function: skill_redundancy
+    extractor: skill_content
+    weight: 0.0
+  skill_use:
+    kind: tool
+    function: evaluate_skill_use
+    extractor: skill_content
+    model: anthropic/claude-haiku-4.5
+    provider: openrouter
+    weight: 0.3
+  scenario_quality:
+    kind: tool
+    function: evaluate_scenario_quality
+    extractor: skill_content
+    model: anthropic/claude-haiku-4.5
+    provider: openrouter
+    weight: 0.3
+  rubric:
+    kind: model_judge
+    prompt_path: rubric.txt
+    model: anthropic/claude-haiku-4.5
+    provider: openrouter
+    temperature: 0.0
+    max_retries: 2
+    timeout: 120
+    extractor: last_assistant
+    weight: 0.3
+  skill_alignment:
+    kind: tool
+    function: skill_rubric_alignment
+    extractor: skill_content
+    weight: 0.0
+    extractor_config:
+      alignment_threshold: 0.55
+  novelty_check:
+    kind: tool
+    function: cross_sample_novelty
+    extractor: last_assistant
+    weight: 0.1
+    extractor_config:
+      similarity_threshold: 0.75
+  dataset_derived:
+    kind: tool
+    function: dataset_derived_knowledge
+    extractor: skill_content
+    weight: 0.0
+    extractor_config:
+      threshold: 0.45
+gate:
+  kind: logical
+  operator: and
+  conditions:
+  - metric_key: skill_redundancy
+    aggregation: avg_score
+    op: gte
+    value: 0.5
+  - metric_key: skill_alignment
+    aggregation: avg_score
+    op: gte
+    value: 0.45
+  - metric_key: dataset_derived
+    aggregation: avg_score
+    op: gte
+    value: 0.45

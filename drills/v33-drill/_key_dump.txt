@@ -1,0 +1,241 @@
+===== S-0 =====
+is_trap: True
+judge_notes: The planted discriminating fact: Art. 1.1(b) has a reach clause but its own predicate (active marketing to 'consumers' per Art. 2.4 = natural persons) fails because NexaTrade serves only corporate entities. A generic 'check for reach clauses' heuristic will elevate to IN-SCOPE or CONDITIONAL; the correct answer is OUT-OF-SCOPE because the reach predicate itself fails. The Art. 3 DMO classification failure is a second independent ground. The Art. 5 GTV threshold is provision-delimiting (Part III only) and is moot; treating it as an instrument-level threshold is an error. Full credit requires naming Art. 1.1(b) and Art. 2.4 together as the deciding clauses, and naming NexaTrade's all-corporate user base as the defeating attribute.
+--- OUTPUT ---
+## Per-Criterion Verdict Table
+
+| Clause | Profile Attribute | Value | Verdict | Confidence |
+|---|---|---|---|---|
+| Art. 1.1(a) — Kravenian incorporation | Jurisdiction of incorporation | Federal Republic of Brannmark | Fails | High |
+| Art. 1.1(b) — Active marketing to Kravenian consumers | Customer base / 'consumer' per Art. 2.4 | All registered users are corporate entities; no natural-person consumer accounts | Fails | High |
+| Art. 2.1 B2B exclusion (qualifying Art. 1.1(b)) | Platform activity type | Exclusively B2B wholesale commodity matching; no consumer accounts | Passes (exclusion confirmed) | High |
+| Art. 3 — DMO classification | DMO registration status | Not registered as DMO under Kravenian Commerce Registry Act 2019 | Fails | High |
+| Art. 5 — GTV threshold (Part III, provision-delimiting) | Not evaluated | — | Not evaluated (prior criteria failed; organisation outside scope) | — |
+| Art. 7 — Transitional carve-out | Not evaluated | — | Not evaluated (prior criteria failed) | — |
+
+## Top-Line Verdict
+
+**OUT-OF-SCOPE**
+
+NexaTrade GmbH is definitively excluded from KDMSO on two independent grounds. First, Article 1.1(b)'s reach clause requires active marketing to 'consumers' as defined in Article 2.4 (natural persons outside trade or profession); NexaTrade's platform serves exclusively registered corporate entities and holds no natural-person consumer accounts, so the consumer-direction predicate fails on the stated profile — the reach clause cannot pull a Brannmark-incorporated entity IN. Second, Article 3 independently restricts scope to entities holding DMO classification under the Kravenian Commerce Registry Act 2019; NexaTrade holds no such classification. Either ground alone is dispositive. The Article 5 GTV threshold and Article 7 transitional carve-out are not evaluated.
+
+*This brief is triage, not legal advice.*
+
+===== S-1 =====
+is_trap: True
+judge_notes: Three planted discriminating facts: (1) Sec. 4(1) entity-level FTE is 18 < 25, which looks like a clean exemption — the trap is Sec. 4(2) nullification when the parent group is 340 FTE > 200 FTE; OUT-OF-SCOPE here is wrong. (2) Schedule B is adopted by a named order (EST-RD-2024-0091), so it resolves to Passes/High, not Ambiguous — treating it as an unadopted cross-reference is the second trap. (3) The EPDC carve-out covers only Secs. 8–12, not the full instrument — it is scope delimitation, not a full exemption; OUT-OF-SCOPE or ignoring Secs. 13–16 is wrong. Correct verdict is IN-SCOPE with surviving provisions named. The routing pointer must route to obligation extraction for Secs. 1–7 and 13–16.
+--- OUTPUT ---
+## Per-Criterion Verdict Table
+
+| Clause | Profile Attribute | Value | Verdict | Confidence |
+|---|---|---|---|---|
+| Sec. 2(1) — Territorial scope | Jurisdiction of incorporation and operation | Incorporated and operating in Esterland | Passes | High |
+| Sec. 2(2) — ADES definition (≥3 farm enterprises) | Number of farm enterprises aggregated | 11 farm enterprises | Passes | High |
+| Sec. 5 — PAI data trigger (Schedule B) | Data categories processed | Soil-moisture sensor arrays linked to identifiable farm parcels = PAI Category 1 per Schedule B (adopted by EST-RD-2024-0091, 3 Nov 2024) | Passes | High |
+| Sec. 4(1) — Small-operator exemption from Secs. 8–16 (<25 FTE, entity level) | AgriLink entity-level FTE | 18 FTE | Passes (exemption satisfied on entity metric) | High |
+| Sec. 4(2) — Group-workforce nullification of Sec. 4(1) exemption (group >200 FTE) | Feldmann Agrartech AG group total FTE | 340 FTE (wholly owned subsidiary; group threshold applies) | Fails (nullification triggered; exemption voided) | High |
+| Sec. 6 — EPDC carve-out (Secs. 8–12 only) | EPDC currency | Current EPDC, renewed 9 months ago (within 24-month window) | Passes (Secs. 8–12 exempted) | High |
+| Sec. 6 — Secs. 13–16 (not exempted by EPDC) | EPDC scope | EPDC does not exempt Secs. 13–16; applicable regardless | Passes (Secs. 13–16 apply) | High |
+
+## Top-Line Verdict
+
+**IN-SCOPE**
+
+AgriLink satisfies the Section 2 territorial and ADES criteria and the Section 5 PAI trigger (soil-moisture data = Schedule B PAI Category 1, adopted by EST-RD-2024-0091). The Section 4(1) small-operator exemption is voided by Section 4(2): AgriLink is a wholly owned subsidiary of Feldmann Agrartech AG whose combined workforce is 340 FTE, exceeding the 200-FTE group threshold. The EPDC carve-out under Section 6 exempts Sections 8–12 only; Sections 13–16 remain applicable. AgriLink is IN-SCOPE for Sections 1–7 and 13–16 in full, and the data-quality certification duties in Sections 8–12 are carved out while the EPDC remains current.
+
+Route to obligation extraction for EADER Sections 1–7 and 13–16; note Sections 8–12 carved out while current EPDC held.
+
+*This brief is triage, not legal advice.*
+
+===== S-2 =====
+is_trap: True
+judge_notes: Planted discriminating fact: the artefact is an enforcement notice with no operative scoping clauses. SunVault's profile contains enough sector and operational detail that an agent applying a generic criterion checklist (territory ✓, sector ✓, authorisation held ✓) will issue IN-SCOPE. The correct answer is NEEDS-LEGAL-REVIEW because no criterion can be derived from a notice narrative. The table should have exactly one row (artefact-type triage) with Ambiguous/Low — not fabricated criterion rows. An agent that issues IN-SCOPE based on inferred criteria from the notice narrative is wrong. No routing pointer should appear (NEEDS-LEGAL-REVIEW verdict).
+--- OUTPUT ---
+## Per-Criterion Verdict Table
+
+| Clause | Profile Attribute | Value | Verdict | Confidence |
+|---|---|---|---|---|
+| Artefact type — operative scoping clauses present? | Document type | Enforcement notice; no operative scoping clauses, threshold definitions, entity-class criteria or exemption text reproduced | Ambiguous (no operative text; criteria inferred from narrative only) | Low |
+
+## Top-Line Verdict
+
+**NEEDS-LEGAL-REVIEW**
+
+EN-2027-114 is an enforcement notice, not operative regulatory text. It describes non-compliance observed and a self-assessment deadline but reproduces no scoping clause, entity-class definition, size threshold, or exemption from the Drovenian Ambient Energy Framework it references. Any applicability criterion inferred from the notice narrative — including which operators are 'in scope' of the logging obligation — is not a criterion derived from operative text. The deciding question for counsel: please supply the operative provisions of the Drovenian Ambient Energy Framework (the voltage-stability logging obligation and its scoping clauses) so that a structured applicability analysis can be conducted on SunVault's profile.
+
+*This brief is triage, not legal advice.*
+
+===== S-3 =====
+is_trap: True
+judge_notes: Planted discriminating fact: Reg. 8 threshold (7,400 < 10,000) looks like it excludes DataMed — but it is provision-delimiting (determines Schedule 1 vs Schedule 2), not an instrument-level coverage gate. An agent that issues OUT-OF-SCOPE because the threshold fails is wrong; the correct verdict is IN-SCOPE for Schedule 1. The second planted fact: Reg. 3(1) fails (Vastoria) but Reg. 3(2) reach clause passes via 14 Molrovian clients and the HDC definition. An agent that short-circuits on Reg. 3(1) without evaluating the reach clause also errs. Reg. 12 public-sector exemption is obviously inapplicable (private entity) and should be marked not evaluated or dismissed quickly — spending analysis on it is wasted.
+--- OUTPUT ---
+## Per-Criterion Verdict Table
+
+| Clause | Profile Attribute | Value | Verdict | Confidence |
+|---|---|---|---|---|
+| Reg. 3(1) — Established in Molrovia | Jurisdiction of incorporation | Republic of Vastoria (not Molrovia) | Fails | High |
+| Reg. 3(2) — Offers health information management services to Molrovian healthcare providers (reach clause) | Molrovian client base; service description | 14 contracted private healthcare providers in Molrovia; cloud-based health record management | Passes | High |
+| Reg. 5(a) — Processes identifiable health records on behalf of healthcare provider | Data processed | Identifiable health records of Molrovian patients | Passes | High |
+| Reg. 5(b) — Direct contractual relationships with healthcare providers | Client relationships | Contracted with 14 private Molrovian healthcare providers | Passes | High |
+| Reg. 8 — Schedule 2 threshold (>10,000 distinct individuals, rolling 12 months) | Distinct individuals processed (preceding 12 months) | 7,400 — below 10,000 threshold | Fails (Schedule 2 does not apply; Schedule 1 only) | High |
+| Reg. 12 — Public-sector exemption | Entity status | Private commercial entity | Not evaluated (exemption restricted to public hospitals and public-health agencies; DataMed is private) | — |
+| Reg. 14 — MHDA accreditation carve-out | MHDA status | No current MHDA held | Fails (carve-out unavailable) | High |
+
+## Top-Line Verdict
+
+**IN-SCOPE**
+
+DataMed Solutions Kft., incorporated in Vastoria, is pulled within MHIGR by Regulation 3(2)'s reach clause: it offers health information management services to 14 private Molrovian healthcare providers and satisfies both conditions of the Regulation 5 HDC definition (identifiable health records processed; direct contractual relationships). The Regulation 8 threshold (7,400 distinct individuals < 10,000) is provision-delimiting, not an instrument-level gate: DataMed is IN-SCOPE for Schedule 1 (Baseline Safeguards) obligations only — Schedule 2 (Enhanced Safeguards) does not apply at the current volume. Regulation 14 MHDA carve-out is unavailable (no MHDA held). Regulation 12 public-sector exemption does not apply to a private entity.
+
+Route to obligation extraction for MHIGR Regulations 1–15 and Schedule 1 (Baseline Safeguards); note Schedule 2 does not apply at 7,400 distinct individuals.
+
+*This brief is triage, not legal advice.*
+
+===== S-4 =====
+is_trap: True
+judge_notes: Two planted facts: (1) Art. 4(3) lists employment access as an indicator of 'similarly significant effects' — a generic 'employment-sector AI tool → IN-SCOPE' heuristic will elevate; the trap is that the indicators are explicitly subordinate to Art. 4(2)'s 'without meaningful human review' test, which fails because the employer HR team makes all decisions. (2) The Art. 6 RSA ambiguity (SaaS vendor vs. employment screener) is a peripheral ambiguity that does NOT affect the verdict — elevating to NEEDS-LEGAL-REVIEW because of the Art. 6 ambiguity alone is the 'ambiguity as hedge' anti-pattern; Art. 4 already excludes HireFlow. Correct verdict is OUT-OF-SCOPE. Annex I is adopted (NDG-SS-2025-003) — not ambiguous.
+--- OUTPUT ---
+## Per-Criterion Verdict Table
+
+| Clause | Profile Attribute | Value | Verdict | Confidence |
+|---|---|---|---|---|
+| Art. 4(1) — Deploys ADS affecting Nordveld residents | Jurisdiction; system deployment | Incorporated in Nordveld; ranking algorithm processes candidate CVs for Nordveld employer clients | Passes (provisionally, pending ADS definition) | Medium |
+| Art. 4(2) — 'ADS' definition: legal/similarly significant effects WITHOUT meaningful human review | System output; human review | Fit score and ranked shortlist produced; all hire/no-hire decisions made by client HR team (meaningful human review by employer) | Fails (meaningful human review present at decision stage) | Medium |
+| Art. 4(3) — Indicators of 'similarly significant effects' (subordinate to Art. 4(2) primary test) | Effect type | Employment-related outputs (indicator (i) employment access) — but indicator subordinate to Art. 4(2) primary test, which fails | Not evaluated (Art. 4(2) primary predicate fails; indicators cannot independently satisfy the definition) | — |
+| Art. 6(1)–(2) — RSA filter: Annex I sector (financial services, insurance, housing, healthcare, employment screening) | Sector / activity | HR technology vendor providing SaaS to employers; HireFlow is not the hiring party and does not itself conduct employment screening | Ambiguous (whether a SaaS vendor to screeners is itself an RSA participant is not defined; Annex I lists 'employment screening' without vendor definition) | Medium |
+| Art. 6(3) — Annex I adoption status | Cross-reference | Adopted by NDG-SS-2025-003, dated 12 March 2025 | Passes (adopted; High confidence on this sub-point) | High |
+| Art. 9 — Small-organisation threshold (<50 FTE; Arts. 12–17 only) | Employees (end of preceding calendar year) | 38 FTE < 50 FTE | Not evaluated (Art. 4(2) primary predicate fails; Art. 6 RSA ambiguous — threshold only relevant if coverage established) | — |
+| Art. 11 — NATC safe harbour | NATC status | No current NATC held | Not evaluated (safe harbour unavailable regardless; moot if not covered) | — |
+
+## Top-Line Verdict
+
+**OUT-OF-SCOPE**
+
+HireFlow AS does not deploy an Automated Decision System within the Article 4(2) definition: the system produces a ranked shortlist and fit scores, but all hire/no-hire decisions are made by the client employer's HR team, constituting meaningful human review. The Article 4(3) 'similarly significant effects' indicators (including employment access) are explicitly stated to be subordinate to the Article 4(2) primary test and cannot independently satisfy the definition when the primary predicate fails. Without an ADS within the Article 4 definition, NADMO creates no obligation on HireFlow. The Article 6 RSA sectoral ambiguity (whether an HR-tech vendor is an employment screener) is noted but does not affect the verdict, since Article 4 excludes HireFlow independently.
+
+*This brief is triage, not legal advice.*
+
+===== S-5 =====
+is_trap: True
+judge_notes: Two planted facts: (1) Dir. 11 says classification criteria are in an unpublished delegated regulation — a generic 'unadopted delegated act → NEEDS-LEGAL-REVIEW' heuristic will elevate; the trap is that Nexara is ALREADY listed as Tier 1 on the BCIA register (a stated profile fact), so the ambiguity in Dir. 11 concerns future reclassification, not today's status. Correct verdict is IN-SCOPE. (2) The Dir. 7 group aggregation requires adding Nexara Networks (380 Gbps) + Nexara Wholesale S.R.L. (190 Gbps) = 570 Gbps > 500 Gbps; Nexara Admin S.R.L. is excluded per Dir. 5(2). An agent that applies the entity-level capacity (380 Gbps ≤ 500 Gbps) without aggregating will wrongly exclude Part IV. The compliance gap (Part IV audit not completed) is IN-SCOPE, not CONDITIONAL.
+--- OUTPUT ---
+## Per-Criterion Verdict Table
+
+| Clause | Profile Attribute | Value | Verdict | Confidence |
+|---|---|---|---|---|
+| Dir. 3(1) — Operator of CNI in Belvara | Jurisdiction; network operations | Incorporated in Belvara; operates fixed broadband and fibre backbone networks | Passes | High |
+| Dir. 3(2) — CNI definition: Tier 1 or Tier 2 under BNTF | BNTF classification | Listed as BNTF Tier 1 in current BCIA portal register (confirmed annual review, 14 Oct 2026) | Passes | High |
+| Dir. 11 — BNTF classification criteria (delegated regulation, not yet published) | BNTF classification source | Classification criteria 'to be specified by delegated regulation, not yet published' — BUT Nexara is already listed as Tier 1 on the BCIA portal per Dir. 3(3); the classification is a stated profile fact, not pending | Passes (classification is a stated fact from the BCIA register; Dir. 11 ambiguity concerns future reclassification criteria, not Nexara's current Tier 1 status) | Medium |
+| Dir. 5(1) — Group coverage: subsidiaries operating segments of classified network | Nexara Wholesale S.R.L. | Operates backbone segments as part of the Tier 1 network | Passes (Nexara Wholesale in scope) | High |
+| Dir. 5(2) — Exclusion of administrative/ancillary subsidiaries | Nexara Admin S.R.L. | Payroll and shared services only; 0 Gbps network capacity | Passes (excluded per Dir. 5(2)) | High |
+| Dir. 7 — Part IV capacity threshold (aggregate >500 Gbps, group entities in scope per Dir. 5) | Aggregate installed capacity: Nexara Networks + Nexara Wholesale | 380 Gbps + 190 Gbps = 570 Gbps > 500 Gbps | Passes (Part IV applies) | High |
+| Dir. 9 — Public-ownership exemption from Part IV | Ownership | Privately held | Fails (exemption unavailable; privately held entity) | High |
+
+## Top-Line Verdict
+
+**IN-SCOPE**
+
+Nexara Networks S.A. is listed as BNTF Tier 1 on the BCIA public portal (confirmed 14 October 2026), satisfying Directive 3(2). The Directive 11 delegated-regulation ambiguity concerns the criteria for future BNTF classification determinations; Nexara's current Tier 1 status is a stated fact from the BCIA register, not a pending classification — the ambiguity does not change today's verdict. Aggregating Nexara Networks S.A. (380 Gbps) and Nexara Wholesale S.R.L. (190 Gbps) per Directive 5(1) yields 570 Gbps, exceeding the Directive 7 Part IV threshold of 500 Gbps. The Directive 9 public-ownership exemption is unavailable (privately held). The Part IV resilience audit gap is a compliance matter, not applicability doubt.
+
+Route to obligation extraction for BNIRD Parts I–IV.
+
+*This brief is triage, not legal advice.*
+
+===== S-6 =====
+is_trap: True
+judge_notes: Planted discriminating fact: FlexPower holds an LES licence and does supply 420 residential households (which are end consumers under Rule 3(2)) — a generic 'licensed supplier serving residential consumers → IN-SCOPE' heuristic will elevate. The trap is Rule 12: 420 residential MPDs < 500, primary business is industrial/commercial, so the sector carve-out removes FlexPower from Rule 3 scope entirely. Correct verdict is OUT-OF-SCOPE. Rule 7 (50,000 MPD threshold) and Rule 9 (5,000 MPD small-supplier exemption) should not be evaluated — the carve-out is dispositive before reaching them. CESLR 2021 is incorporated by reference (adopted) — High confidence. An agent that runs all rows and then tries to decide based on Rule 7 or Rule 9 is making a criterion-ordering error.
+--- OUTPUT ---
+## Per-Criterion Verdict Table
+
+| Clause | Profile Attribute | Value | Verdict | Confidence |
+|---|---|---|---|---|
+| Rule 3(1) — Supplies electricity/gas directly to end consumers in Corvantica | Activity; jurisdiction | Incorporated in Corvantica; supplies electricity to 420 residential households (natural persons) | Passes (provisionally, pending Rule 12 carve-out) | High |
+| Rule 3(2)–(3) — 'End consumer' definition: natural persons or micro-enterprises for non-commercial purposes | Residential customer type | 420 residential households = natural persons for domestic use | Passes | High |
+| Rule 5(1)–(2) — LES under CESLR 2021 (incorporated by reference) | LES licence status | Holds LES licence LES-2019-0731 under CESLR 2021 (CESLR 2021 incorporated herein by reference — adopted) | Passes | High |
+| Rule 12 — Sector carve-out: primary business industrial/commercial; residential MPDs < 500 | Residential MPDs; primary business character | 420 residential MPDs < 500 residential MPD threshold; primary business is industrial/commercial supply | Passes (carve-out satisfied: 420 < 500 residential MPDs; FlexPower is not a supplier of end consumers for purposes of Rule 3) | High |
+
+## Top-Line Verdict
+
+**OUT-OF-SCOPE**
+
+FlexPower GmbH holds an LES licence (LES-2019-0731) and does supply 420 residential households, which are end consumers under Rule 3(2). However, the Rule 12 sector carve-out removes FlexPower from the scope of Rule 3 and these Rules entirely: its primary business is industrial and commercial energy supply, and its residential supply of 420 MPDs is below the 500-MPD incidental-supply threshold. CRECP is therefore not applicable. The Rule 7 enhanced billing threshold and Rule 9 small-supplier exemption are not evaluated, as the carve-out is dispositive at the Rule 3 scope level.
+
+*This brief is triage, not legal advice.*
+
+===== S-7 =====
+is_trap: False
+judge_notes: Three planted facts work together: (1) Micropayments reduce volume from PLD 310M to PLD 292M — but PLD 292M still exceeds PLD 200M, so the carve-out does not exempt from Chapter III. (2) The Art. 7 intra-group exemption looks plausible but 41.9% > 40% cap, so it fails — an agent that records the exemption without checking the cap issues a wrong OUT-OF-SCOPE. (3) Art. 3(2) CBL licence is present and named — this is an adopted/confirmed fact at High confidence, not ambiguous. Correct verdict is IN-SCOPE. An agent that misapplies the micropayment carve-out as instrument-level or fails to check the Art. 7 cap will err.
+--- OUTPUT ---
+## Per-Criterion Verdict Table
+
+| Clause | Profile Attribute | Value | Verdict | Confidence |
+|---|---|---|---|---|
+| Art. 3(1) — PSP processing Paloran-linked instructions | Activity description | Processes cross-border instructions originating from/destined for Paloran accounts | Passes | High |
+| Art. 3(2) — Foreign PSP: CBL requirement | Paloran CBL status | Current CBL, licence CB-2021-0447, expiry 31 Dec 2028 | Passes | High |
+| Art. 9 — Micropayment exclusion from Art. 5 volume | Per-transaction value <PLD 500 | PLD 18 million micropayments excluded; adjusted volume = PLD 310M − PLD 18M = PLD 292 million | Passes (exclusion applied; PLD 292M remains) | High |
+| Art. 5 — Chapter III volume threshold (>PLD 200M, preceding calendar year) | Adjusted cross-border payment volume | PLD 292 million > PLD 200 million threshold | Passes (Chapter III applies) | High |
+| Art. 7 — Intra-group exemption (≤40% of total cross-border volume) | Intra-group transfer share | PLD 130M = 41.9% of gross volume — exceeds 40% cap | Fails (exemption not available; 41.9% > 40%) | High |
+
+## Top-Line Verdict
+
+**IN-SCOPE**
+
+ClearPass N.V., though incorporated in Veldmark, holds a current Paloran CBL (CB-2021-0447), satisfying Article 3(2)'s licence condition. After excluding PLD 18 million in micropayments per Article 9, adjusted volume is PLD 292 million, exceeding the Article 5 Chapter III threshold of PLD 200 million. The Article 7 intra-group exemption fails: ClearPass's intra-group transfers represent 41.9% of gross cross-border volume, which exceeds the 40% cap, so the exemption is unavailable. ClearPass is IN-SCOPE for all obligations under PCBPTA including Chapter III disclosure duties.
+
+Route to obligation extraction for PCBPTA Articles 1–9 and Chapter III disclosure obligations.
+
+*This brief is triage, not legal advice.*
+
+===== S-8 =====
+is_trap: False
+judge_notes: Four planted facts: (1) Rule 8 micro-lender exemption looks satisfied at entity level (TRV 1.85M ≤ TRV 2M) — trap is the group nullification at TRV 14.7M > TRV 10M. (2) Rule 4 transitional carve-out exempts Rules 9 and 11 only (scope delimitation), not all rules. (3) Rule 6 threshold (3,100 < 5,000) is provision-delimiting for Rule 13 only — not an instrument-level exclusion. (4) The compliance gap (Rule 9 not implemented) must be treated as IN-SCOPE, not CONDITIONAL. All four traps point toward IN-SCOPE; the routing pointer must correctly enumerate surviving and carved-out provisions.
+--- OUTPUT ---
+## Per-Criterion Verdict Table
+
+| Clause | Profile Attribute | Value | Verdict | Confidence |
+|---|---|---|---|---|
+| Rule 2(1) — CFP offering consumer credit in Trentavia | Jurisdiction; product type | Incorporated in Trentavia; all borrowers are natural persons for personal use | Passes | High |
+| Rule 2(2) — 'Consumer credit facility' definition | Borrower type and purpose | Natural persons; personal use (outside business/trade/profession) | Passes | High |
+| Rule 2(3) — Foreign CFP authorisation (not applicable; Trentavia-incorporated) | Jurisdiction | Trentavia-incorporated; Rule 2(3) not applicable to domestic CFPs | Not evaluated (provision for foreign CFPs only; QuickFund is domestic) | — |
+| Rule 4 — Transitional carve-out (Rules 9 and 11; authorised on/after 1 Jan 2026, until 31 Dec 2027) | Authorisation date | Authorised 3 March 2026 (after 1 Jan 2026 trigger); today's date before 31 Dec 2027 | Passes (Rules 9 and 11 exempt until 31 Dec 2027) | High |
+| Rule 6 — Data-retention threshold (Rule 13; >5,000 active accounts, preceding calendar quarter) | Active consumer credit accounts | 3,100 — below 5,000 threshold | Fails (Rule 13 data-retention obligation does not apply) | High |
+| Rule 8 — Micro-lender exemption (Rules 10–15; portfolio ≤ TRV 2M at any month-end) | Highest month-end portfolio (preceding 12 months) | TRV 1.85 million ≤ TRV 2 million | Passes (exemption satisfied on entity metric) | High |
+| Rule 8 — Group portfolio nullification of micro-lender exemption (group >TRV 10M) | QuickFund Group S.A. combined consumer credit portfolio | TRV 14.7 million > TRV 10 million; wholly owned subsidiary | Fails (group threshold nullifies exemption; Rules 10–15 apply) | High |
+| Rule 16 — Compliance gap: Rule 9 pre-contractual disclosure not implemented | Compliance status | Not implemented — but applicability is established; this is a compliance gap, not applicability doubt | IN-SCOPE (compliance gap is not CONDITIONAL or NEEDS-LEGAL-REVIEW) | High |
+
+## Top-Line Verdict
+
+**IN-SCOPE**
+
+QuickFund d.d. satisfies Rule 2(1)–(2) (Trentavian domestic CFP; consumer microlending to natural persons). The Rule 8 micro-lender exemption (entity portfolio TRV 1.85M ≤ TRV 2M) is voided by the group-portfolio nullification: QuickFund Group S.A.'s combined portfolio is TRV 14.7 million, exceeding the TRV 10 million group cap; Rules 10–15 apply in full. The Rule 4 transitional carve-out exempts Rules 9 and 11 until 31 December 2027 (authorisation date 3 March 2026). Rule 6 data-retention (Rule 13) does not apply at 3,100 accounts. QuickFund's failure to implement Rule 9 is a compliance gap, not applicability doubt; the entity is IN-SCOPE.
+
+Route to obligation extraction for TCCDR Rules 1–8, 10, 12, and 14–15; note Rules 9 and 11 exempt until 31 Dec 2027, and Rule 13 does not apply at current account volume.
+
+*This brief is triage, not legal advice.*
+
+===== S-9 =====
+is_trap: False
+judge_notes: Three planted facts: (1) Pending SMCD registration — Sec. 5 explicitly states non-registration does not exempt from substantive obligations; an agent that issues CONDITIONAL ('subject to registration') or NEEDS-LEGAL-REVIEW is wrong; correct answer is IN-SCOPE with the registration gap as a downstream compliance matter. (2) Sec. 7 FTE threshold is explicitly entity-level per Sec. 7(3) — 7 FTE < 10 FTE limits coverage to Sec. 12 only; this is scope delimitation, not exclusion. (3) Schedule 3 is adopted by SMC-BCO-2023-088 — High confidence, not ambiguous. The Sec. 10 fast-track exempts Sec. 14 only and requires Sec. 15A compliance as an alternative — not a full exemption from enhanced obligations.
+--- OUTPUT ---
+## Per-Criterion Verdict Table
+
+| Clause | Profile Attribute | Value | Verdict | Confidence |
+|---|---|---|---|---|
+| Sec. 3(1) — Operating as a PSCP in Salventia | Jurisdiction; activity | Incorporated and operating in Salventia; physically handles, stores and transports medicinal products | Passes | High |
+| Sec. 3(2) — PSCP definition: third-party logistics provider handling medicinal products | Activity type | Third-party cold-chain logistics; physically handles, stores and transports medicinal products | Passes | High |
+| Sec. 3(3) — Exclusion for ancillary IT/software providers | Activity type | Handles physical medicinal products; not a pure IT/software provider | Fails (exclusion inapplicable; entity handles physical products) | High |
+| Sec. 5 — Registration requirement | SMCD registration status | Not yet registered (application pending) — absence of registration triggers Sec. 18 enforcement obligations but does not exempt from substantive obligations | Passes (Sec. 5 explicitly states non-registration does not exempt from substantive obligations; IN-SCOPE status unaffected) | High |
+| Sec. 7(1) — Small-operator threshold: supply chain FTE <10 (entity level) | Supply chain FTE | 7 FTE < 10 FTE (entity level; Sec. 7(3) confirms entity-level measurement) | Fails (Sections 13–17 do not apply; Section 12 basic traceability only) | High |
+| Sec. 7(2) — Enhanced obligations (Secs. 13–17): ≥10 supply chain FTE | Supply chain FTE | 7 FTE < 10 FTE | Fails (Secs. 13–17 do not apply) | High |
+| Sec. 10 — Perishable products fast-track: Schedule 3 products only (Sec. 14 serialisation exemption) | Products handled; Schedule 3 status | Exclusively Schedule 3 Class A vaccines and Class B monoclonal antibodies (per SMC-BCO-2023-088, 7 Aug 2023) | Passes (Sec. 14 serialisation exempted; Sec. 15A cold-chain verification applies instead) | High |
+
+## Top-Line Verdict
+
+**IN-SCOPE**
+
+ColdChain Logistics d.o.o. is a Salventian third-party logistics provider physically handling medicinal products and satisfies the Section 3(2) PSCP definition. Pending SMCD registration does not exempt it from substantive obligations per Section 5 (it triggers Section 18 enforcement only); this is a compliance gap, not applicability doubt. Section 7(1) applies the entity-level supply chain FTE threshold (7 FTE < 10 FTE per Section 7(3)), so ColdChain is subject to Section 12 (basic traceability) only; Sections 13–17 do not apply. The Section 10 fast-track exempts Section 14 serialisation for its exclusively Schedule 3 products (adopted by SMC-BCO-2023-088); Section 15A cold-chain verification applies instead.
+
+Route to obligation extraction for SPSCIA Section 12 and Section 15A; note Sections 13–17 do not apply at 7 supply chain FTE, and Section 14 is exempted by Sec. 10 for Schedule 3 products.
+
+*This brief is triage, not legal advice.*
+

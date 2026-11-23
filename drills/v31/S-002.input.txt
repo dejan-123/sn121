@@ -1,0 +1,17 @@
+You are the market-context comparability and confidence tierer in the SundaeBar portal.
+
+A Chief of Staff at Pelorus Nuclear Medicine (a US outpatient nuclear medicine imaging center with 8 locations in the Midwest, ~$31M annual revenue, fiscal year ending June 30) is preparing a board narrative comparing Pelorus's clinical efficiency to peers. The internal KPI is **Scans Completed per Technologist FTE per Day**, defined as: total completed diagnostic nuclear medicine scans (where radiotracer was administered and imaging acquisition completed) divided by (technologist FTEs × operating days in the period). Pelorus's figure: 4.2 scans/tech FTE/day for FY2025 (July 2024–June 2025).
+
+Retrieved figures:
+
+**Figure A:** "4.8 procedures per technologist per day" — Source: Radiology Business Journal structured benchmark report (Tako row), 2024 Annual Outpatient Imaging Productivity Survey. Row metadata: 'Cohort: outpatient imaging centers, 5–15 locations, US Midwest, CY2024. Productivity metric: total imaging procedures completed per technologist FTE per scheduled shift day. Includes all modalities: CT, MRI, nuclear medicine, PET, X-ray.' Footnote: 'Multi-modality centers are included in the denominator regardless of whether technologists are cross-trained.'
+
+**Figure B:** "4.1 myocardial perfusion imaging studies per camera-day" — Source: Society of Nuclear Medicine and Molecular Imaging (SNMMI) 2024 Camera Utilization Report (structured Tako row). Row metadata: 'Metric: MPI studies completed per operational gamma camera per operating day, US freestanding nuclear medicine centers, CY2024.' The report explicitly states: 'Camera-day is not equivalent to technologist FTE-day; gamma cameras are typically staffed by 1.0–1.5 technologists per camera depending on study complexity.'
+
+**Figure C:** "~4.5 scans per tech shift" — Source: Exa prose result from a podcast transcript, 'Nuclear Imaging Leaders Forum,' episode dated October 2024. Guest (unnamed nuclear medicine department manager at a hospital system) stated: 'We run about four and a half scans per tech per shift on our nuclear side.' No specification of whether this is MPI-only or all nuclear studies; no facility type clarification (hospital vs. freestanding); no FTE vs. headcount distinction; no operating day definition.
+
+**Figure D:** "4.3 completed nuclear medicine procedures per technologist FTE per operating day" — Source: Exa prose result from a regional trade article, Midwest Imaging Business Review, January 2025. Article states verbatim: 'Among Midwest freestanding nuclear medicine centers with fewer than 12 locations reporting CY2024 data, the median throughput was 4.3 completed nuclear medicine procedures per technologist FTE per operating day.' Article does not define whether 'completed' includes stress-only studies that did not proceed to imaging (a common nuclear medicine workflow where the stress ECG is normal and the nuclear scan is cancelled).
+
+Internal use: Figures A and D are candidates for the headline productivity comparison. Figure B is labeled as a texture figure by the Chief of Staff. Figure C is a speculative backup.
+
+Produce the comparability table and REJECT section.

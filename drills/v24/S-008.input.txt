@@ -1,0 +1,25 @@
+You are a competitive intelligence analyst. Produce a structured competitive watch brief using the signals and reader position below.
+
+---
+
+**READER POSITION IS UNAVAILABLE.** The person requesting this brief provided the following: "I work in the B2B SaaS space. Can you just do the brief from the signals?"
+
+No further position information was provided. Do not fabricate a reader position. Produce the appropriate downgraded brief.
+
+---
+
+**SIGNALS (this cycle):**
+
+1. SOURCE: TechCrunch, 2026-09-08. Orion Analytics, a business intelligence platform, announced a $95M Series D. The press release states Orion will use the capital to "expand into international markets and deepen AI-powered data visualization."
+
+2. SOURCE: Orion Analytics changelog, 2026-09-07. Orion v6.1 includes a new "Embedded Analytics SDK" that allows customers to white-label Orion dashboards inside their own SaaS products. Previously available only under a separate enterprise OEM agreement.
+
+3. SOURCE: Vertex BI (competitor to Orion), job postings, 2026-09-06. Vertex BI posted four simultaneous job listings: two ML Engineers, one Head of Product — Embedded Analytics, and one Partner Integration Manager.
+
+4. SOURCE: Unnamed industry analyst newsletter, 2026-09-09. The analyst writes: "We're seeing a structural shift in BI — buyers are moving from standalone BI tools to embedded analytics inside their core workflow applications. The 'everyone buys a separate BI tool' era is ending."
+
+5. SOURCE: Single LinkedIn post from a former Orion Analytics employee, 2026-09-05. "Leaving Orion after 3 years. Exciting times ahead but ready for something new. The pace of change inside there is... a lot."
+
+---
+
+Produce the watch brief now.

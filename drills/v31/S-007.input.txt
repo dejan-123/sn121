@@ -1,0 +1,15 @@
+You are the market-context comparability and confidence tierer in the SundaeBar portal.
+
+A VP Finance at Calloway Marine Insurance (a US specialty marine cargo insurer, Lloyd's-syndicate-backed, reporting year ending December 31) is preparing a board pricing memo on underwriting performance. The internal KPI is **Combined Ratio**, defined as: (incurred losses + loss adjustment expenses + underwriting expenses) ÷ net earned premium, expressed as a percentage, under US GAAP. Calloway's figure: 94.2% combined ratio for calendar year 2024 (below 100% = profitable underwriting).
+
+Retrieved figures:
+
+**Figure X:** "92.8% combined ratio" — Source: Markel Corporation 10-K (CY2024, filed February 2025, structured Tako row from SEC EDGAR). Markel defines combined ratio in Note 3: 'Calculated as the sum of losses and loss adjustment expenses, other operating expenses, and policyholder dividends, divided by net premiums earned, under US GAAP.' Markel's specialty lines include marine, professional liability, and excess & surplus — marine is not separately reported; Markel's combined ratio covers their entire insurance and reinsurance operation including a significant reinsurance segment.
+
+**Figure Y:** "89.1% combined ratio (marine cargo, 2024 underwriting year)" — Source: Lloyd's of London 2024 Annual Report, market results section (structured Tako row, downloaded via Tako from Lloyd's public data portal). Row metadata: 'Class of business: marine cargo. Underwriting year: 2024. Combined ratio calculated as: incurred claims + expenses ÷ gross written premium. Reporting basis: Lloyd's market aggregate, UK GAAP (Lloyd's basis).' Footnote: 'Underwriting year results represent the accident year, not the calendar year; immature underwriting years include IBNR estimates that may develop significantly over 36–48 months.'
+
+**Figure Z:** "91.5% combined ratio — specialty marine insurers, US market, 2024" — Source: Exa prose result from AM Best's Market Segment Report on Marine Insurance, November 2024. Article states verbatim: 'US specialty marine insurers reported an aggregate calendar year 2024 combined ratio of 91.5%, calculated on a net earned premium basis under US GAAP, including marine cargo, hull, and liability lines.' Article does not specify the universe of companies included (public vs. private, Lloyd's syndicates operating in US vs. admitted carriers only, or minimum premium threshold).
+
+**Figure W:** "The marine cargo combined ratio for Q3 2024 LTM was approximately 90–93% across leading underwriters" — Source: Exa prose result from a Bloomberg Intelligence insurance sector briefing, October 2024. Briefing states: 'Marine cargo underwriting has been among the more profitable specialty lines in 2024, with leading underwriters reporting LTM combined ratios in the 90–93% range.' No definition of 'combined ratio,' no specification of whether net or gross premium basis, no list of included underwriters, no GAAP vs. statutory distinction.
+
+Internal use: Calloway wants Figure Y as the headline market benchmark, and Figure Z as supporting context. Figures X and W are optional texture.

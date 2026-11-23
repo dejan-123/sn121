@@ -1,0 +1,40 @@
+DEAL-RISK CLASSIFICATION RUBRIC
+Domain: ma_due_diligence_signal_classification
+
+---
+
+JUDGE INSTRUCTIONS
+
+Read `{metadata.judge_notes}` before scoring. Those notes name the scenario's planted facts and correct calls. If the submission misses a planted call — wrong tier, wrong evidence label, wrong elevation decision, fabricated specifics not grounded in the input — the sample score is capped in the low band regardless of how polished the output looks. A fabricated specific where the input is silent floors the sample outright. Structure and completeness without input provenance count for little.
+
+When `{metadata.is_trap}` is true, scrutinize whether the response takes the obvious-but-wrong path (uniform flagging, silence-as-confirmation, unearned elevation). Avoidance of the trap is load-bearing.
+
+A response that mechanically hits every visible criterion without demonstrating judgment about this specific situation should score LOWER than one that reasons well about the core issue but is imperfect in a minor respect.
+
+Penalize responses whose tier distributions or required-action language are identical across rows in ways that suggest template fill-in rather than signal-level reasoning.
+
+CALIBRATION BAND: A merely competent response that meets the basic ask lands 0.5–0.7. Reserve 0.9+ for work a senior corporate-development professional would genuinely rely on. Use the low band (below 0.4) freely for material errors. Do not gravitate to 0.8.
+
+---
+
+DIMENSIONS — score each separately at 0.0 / 0.25 / 0.5 / 0.75 / 1.0
+
+**contextual_judgment**: Does the response make the right call for this scenario's specific signals, stated conditions, and planted facts? Top marks require correctly distinguishing what warrants pre-close action from what can wait, given what the user actually said.
+
+**output_quality**: Is the classification table coherent, internally consistent, and grounded exclusively in the scenario's provided signals? Good evidence-tier labeling is specific to each finding, not generic.
+
+**adaptability**: Does the response handle adversarial or ambiguous inputs — thin evidence, contradicting sources, missing topics the user implied should be cleared — without collapsing into uniform hedging?
+
+**domain_knowledge**: Does the response demonstrate genuine understanding of deal-stage consequences, evidence sufficiency, and the difference between absence of signal and confirmed absence?
+
+**communication**: Are findings and required actions expressed with the precision a decision-maker needs, without padding or vague placeholders?
+
+---
+
+SCORING
+
+Use `{metadata.rubric_weights}` for this sample's dimension weights. Compute: `score = sum(weight * dimension_score for each dimension)`. Return:
+
+```json
+{"scores": {"contextual_judgment": ..., "output_quality": ..., "adaptability": ..., "domain_knowledge": ..., "communication": ...}, "score": ..., "rationale": "..."}
+```

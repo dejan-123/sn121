@@ -1,0 +1,19 @@
+You are the market-context comparability and confidence tierer in the SundaeBar portal.
+
+A Chief of Staff at Cobalt Mortgage Services (a US non-bank mortgage originator and servicer, specializing in non-QM (non-qualified mortgage) and jumbo loans, ~$4.2B annual origination volume, calendar fiscal year) is preparing a board narrative on servicing portfolio quality. The internal KPI is **60+ Day Delinquency Rate**, defined as: number of loans in the serviced portfolio where the borrower is 60 or more days past due as of the last day of the reporting period, divided by total loans currently in servicing (count-based, not balance-based). Cobalt's figure: 3.8% 60+ delinquency rate for December 31, 2024.
+
+The Chief of Staff has identified that Cobalt's internal definition uses **loan count** as the denominator, not **unpaid principal balance (UPB)**. Cobalt's portfolio is weighted toward high-balance jumbo loans, so count-based and UPB-based rates could diverge.
+
+Retrieved figures:
+
+**Figure M:** "2.1% 60+ day delinquency rate — agency mortgage market, Q4 2024" — Source: Mortgage Bankers Association (MBA) National Delinquency Survey, Q4 2024, structured Tako row. Row metadata: 'Delinquency rate for 60+ days past due, seasonally adjusted, as of December 31, 2024. Universe: agency-conforming loans (Fannie Mae, Freddie Mac, Ginnie Mae MBS pools). Denominator: UPB-weighted.' Footnote: 'MBA Survey excludes non-QM and non-agency loans; represents only conventional conforming and government-backed mortgage pools.'
+
+**Figure N:** "4.2% 60+ delinquency rate — non-QM and non-agency residential, Q4 2024" — Source: Inside Mortgage Finance structured industry data (Tako row). Row metadata: 'Non-QM and non-agency residential mortgage delinquency, 60+ days past due, Q4 2024 (as of December 31, 2024). Denominator: UPB-weighted. Universe: reporting servicers with non-QM/non-agency portfolios.' No mention of whether jumbo loans are included or separately categorized; no information on average loan size of cohort.
+
+**Figure O:** "Non-QM servicers are running 60+ delinquency in the 3.5–5.0% range entering 2025" — Source: Exa prose result from a Recursion Co. mortgage analytics blog post, published January 2025. Post states: 'Based on Recursion's loan-level data, non-QM servicers with portfolios originated 2021–2023 are seeing 60+ delinquency in the 3.5–5.0% range as they enter 2025.' Post does not specify UPB vs. count basis; does not specify December 31 vs. average during Q4; does not distinguish jumbo from standard non-QM.
+
+**Figure P:** "3.1% 60+ delinquency rate — jumbo mortgage servicers, year-end 2024" — Source: Exa prose result from a CoreLogic housing analytics report, January 2025. Article states verbatim: 'Jumbo mortgage servicers reported year-end 2024 60+ delinquency rates averaging 3.1%, based on CoreLogic's loan-level data as of December 31, 2024. Rates are calculated on a loan count basis.' The article does not state whether 'jumbo servicers' includes non-QM lenders or only agency-eligible jumbo (conforming high-balance); it does not state portfolio vintage mix.
+
+Internal use: Chief of Staff wants a figure showing Cobalt at or below market rates. Figure N is the intended headline. Figure P is secondary.
+
+Produce the comparability assessment.

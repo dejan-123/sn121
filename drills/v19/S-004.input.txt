@@ -1,0 +1,27 @@
+Daily briefing, Monday August 4. Coming back from a week of PTO — haven't touched the CRM since July 25.
+
+**TODAY'S CALENDAR**
+- No meetings scheduled today.
+
+**PIPELINE — As of this morning (I updated the CRM before logging in here)**
+
+| Deal | Stage | Amount | Close Date | Last Activity | Next Step Note |
+|------|-------|--------|------------|---------------|----------------|
+| Fairbanks Telecom | Proposal | $155K | Aug 29 | Jul 24 | Sent pricing; awaiting champion response |
+| Meridian Cold Chain | Negotiation | $390K | Aug 15 | Jul 23 | Contract v2 sent to their legal |
+| Nova Semiconductor | Demo | $110K | Sep 10 | Jul 22 | Demo done, scoring pending |
+| Broadleaf Insurance | Qualification | $65K | Sep 30 | Jul 25 | First call, they're evaluating two vendors |
+| Cascadia Timber | Proposal | $200K | Aug 31 | Jul 18 | Champion (Brett) went quiet after legal flagged privacy clause |
+| Holloway Beverages | Discovery | $80K | Sep 15 | Jul 24 | Sent materials, discovery call Jul 31 (happened while on PTO) |
+| Lynx Diagnostics | Negotiation | $260K | Aug 8 | Jul 14 | Verbal received; final MSA markup outstanding |
+| Summit Retail Group | Proposal | $125K | Aug 20 | Jul 15 | Sent deck, no response in 3 weeks |
+| Tidal Wave Media | Demo | $70K | Sep 5 | Jul 25 | Post-demo summary sent |
+| Pebble Creek Software | Proposal | $95K | Sep 1 | Jul 23 | Champion confirmed they're shortlisting in August |
+| Arbor Financial | Qualification | $45K | Oct 15 | Jul 25 | Needs follow-up on ICP questions |
+
+**PENDING TASKS**
+- Catch up on any emails that came in during PTO (general)
+- Reconnect with Cascadia champion Brett
+- Check on Lynx MSA status
+
+Q3 quota period, Q3 ends September 30. At 38% going into this week — behind pace.

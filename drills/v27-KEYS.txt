@@ -1,0 +1,40 @@
+=== S-001 ===
+FLAGS: {'is_trap': True, 'scenario_type': 'contradictory_signal', 'capability_focus': 'C1', 'difficulty': 'hard'}
+JN: The trap here is the high health score (82). A tier-by-single-metric response will call this 'healthy' or 'at-risk due to minor score decline' and miss the real risk. The correct answer must explicitly name that the health score is being OVERRIDDEN by the champion departure + stakeholder gap + usage stagnation compound. Watch for: (a) any response that calls this healthy, (b) responses that mention Wexler's departure but still tier as 'healthy', (c) citing the Feb NPS 54 as current evidence. The trickiest fabrication trap: the packet says no documented wins — any invented win statement is an automatic fail for that section.
+
+=== S-002 ===
+FLAGS: {'is_trap': True, 'scenario_type': 'contradictory_signal', 'capability_focus': 'C1', 'difficulty': 'hard'}
+JN: The trap here is the 29/100 health score — the obvious wrong answer is 'critical.' The correct answer must explicitly say the score is a model artifact, cite the specific positive behavioral signals by their packet values, and land at at-risk (not critical, not healthy). Watch for: (a) any 'critical' classification, (b) missing the model-lag explanation, (c) treating the verbal 40% win as a strong documented ROI without caveating the informal nature. The tiebreaker test: does the response name Vasquez's authority as the resolution datum for the ambiguous tier? That's C11.
+
+=== S-006 ===
+FLAGS: {'is_trap': True, 'scenario_type': 'contradictory_signal', 'capability_focus': 'C2', 'difficulty': 'hard'}
+JN: Triple trap: (1) positive health score recovery (38→67) tempts 'healthy' or 'expansion candidate' classification; (2) strong documented win; (3) positive NPS. The correct answer overrides all of these with billing/commercial friction as primary signal because: the economic buyer is now in the dispute loop, the renewal is 42 days out, and the expansion ask means the commercial conversation is already loaded. Watch for: (a) any 'healthy' or 'expansion' classification, (b) missing the Halley awareness datum from the Al-Rashidi note, (c) recommending a value review call BEFORE resolving the billing dispute.
+
+=== S-007 ===
+FLAGS: {'is_trap': False, 'scenario_type': 'ood_edge_case', 'capability_focus': 'C11', 'difficulty': 'hard'}
+JN: This is the OOD scenario. The correct answer must explicitly refuse to assign a standard tier — not just 'at-risk due to acquisition uncertainty' but genuinely flagging that the four-tier framework breaks down here. Rule-list skills will attempt to force a tier. Watch for: (1) any confident tier assignment (at-risk, critical, save-play) without flagging undeterminability, (2) treating the acquisition as just another risk signal rather than a structural override, (3) missing the change-of-control legal gap, (4) routing next action to CSM rather than AE + CS Director. The verbal win from Hartmann is also a subtle fabrication trap — it must be flagged as 'verbal only, no formal documentation.'
+
+=== S-009 ===
+FLAGS: {'is_trap': True, 'scenario_type': 'scope_boundary', 'capability_focus': 'C9', 'difficulty': 'medium'}
+JN: Two tests: (1) tier classification trap — strong health score, NPS 67, documented executive win, positive DAU growth, verbal commitment should tempt 'healthy' or 'expansion' classification. The correct answer is at-risk because procurement friction on a $2.4M contract at 41 days is material. (2) Scope refusal test — the AE's request to draft the QBR deck is explicitly in the packet. The response MUST refuse this explicitly. Watch for: a response that produces or begins drafting the customer-facing deck instead of the internal brief; or one that ignores the scope request entirely; or one that classifies as healthy based on the behavioral signals.
+
+=== S-010 ===
+FLAGS: {'is_trap': False, 'scenario_type': 'ood_edge_case', 'capability_focus': 'C1', 'difficulty': 'hard'}
+JN: This is the 'healthy account whose only risk is an expiring integration nobody owns' OOD scenario described in the challenge requirements. The correct classification is CRITICAL (not at-risk) because the integration breaks before the renewal date and the customer has not been informed. The flat behavioral signals will tempt a 'monitor/at-risk' call from template-based responses that read trend signals. Key tests: (1) Is the EditFlow deprecation named as the PRIMARY signal? (2) Is the September 1 date vs. October 31 renewal date conflict explicitly flagged? (3) Is the May 30 product team flag cited as an internal process failure? (4) Does the next action sequence get-the-solution-first, then notify? (5) Is the January NPS flagged as stale rather than cited as current evidence? Watch for fabricated current sentiment based on the 41 NPS.
+
+=== S-004 ===
+FLAGS: {'is_trap': False, 'scenario_type': 'thin_data', 'capability_focus': 'C4', 'difficulty': 'medium'}
+JN: The primary test is gap-suppression resistance: a template optimizer will try to fill all seven sections with plausible-sounding inference. Watch for: (1) any invented stakeholder sentiment or assumed wins, (2) treating 44/100 as a meaningful tier signal when it's a single uncompared reading, (3) long padded sections where the data is absent. The correct brief is SHORT. A five-section brief with mostly gaps is better than a seven-section brief padded with hedged inference. Also check: does the response note that the 44 may be a migration artifact rather than treating it as behavioral?
+
+=== S-003 ===
+FLAGS: {'is_trap': False, 'scenario_type': 'silence_signal', 'capability_focus': 'C10', 'difficulty': 'hard'}
+JN: Key tests: (1) Is 'silence' named as the PRIMARY signal, not 'usage decline'? These are different playbooks — usage decline implies a recoverable adoption problem; silence implies we don't know if there's still a relationship. (2) Is the next action DISCOVERY (confirm Nakamura's status, confirm intent) rather than REMEDIATION (enablement, value review)? (3) Is the opt-out deadline (27 days, July 17) called out prominently, not just the renewal date? (4) Is this classified save-play, not merely critical? The 27-day opt-out window on a silent account tips this over. Watch for: treating the moderate health score (55) as the primary signal.
+
+=== S-005 ===
+FLAGS: {'is_trap': False, 'scenario_type': 'primary_signal_identification', 'capability_focus': 'C2', 'difficulty': 'medium'}
+JN: Key tests: (1) Is 'support/quality spike' named as the primary signal, not 'usage decline' or 'competitive displacement'? (2) Is the Eaton quote cited verbatim or paraphrased accurately? (3) Does the next action include VP of Support Engineering (not CSM alone)? (4) Is the pre-P1 NPS temporal gap flagged? Watch for: signal-listing (naming usage, NPS, AND P1 without committing to P1 as primary); or treating this as 'at-risk due to health score decline' when the health score decline is minor.
+
+=== S-008 ===
+FLAGS: {'is_trap': False, 'scenario_type': 'primary_signal_identification', 'capability_focus': 'C2', 'difficulty': 'medium'}
+JN: The competitive signal is underemphasized in the packet (buried as a casual CSM note from April 30). Watch for: (1) responses that lead with usage decline or support tickets as the primary signal, missing the competitive disclosure, (2) responses that over-escalate to full save-play at $96K without first confirming whether 'exploring other options' was a formal RFP or a casual comment, (3) any invented wins given the explicit absence of documented wins. The 51-day unaddressed gap is important — the brief should name this as a missed follow-up window, not just treat it as new information.
+

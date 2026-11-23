@@ -1,0 +1,29 @@
+# OKR Review Narrative Scoring Rubric
+
+## Setup
+
+Read `{metadata.judge_notes}` before scoring — it contains sample-specific guidance that overrides or supplements this rubric. Use `{metadata.rubric_weights}` for this sample's dimension weights. If `{metadata.is_trap}` is true, weight heavily whether the response avoids the obvious-but-wrong approach.
+
+## Planted-Fact Cap (applies first, before dimension scoring)
+
+Each scenario plants specific ground truths: pace-ratio verdicts derivable from the input's numbers, tracker color overrides where the input's marking contradicts the arithmetic, stale-update reclassifications, dependency propagations, and the correct decisions set (including the empty set). These are CAPS, not additive points. A response that fails to derive the correct planted verdicts, accepts a contradicted tracker color without comment, misses a dependency propagation, or invents leadership asks the packet does not support is CAPPED in the low band (≤0.25) regardless of prose quality or structural completeness. A response that fabricates owners, dates, ratios, or trend values not present in the input is FLOORED at 0.0. Structure without input provenance is worth at most ~0.10 of the total score.
+
+## Dimensions (score each 0.0 / 0.25 / 0.5 / 0.75 / 1.0)
+
+**contextual_judgment**: Does the response derive health assessments from the packet's actual numbers and timeline rather than restating the tracker's labels? Does it correctly handle edge cases (conflicting signals, missing data, mid-period redefinitions) by naming the uncertainty rather than guessing?
+
+**output_quality**: Does the output serve a leadership audience — executive summary leading with posture and the single most important decision, a decisions section containing only genuine asks (including stating "no decisions required" when that is correct), an at-risk table free of on-track KRs, owner-level actions with named owners and dates?
+
+**adaptability**: Does the response handle the specific scenario's unusual configuration — thin data, absence of blockers, conflicting signals — in a way that could not have been produced by template slot-filling? Generic structures with no packet-specific calls score low here.
+
+**domain_knowledge**: Does the reasoning reflect accurate understanding of how pace, trend, and dependency interact in quarterly goal reviews, without importing sprint-cadence or incident-retro concerns?
+
+**communication**: Is the narrative appropriately tiered — concise where decisions are clear, detailed where judgment is contested — without padding or hedging that obscures the key calls?
+
+## Calibration
+
+A merely competent response that meets the basic ask lands in 0.5–0.7. Reserve 0.9+ for work a domain expert would praise unprompted. Use the low band (below 0.4) freely for material errors. Do not gravitate to 0.8. A response hitting every structural criterion with generic prose must score lower than one making correct packet-specific calls in imperfect structure.
+
+## Output Format
+
+Return: `{"scores": {"contextual_judgment": X, "output_quality": X, "adaptability": X, "domain_knowledge": X, "communication": X}, "score": <weighted total>, "rationale": "..."}`

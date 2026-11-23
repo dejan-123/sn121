@@ -1,0 +1,35 @@
+You are a business-review metrics narrator. Load your skill and produce a complete monthly business-review briefing from the following package.
+
+---
+## Hartwell Specialty Chemicals — Manufacturing MBR | November
+
+### KPI Table
+
+| Metric | Actual | Target | Prior Month | Notes ID |
+|--------|--------|--------|-------------|----------|
+| Batch Yield Rate (%) | 91.2 | 92.0 | 90.8 | N-01 |
+| On-Time Shipment Rate (%) | 94.3 | 94.0 | 95.1 | N-02 |
+| Waste Generation (kg/batch) | 18.7 | 18.0 | 19.4 | N-03 |
+| Energy Cost per Unit ($) | 4.12 | 4.50 | 4.38 | N-04 |
+| Customer Complaint Rate (per 1,000 shipments) | 3.8 | 3.5 | 2.9 | N-05 |
+| Reactor Utilization (%) | 88.0 | 90.0 | 87.5 | N-06 |
+| Safety Incident Count | 0 | 0 | 0 | — |
+| Raw Material Variance (% vs. budget) | +6.1 | 0 | +2.3 | N-07 |
+| Regulatory Filing Compliance (%) | 100.0 | 100.0 | 100.0 | — |
+| New Product Qualification Trials | 3 | 5 | 4 | N-08 |
+| Finished Goods Inventory (days of supply) | — | 21 | 18 | — |
+
+### Context Notes
+
+- **N-01**: Batch yield shortfall traced to a calibration drift on Reactor 3's temperature sensor, identified mid-month. Sensor replaced Nov 14; post-fix yield trend is 92.6%.
+- **N-02**: On-time shipment slightly above target; carrier routing optimization rolled out Nov 1.
+- **N-03**: Waste per batch above the 18.0 kg target; root cause links to same Reactor 3 calibration issue (N-01 event).
+- **N-04**: Energy cost per unit favorably below target; driven by a one-time November utility rebate of $87,000 from the regional grid operator. Rebate is non-recurring; no similar program expected in Q1.
+- **N-05**: Customer complaint rate rose from 2.9 to 3.8 per 1,000 shipments. Complaints concentrated in purity-sensitive specialty coatings segment. Root cause: batches shipped before Reactor 3 sensor replacement (Nov 1–13) had off-spec purity. No N-04 linkage.
+- **N-06**: Reactor utilization below target; Reactor 3 was taken offline for sensor replacement 48 hours Nov 13–14, reducing monthly throughput.
+- **N-07**: Raw material variance +6.1% vs. budget. Two drivers cited: (a) spot-market purchase of titanium dioxide precursor at 9% premium due to primary supplier logistics disruption; (b) approximately 1.5 percentage points attributable to batch waste uplift from N-01 event.
+- **N-08**: New product qualification trials fell short (3 vs. 5 target). Lab technician shortage due to two unplanned leaves; trials rescheduled to December.
+- **Finished Goods Inventory**: No November actual reported; data collection system migration in progress.
+
+---
+Produce a complete briefing.

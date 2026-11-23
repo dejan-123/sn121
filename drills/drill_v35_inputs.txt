@@ -1,0 +1,223 @@
+=============== S-001 ===============
+Please build a strategy deck storyline for the following brief. Audience: Meridian Therapeutics board of directors. Decision: whether to accelerate Phase III enrollment for compound MX-7 or pause pending interim safety data.
+
+---
+**BRIEF: MX-7 Program Update — Board Review, Q4 2026**
+
+Clinical progress: MX-7 completed Phase IIb with 68% response rate vs. 31% placebo (p<0.001), n=142. Enrollment pace in Phase III is currently 14 sites active out of 22 contracted, adding ~40 patients/month. At this rate, Phase III completes enrollment in 22 months.
+
+If we activate the remaining 8 sites now, enrollment pace rises to ~72 patients/month and completion falls to 12 months — a 10-month acceleration worth an estimated $180M in NPV (internal model, 12% discount rate).
+
+Safety: Phase IIb showed a 4.2% incidence of Grade 3 liver enzyme elevation, all reversible. The interim DSMB review is scheduled in 6 weeks. Protocol allows acceleration before DSMB review; it does not require waiting.
+
+Competitive context: Vantara Bio filed an IND for a competing compound in September. If MX-7 reaches market 10 months earlier, our internal model projects 34% higher peak market share due to first-mover pricing.
+
+Financial: Activating the remaining 8 sites costs $22M upfront. Full program budget is $310M; $118M spent to date.
+
+Footnote 1: The $180M NPV figure assumes FDA standard review (12 months post-filing). If the compound receives Priority Review designation — which our regulatory team rates as 60% probable — NPV increases to $290M.
+
+Footnote 2: The 34% market share premium is modeled on historical first-mover data from oncology indications. MX-7 targets a rare metabolic disorder where first-mover data is sparse; the regulatory team flags this estimate as speculative.
+
+---
+Please produce the full storyline: governing thought, argument tree, action-title slide list, per-slide specs, and self-check.
+
+=============== S-002 ===============
+I need you to build a strategy deck storyline for the following situation.
+
+Audience: Series B investor meeting (lead VC partner + two associates)
+Decision: whether to lead a $45M Series B in Fieldlark, a B2B SaaS platform for agricultural supply chain compliance.
+
+---
+**FIELDLARK — SERIES B DATA PACKAGE (compiled by CFO, Nov 2026)**
+
+| Metric | Value | Note |
+|---|---|---||
+| ARR (Oct 31, 2026) | $8.2M | Contracted annual value of active subscriptions |
+| Bookings (FY2026, fiscal year ending Sep 30) | $11.4M | Includes multi-year contract TCV recognized at signing |
+| YoY ARR growth | 61% | Oct 2025 ARR was $5.1M |
+| Net Revenue Retention | 118% | Trailing 12 months |
+| Gross Margin | 71% | Trailing 12 months |
+| CAC Payback | 19 months | Based on new logo ARR / fully-loaded sales & marketing spend |
+| Logo churn | 2.1% | Annual, trailing 12 months |
+| Headcount | 47 | Full-time employees |
+| Total Addressable Market | $3.4B | Third-party estimate, North American ag-compliance software |
+| Series A raised | $12M | Closed March 2024 |
+
+Note A: The FY2026 bookings figure ($11.4M) includes a $3.1M multi-year enterprise deal with Greyhorn Cooperative signed in August. This deal has an unusually long implementation period (18 months) and revenue recognition begins in Q2 2027. It is not yet reflected in ARR.
+
+Note B: The 61% YoY ARR growth rate compares October 2025 to October 2026. The company's fiscal year ends September 30, so the two figures straddle two fiscal years. The company separately reports FY2026 ARR growth (fiscal year basis) as 44% — from $4.3M to $6.2M — a figure that excludes the strong Q4 calendar 2026 bookings cohort.
+
+Note C: ARR as of October 31 ($8.2M) is a point-in-time snapshot; the sales team has indicated three additional enterprise deals (~$1.9M combined ARR) are in final negotiation, expected to close by December 31. These are not in the ARR figure.
+
+Note D: CAC Payback of 19 months is calculated on new logo ARR. If calculated on new logo ARR net of first-year implementation and onboarding costs (which average $18K per new logo), payback extends to approximately 26 months.
+
+---
+Please produce the full four-artifact storyline plus self-check.
+
+=============== S-003 ===============
+We need you to fix the flow of this existing deck outline. The audience is the executive leadership team (CEO, CFO, COO, CPO) of Torrent Industrial, a mid-market manufacturer of fluid handling equipment. The decision is whether to consolidate three regional distribution centers into one national hub.
+
+Here is the current deck outline as the strategy team has it:
+
+---
+**CURRENT DECK OUTLINE — Torrent Industrial Distribution Consolidation**
+
+Slide 1: Distribution Center Overview
+— Current footprint: Atlanta (145K sq ft), Denver (98K sq ft), Buffalo (71K sq ft)
+— Combined annual lease cost: $6.2M
+— Headcount: 87 FTEs across three sites
+
+Slide 2: National Hub Financial Model
+— Proposed hub location: Memphis (centralized logistics node)
+— Projected lease cost: $4.1M annually (220K sq ft)
+— Headcount post-consolidation: 54 FTEs
+— Net annual savings: $4.8M (lease + headcount)
+— One-time transition cost: $7.3M
+— Payback period: 18 months
+
+Slide 3: Risk Assessment
+— Transition execution risk: moderate (parallel operations for 9 months)
+— Service level risk: low (Memphis serves 94% of current ship-to addresses within 2 days)
+— Labor risk: 33 FTE reduction; retention packages budgeted
+
+Slide 4: Logistics and Service Level Analysis
+— Memphis serves 94% of current ship-to addresses within 2 days via standard LTL carrier
+— Remaining 6% (Pacific Northwest cluster) requires 3-day lead time vs. current 1-day
+— Pacific Northwest accounts for 11% of revenue
+
+Slide 5: Strategic Rationale
+— Consolidation aligns with Torrent's "asset-light" operating model
+— Frees capital for planned ERP upgrade (budgeted $9M, FY2027)
+
+Slide 6: Recommendation
+— Proceed with Memphis hub consolidation
+— Begin site selection and design Q1 2027
+— Parallel operations through Q3 2027; full cutover Q4 2027
+
+---
+Please extract the implicit governing thought, run the headline-flow test, report where it breaks, then reorder and retitle. Keep what works; do not rebuild from scratch.
+
+=============== S-004 ===============
+Please help us structure a strategy deck storyline for the following situation.
+
+Audience: unspecified — the brief was sent to us without a named audience.
+Decision: unclear — the team says they want to 'tell the story of our data' but have not stated a decision.
+
+Here is the full data package as provided by the analytics team at Luminos Consumer Goods:
+
+---
+**LUMINOS — BRAND REFRESH PERFORMANCE DATA (Q1–Q3 2026)**
+
+| Metric | Q1 2026 | Q2 2026 | Q3 2026 | Note |
+|---|---|---|---|---|
+| Gross Revenue ($M) | 41.2 | 44.8 | 43.1 | |
+| Net Revenue ($M) | 36.9 | 40.1 | 38.7 | After trade spend |
+| Units Sold (M) | 8.1 | 8.6 | 8.0 | |
+| Average Selling Price ($) | 5.09 | 5.21 | 5.39 | |
+| Brand Awareness (tracked survey) | 61% | 65% | 69% | |
+| Unaided Recall | 28% | 31% | 34% | |
+| Household Penetration | 18.4% | 18.9% | 18.6% | |
+| Repeat Purchase Rate | 44% | 46% | 45% | |
+| New Buyer Acquisition | 310K | 390K | 280K | |
+| Retail Distribution Points | 42,100 | 44,300 | 44,200 | |
+
+Note 1: The brand refresh (new packaging, campaign) launched March 1, 2026 (start of Q1).
+Note 2: Q2 gross revenue uplift includes a $2.1M promotional event (retailer sell-in) that pulled forward Q3 demand; this event does not repeat in Q3.
+Note 3: Household penetration and repeat purchase rate are measured on a 90-day rolling basis; the Q3 figures are therefore influenced by Q2 behavior and may understate Q3 organic performance.
+Note 4: New buyer acquisition fell from 390K in Q2 to 280K in Q3; the marketing team attributes this to the promotional pull-forward (Q2 acquired buyers who would have been Q3 buyers).
+
+---
+Note: No decision has been stated. No audience has been named. Please follow the appropriate protocol.
+
+=============== S-005 ===============
+We need a strategy deck storyline. Here is the situation.
+
+Audience: Westbrook Capital Partners (lead investor, owns 28% of Ridgeline Freight)
+Decision: whether to approve Ridgeline Freight's request for a $14M bridge loan to fund fleet electrification before the company reaches EBITDA breakeven.
+
+---
+**RIDGELINE FREIGHT — BRIDGE LOAN REQUEST BRIEF (prepared by CFO)**
+
+Ridgeline Freight operates 94 diesel trucks serving regional freight lanes in the Mountain West. Founded in 2019, the company has grown revenue from $8.4M (2022) to $22.6M (2025), a 39% CAGR over three years.
+
+Electrification thesis: Federal EV freight incentives (Inflation Reduction Act, Section 48C) provide a 30% tax credit on qualifying commercial vehicle purchases. For Ridgeline's planned 40-truck electric fleet at $340K per truck ($13.6M total), the credit is worth approximately $4.1M, reducing net fleet cost to ~$9.5M. Charging infrastructure adds $1.8M. Total net investment: ~$11.3M. The company is requesting $14M to include a 6-month operating reserve.
+
+Financial position: Ridgeline is currently EBITDA-negative at −$1.2M on a trailing 12-month basis. Revenue is growing (22% YoY in 2025), but fuel cost inflation and driver wage increases compressed margins. The CFO projects EBITDA breakeven by Q3 2027 on current diesel operations.
+
+Electrification economics: Electric operating cost per mile is estimated at $0.31 vs. diesel at $0.47. At 2025 annual mileage of 8.4M miles across the fleet, the annual operating savings would be approximately $1.34M [(0.47−0.31) × 8.4M] on the electrified portion of the fleet. The electrified 40 trucks represent 43% of the fleet (40/94), so actual annual savings on the electrified portion = $0.58M [0.43 × $1.34M].
+
+Note 1: The Section 48C tax credit is subject to Congressional reauthorization. The current authorization expires December 31, 2026. Ridgeline's planned purchase timeline is Q2 2027. If the credit is not reauthorized, the net fleet cost rises from ~$9.5M to ~$13.6M, adding $4.1M to the net investment and extending payback significantly.
+
+Note 2: The CFO's cost-per-mile estimate of $0.31 for electric is based on current electricity rates in the Mountain West. Regional grid constraints have led to time-of-use pricing volatility; the fleet operations team notes that actual charging costs in peak periods can reach $0.44/mile, narrowing the savings to $0.03/mile.
+
+Note 3: Ridgeline's Mountain West freight lanes include significant elevation gain on key routes. The company has not completed range testing for the specific electric vehicle models under consideration on these routes; the $0.31/mile figure is from manufacturer spec sheets, not field data.
+
+---
+Please produce the full storyline: governing thought, argument tree, action-title slide list, per-slide specs, and self-check.
+
+=============== S-006 ===============
+Please build a strategy deck storyline for the following brief.
+
+Audience: Halcyon Beverages all-hands (all 340 employees, company-wide)
+Decision: This is an internal communication deck explaining the company's decision to shift from glass to aluminum packaging for its premium sparkling water line. The decision has already been made by leadership. The purpose of the deck is to explain the rationale to employees and answer the questions leadership expects to hear.
+
+---
+**BRIEF: Halcyon Beverages — Packaging Transition Rationale (All-Hands)**
+
+Background: Halcyon Beverages makes premium sparkling water sold in glass bottles. Glass has been the brand's signature for 11 years. Leadership announced on November 10, 2026, that the flagship line will transition to aluminum cans beginning with the Spring 2027 production run.
+
+The five facts leadership wants communicated:
+
+1. **Cost:** Glass bottles cost $0.31 per unit to procure; aluminum cans cost $0.14 per unit. At 2026 production volume of 48M units, the annual saving is $8.16M. This saving funds the new retail distribution investment.
+
+2. **Sustainability:** Aluminum has 73% post-consumer recycled content on average in the North American supply chain vs. glass at 27%. The company's Scope 3 emissions model (conducted by third-party auditor Greenfield Analytics) projects a 34% reduction in packaging-related Scope 3 emissions per unit.
+
+3. **Retail access:** Three major retail chains (Costco, Kroger, and Target — here called Chain A, Chain B, Chain C for the storyline) have confirmed they will expand Halcyon's shelf space in their canned-water sections but cannot accommodate additional glass SKUs.
+
+4. **Convenience:** Internal consumer research (n=1,800, online panel, October 2026) shows 61% of Halcyon buyers prefer aluminum for on-the-go consumption; only 29% prefer glass for the same occasion.
+
+5. **Brand continuity:** Leadership is committed to maintaining the premium positioning: can design has been developed with the original brand agency; the same water source, filtration, and carbonation process remain unchanged.
+
+---
+Note A: The consumer research was conducted online; the sample overrepresents urban and suburban consumers vs. Halcyon's actual buyer mix, which skews rural and exurban (per the company's own CRM data). Leadership is aware of this limitation.
+
+Note B: One founding-era employee has circulated an internal memo arguing that glass is "the soul of the brand" and that the transition will cost Halcyon its premium identity. Leadership does not agree with this assessment but wants the deck to acknowledge the concern without dismissing it.
+
+---
+Full storyline please: governing thought, argument tree, action-title slide list, per-slide specs, and self-check.
+
+=============== S-007 ===============
+Please build a strategy deck storyline for the following brief.
+
+Audience: CEO and CFO of Caraway Infrastructure Group, a civil infrastructure contractor
+Decision: whether to pursue a bid for the Northgate Expressway rehabilitation contract (estimated value $280M over 4 years)
+
+---
+**CARAWAY INFRASTRUCTURE — NORTHGATE BID DECISION BRIEF**
+
+Northgate Expressway is a 47-mile toll expressway in the Pacific Northwest operated by the Northgate Transit Authority (NTA). NTA issued an RFQ in October 2026 for a 4-year rehabilitation contract (pavement resurfacing, bridge deck repairs, drainage systems) estimated at $280M total contract value.
+
+Caraway's position:
+- Caraway has completed 3 comparable expressway rehabilitation contracts in the past 5 years ($140M, $95M, $190M)
+- Caraway's current backlog: $310M across 7 active contracts
+- Current workforce utilization: 91% of field capacity committed through Q2 2027
+- Estimated bid cost: $1.4M (design, estimating, proposal preparation)
+- Win probability (internal estimate): 35%
+- If won, contract would begin mobilization in Q4 2027 and run through Q4 2031
+
+Financial projections if won:
+- Gross revenue: $280M over 4 years (~$70M/year)
+- Projected gross margin: 11% ($30.8M over 4 years)
+- Projected EBIT: 7% ($19.6M over 4 years; average $4.9M/year)
+- Caraway FY2025 revenue: $218M; FY2026 projected revenue: $247M
+
+Capacity note: The contract requires peak mobilization of 340 field personnel. Caraway currently has 290 field personnel. The gap of 50 is expected to be filled through a combination of permanent hiring (30) and subcontracting (20). The hiring timeline requires starting recruitment in Q1 2027 for a Q4 2027 mobilization.
+
+Competitive context: NTA has pre-qualified 4 bidders. Industry sources suggest Westfall Civil (a larger regional competitor) is the likely frontrunner due to a prior NTA relationship.
+
+Footnote 1: Caraway's 91% field utilization figure is measured as of October 2026. Three contracts in the current backlog reach substantial completion in Q1–Q2 2027, which will reduce utilization to approximately 67% by Q3 2027 — before Northgate mobilization would begin.
+
+Footnote 2: The 35% win probability is the business development team's estimate. The CEO's prior view, expressed in the September 2027 strategy retreat, was that Caraway should not pursue contracts where it is not in the top two positions of the competitive field. With Westfall Civil as likely frontrunner, Caraway is likely bidding for second or third position.
+
+---
+Full storyline please.

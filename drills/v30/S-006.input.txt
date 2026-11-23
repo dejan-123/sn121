@@ -1,0 +1,35 @@
+You are a business-review metrics narrator. Load your skill and produce a complete monthly business-review briefing from the following package.
+
+---
+## Dawnridge Private Equity Portfolio — Fund Operations MBR | Q2 Close (June)
+
+### KPI Table
+
+| Metric | Actual | Target | Prior Quarter (Q1) | Notes ID |
+|--------|--------|--------|---------------------|----------|
+| Deals Reviewed | 142 | 120 | 108 | — |
+| LOIs Submitted | 18 | 15 | 12 | N-01 |
+| Deal Close Rate (%) | 2.1 | 2.5 | 2.8 | N-02 |
+| Weighted Average Entry Multiple (EBITDA) | 9.4x | 8.5x | 8.1x | N-03 |
+| Portfolio Company Revenue Growth (median %) | +11.2 | +12.0 | +9.8 | N-04 |
+| Portfolio Company EBITDA Margin (median %) | 18.7 | 20.0 | 19.4 | N-05 |
+| Net IRR (fund-to-date, %) | 22.4 | 21.0 | 21.8 | — |
+| DPI (Distributions to Paid-In Capital) | 0.38 | 0.35 | 0.31 | N-06 |
+| Management Fee Revenue ($M) | 12.4 | 12.0 | 12.1 | — |
+| Operating Expense Ratio (% of AUM) | 0.82 | 0.75 | 0.76 | N-07 |
+| LP Satisfaction (Net Promoter Score) | 54 | 60 | 58 | N-08 |
+| ESG Reporting Compliance (%) | — | 100 | — | — |
+
+### Context Notes
+
+- **N-01**: LOIs submitted 18 vs. 15 target. Beat driven by pipeline catch-up: six deals that passed screening in Q1 had their LOI submissions deferred to Q2 due to deal team bandwidth constraints (one senior associate on extended leave). These six LOIs represent Q1 pipeline carry-forward, not new Q2 sourcing. Underlying Q2-origination LOI count was 12, below the 15 target.
+- **N-02**: Deal close rate 2.1% vs. 2.5% target (−0.4 pts; −16.0% below target). Historical context: close rate was 2.8% in Q1 and 3.1% average in prior two years. Current quarter shortfall attributed to: (a) valuation discipline (N-03 entry multiple discipline causing sellers to withdraw when we hold price); (b) competitive market dynamics with 3–4 strategic acquirers bidding above fund's return thresholds. No single identifiable correctable cause in available notes.
+- **N-03**: Weighted average entry multiple 9.4x EBITDA vs. 8.5x target (10.6% above target — higher is worse for this metric as it increases acquisition cost). Three Q2 deals were priced at 10.0x–11.5x due to competitive pressure; deal team judgment was to close at these multiples given strategic fit and growth profiles. Portfolio Management notes that three prior investments made at >9.0x have underperformed return targets in the 3-year mark; this note is a record of concern, not a directional attribution for Q2 results specifically.
+- **N-04**: Portfolio company revenue growth (median) +11.2% vs. +12.0% target. Two companies in the portfolio (tech-services and specialty retail) are tracking below their individual targets; their drag pulls the median below target. Root cause for each: not provided at portfolio-level in available notes.
+- **N-05**: Portfolio company EBITDA margin (median) 18.7% vs. 20.0% target (−1.3 pts). Driver: cost inflation in portfolio companies' labor and logistics categories; no specific portfolio company-level detail available in package.
+- **N-06**: DPI 0.38 vs. 0.35 target. Beat driven by one partial exit (secondary sale of 40% stake in Holding Co. Epsilon, closed June 28). This was an opportunistic transaction at favorable valuation; no additional near-term liquidity events are scheduled. The DPI beat is a single-event outcome.
+- **N-07**: Operating expense ratio 0.82% vs. 0.75% target (9.3% above target). Driver: one-time legal fees from a portfolio company dispute resolution ($1.1M) and search firm fees for two principal-level hires ($0.6M). Both costs are non-recurring per Finance; underlying recurring OpEx ratio is approximately 0.74%, below target.
+- **N-08**: LP satisfaction (NPS) 54 vs. 60 target (−6 pts; −10.0% below target). Verbatims from Q2 LP survey cite two concerns: (a) entry multiple discipline (concern that fund is paying up vs. prior vintage); (b) communication frequency during deal execution. Root cause for communication frequency shortfall not further identified in available notes.
+
+---
+Produce a complete briefing.

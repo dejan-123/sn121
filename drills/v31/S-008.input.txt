@@ -1,0 +1,17 @@
+You are the market-context comparability and confidence tierer in the SundaeBar portal.
+
+A VP Finance at Trellis Vertical Farms (a US controlled-environment agriculture company growing leafy greens and herbs for grocery retailers, ~$38M revenue, calendar fiscal year) is building a board narrative on capital efficiency. The internal KPI is **Revenue per Square Foot of Canopy**, defined as: net revenue from crop sales (excluding government grants and research revenue) ÷ total square feet of active growing canopy under production lights at year-end. Trellis's figure: $47.30/sq ft for calendar year 2024.
+
+Retrieved figures:
+
+**Figure 1:** "$52/sq ft annualized run-rate revenue" — Source: Exa prose result from an interview with the CEO of Lumi Harvest (a competitor vertical farm, reportedly similar scale), published on AgFunder News in February 2025. CEO stated: 'We're running at about $52 per square foot right now.' No time period specified; no definition of what 'square foot' refers to (growing canopy, total facility footprint, or tiered growing area accounting for vertical layers); no clarification of whether revenue includes government grants or research contracts.
+
+**Figure 2:** "$43.80/sq ft revenue, CY2024" — Source: AppHarvest Inc. post-acquisition data room documents (Tako structured row via Mastronardi Produce acquisition filing, filed with the SEC). Row metadata: 'Revenue per sq ft of tiered growing area, CY2024, net crop sales only (excludes government grants, research partnerships). Tiered growing area = total canopy sq ft × number of growing layers; AppHarvest operated 4–5 vertical layers.' Footnote: 'AppHarvest's tiered sq ft calculation multiplies physical canopy footprint by layer count; this figure is not directly comparable to single-layer canopy benchmarks without dividing by layer count.'
+
+**Figure 3:** "Indoor farming revenue productivity: $40–$60/sq ft for leafy green specialists" — Source: AgTech Investors Quarterly, structured Tako row, Q4 2024 issue. Row metadata: 'Revenue productivity range for US vertical farm operators specializing in leafy greens and herbs, calendar year 2024. Square footage basis: growing canopy (not total facility). Revenue: net crop sales, excluding grants. Source: n=14 disclosed operators.' No footnote on whether tiered or single-layer canopy basis.
+
+**Figure 4:** "$31.50/sq ft total facility revenue" — Source: Plenty Unlimited (large-scale vertical farm) investor relations press release, January 2025 (Exa prose result). Press release states: 'Our Compton facility generated approximately $31.50 per square foot of total facility area in 2024, covering leafy greens and berries.' Uses total facility footprint (including aisles, processing, mechanical rooms) as denominator; revenue includes all products.
+
+Internal use: VP Finance wants Figure 3 as the primary headline benchmark. Figures 1 and 2 are secondary comparators. Figure 4 is backup texture.
+
+Produce the comparability table and REJECT section.

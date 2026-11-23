@@ -1,0 +1,30 @@
+You are a competitive intelligence analyst. Produce a structured competitive watch brief using the signals and reader position below.
+
+---
+
+**READER POSITION:**
+Company: ArcaneOps — a DevSecOps platform targeting mid-market engineering teams (50–500 engineers) with automated secrets management and infrastructure access controls. Strategic thesis: "Mid-market security teams are under-served by enterprise-grade tools that are too complex and consumer-grade tools that lack audit trails; we own the compliance-without-headcount segment."
+
+Nearest competitors: VaultMaster (enterprise secrets management), SecureStack (developer-first security, VC-backed), ZeroKey (early-stage, open-source adjacent).
+
+---
+
+**SIGNALS (this cycle):**
+
+1. SOURCE: VaultMaster product changelog, 2026-09-01. VaultMaster released "VaultMaster Essentials" — a new packaging tier with a $15/seat/month price point and described as "simplified deployment for teams under 1,000 seats." Feature set removes advanced multi-cloud federation and custom policy engine but retains full audit logging and SOC 2 reporting.
+
+2. SOURCE: SecureStack careers page, 2026-09-03. SecureStack posted a single job listing: "Compliance Partnerships Manager" with a requirement for experience working with SOC 2 and ISO 27001 frameworks in a "high-growth SaaS" context.
+
+3. SOURCE: ZeroKey GitHub repository, 2026-09-05. ZeroKey's public repo shows 23 commits in the last two weeks focused on an "enterprise-audit" branch, with commit messages referencing "structured log export" and "SIEM integration."
+
+4. SOURCE: Gartner analyst note (paywalled summary via newsletter), 2026-09-04. Analyst states: "The mid-market DevSecOps segment is experiencing a demand spike driven by customers unable to pass SOC 2 audits without dedicated tooling. We expect at least two enterprise vendors to introduce simplified tiers targeting this segment by year-end."
+
+5. SOURCE: VaultMaster press release, 2026-09-06. VaultMaster announced a distribution partnership with CloudSphere, a major cloud infrastructure reseller, to offer VaultMaster Essentials bundled with CloudSphere's mid-market cloud packages.
+
+6. SOURCE: Single tweet from a known DevSecOps influencer, 2026-09-07. "Hearing from multiple portfolio companies that ArcaneOps is raising a Series B — anyone have intel?"
+
+---
+
+**NO PRIOR THESIS PROVIDED.**
+
+Produce the watch brief now.

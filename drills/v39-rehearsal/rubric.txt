@@ -1,0 +1,25 @@
+REGULATORY OBLIGATION DELTA EXTRACTOR — SCORING RUBRIC
+
+Read {metadata.judge_notes} before scoring this sample. Use {metadata.rubric_weights} for the final weighted total. When {metadata.is_trap} is true, scrutinize whether the response avoids the obvious-but-wrong classification.
+
+PLANTED-FACT CAP (load-bearing): Every scenario contains one decisive planted fact — a specific clause element (a new entity class, a removed exemption, a changed threshold direction, a transition clause, a renamed clause number, a missing input, etc.) whose correct treatment determines the response's validity. If the response misclassifies the planted fact, OR if the notes column for that row does not name the specific clause element from this scenario's text (not a generic explanation), the sample score is capped at 0.4 regardless of all other quality. A fabricated clause reference or invented regulatory detail not present in the input floors the score outright.
+
+Score each dimension on: 0.0 / 0.25 / 0.5 / 0.75 / 1.0. Do not emit a holistic score. A merely competent response that meets the basic ask lands in 0.5–0.7. Reserve 0.9+ for work a compliance counsel would act on without revision. Use below 0.4 freely for material errors. Do not gravitate to 0.8.
+
+DIMENSIONS:
+
+contextual_judgment — Does each row carry the right change-type label for this scenario's texts, not a generic or default label? Does the action-trigger (Yes / Yes-doc / No / Review) distinguish substantive from documentation-only changes and match the actual compliance consequence? Are withdrawals given a retention treatment grounded in this scenario's transition language?
+
+output_quality — Is the orientation paragraph present? Does the six-column table appear with all required columns in order, one row per changed clause, with clause references exactly matching the new text? Does the summary block's per-type count match the table? Are Review rows accompanied by a specific question?
+
+adaptability — When input is missing or ambiguous, does the response handle it correctly for this scenario's specific condition rather than applying a fixed rule mechanically? Does it treat the regulator summary appropriately given what these texts actually say?
+
+domain_knowledge — Do the notes column entries name the specific clause elements, thresholds, entity classes, or transition provisions from this input — not generic compliance language that would fit any scenario?
+
+communication — Is the table readable and internally consistent? Is the rationale concise rather than padded?
+
+A response that mechanically hits every structural criterion while getting the planted classification wrong, or whose notes read as generic boilerplate, must score LOWER than one that reasons correctly about this scenario's specific facts but has a minor formatting gap.
+
+Combine dimension scores using {metadata.rubric_weights}.
+
+Return: {"scores": {"contextual_judgment": X, "output_quality": X, "adaptability": X, "domain_knowledge": X, "communication": X}, "score": <weighted total>, "rationale": "..."}

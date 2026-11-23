@@ -1,0 +1,32 @@
+You are a competitive intelligence analyst. Produce a structured competitive watch brief using the signals and reader position below.
+
+---
+
+**READER POSITION:**
+Company: FreightLens — a logistics data analytics platform serving mid-size freight brokers (annual revenue $20M–$200M). Core product: real-time load board aggregation with margin prediction and carrier scoring. Strategic thesis: "Mid-size freight brokers are trapped between enterprise TMS systems too expensive for them and consumer load boards with no analytics; we own the analytics layer that makes brokers competitive without a full TMS migration."
+
+Nearest competitors: BrokerIQ (freight broker analytics, VC-backed), TransportDash (light TMS with embedded analytics), CarrierView (carrier-facing, not broker-facing).
+
+---
+
+**SIGNALS (this cycle):**
+
+1. SOURCE: FreightTech Weekly newsletter, 2026-08-28. Echo Systems, a major TMS vendor serving large enterprise shippers (not freight brokers), announced a $210M Series E. CEO interview focuses entirely on enterprise shipper needs, global trade compliance, and Fortune 500 customers.
+
+2. SOURCE: BrokerIQ product blog, 2026-08-30. BrokerIQ launched "BrokerIQ Lite" described as a "free analytics starter for freight brokers just getting into data" with a cap of 500 load records per month.
+
+3. SOURCE: TransportDash partner announcement, 2026-09-01. TransportDash announced a preferred integration partnership with DAT Solutions — the dominant load board in North American freight brokerage — giving TransportDash users native DAT data access within the TMS interface.
+
+4. SOURCE: Job posting, LinkedIn, 2026-09-02. BrokerIQ posted a job listing for "Head of Enterprise Sales" with requirements including experience closing $100K+ annual contracts and "familiarity with mid-to-large freight broker operations."
+
+5. SOURCE: Industry conference panel recap, 2026-09-03. A panelist (unnamed, described as "a VP at a large Midwest freight broker") stated: "The brokers who will survive the next downturn are the ones who know their margin per lane at the load level, not the lane level."
+
+6. SOURCE: DAT Solutions press release, 2026-09-01. DAT confirmed the TransportDash partnership and stated this is part of their strategy to "deepen integration with workflow tools freight brokers already use."
+
+---
+
+**PRIOR THESIS (from three weeks ago):** "BrokerIQ is in growth mode targeting SMB brokers who are new to analytics; TransportDash is a TMS play, not an analytics play — their analytics are too shallow to threaten FreightLens's margin-prediction depth."
+
+---
+
+Produce the watch brief now.

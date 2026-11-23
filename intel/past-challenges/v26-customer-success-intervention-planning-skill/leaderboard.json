@@ -1,0 +1,152 @@
+[
+ {
+  "id": "090d0e85-cf2e-4875-a7df-6624faf9df50",
+  "uid": 167,
+  "user": "nova",
+  "score": 0.84085
+ },
+ {
+  "id": "760e711b-cba8-48da-9561-6ef0c1f4a77d",
+  "uid": 167,
+  "user": "nova",
+  "score": 0.838
+ },
+ {
+  "id": "12c11ecf-7988-407c-8f7e-826db445e301",
+  "uid": 244,
+  "user": "monkey",
+  "score": 0.8341
+ },
+ {
+  "id": "64a6a8e8-daec-4a8b-ba5a-e37cb47849fb",
+  "uid": 235,
+  "user": "WeirdCrystal",
+  "score": 0.83113
+ },
+ {
+  "id": "2f88e4bc-8b1e-45c6-9d8a-089588b85417",
+  "uid": 235,
+  "user": "WeirdCrystal",
+  "score": 0.82803
+ },
+ {
+  "id": "8fe55de4-d56b-452b-ba31-a731a6553d6a",
+  "uid": 32,
+  "user": "sb-03",
+  "score": 0.8197
+ },
+ {
+  "id": "cdfffdd4-4ab9-4226-bf39-8bad6dec4241",
+  "uid": 244,
+  "user": "monkey",
+  "score": 0.8164
+ },
+ {
+  "id": "b823e128-1290-4178-b63e-acf60a29aca3",
+  "uid": 167,
+  "user": "nova",
+  "score": 0.81408
+ },
+ {
+  "id": "d3378392-6f0d-4502-91a4-0618014d343f",
+  "uid": 244,
+  "user": "monkey",
+  "score": 0.8017
+ },
+ {
+  "id": "44369f66-0f13-4f0d-985c-49e3ea736466",
+  "uid": 90,
+  "user": "sb-08",
+  "score": 0.80005
+ },
+ {
+  "id": "c8537cde-d3cd-4ffa-a2dd-d24c8fdd65df",
+  "uid": 84,
+  "user": "sb-07",
+  "score": 0.79975
+ },
+ {
+  "id": "721e6545-7d53-41d9-83aa-98c4b34763fd",
+  "uid": 1,
+  "user": "oxtensor-1",
+  "score": 0.79975
+ },
+ {
+  "id": "6bc818a8-7234-4340-a5e9-192cc0149217",
+  "uid": 106,
+  "user": "Mason",
+  "score": 0.79833
+ },
+ {
+  "id": "e42bad49-e845-48ab-a1c6-28647859b4e0",
+  "uid": 104,
+  "user": "Andrew_Muldowney",
+  "score": 0.79683
+ },
+ {
+  "id": "80b5e1c4-b727-4e8a-bfa8-826975b03788",
+  "uid": 244,
+  "user": "monkey",
+  "score": 0.79675
+ },
+ {
+  "id": "17e18982-680a-4545-be4d-ca1f439d4dee",
+  "uid": 9,
+  "user": "sb-01",
+  "score": 0.79435
+ },
+ {
+  "id": "ad5858d7-fb6e-474e-a56d-d7c3d0fec4d8",
+  "uid": 90,
+  "user": "sb-08",
+  "score": 0.7942
+ },
+ {
+  "id": "4528589c-8833-4b6d-96b7-634c7d76e4f8",
+  "uid": 80,
+  "user": "sb-05",
+  "score": 0.793
+ },
+ {
+  "id": "3630a3ad-5399-49b3-97bc-ee69c120ec69",
+  "uid": 6,
+  "user": "bigtom",
+  "score": 0.7921
+ },
+ {
+  "id": "3db57131-eb2d-478f-95bc-6ca3971ef4a8",
+  "uid": 84,
+  "user": "sb-07",
+  "score": 0.79203
+ },
+ {
+  "id": "32e3cd76-8285-467b-854b-ee3da5e949ae",
+  "uid": 87,
+  "user": "sb-10",
+  "score": 0.79031
+ },
+ {
+  "id": "60259b8b-2072-4dcd-ba55-71a2fe424e54",
+  "uid": 40,
+  "user": "OnlyTop",
+  "score": 0.78978
+ },
+ {
+  "id": "22d3a3c1-b278-4561-817f-3a9a6144a96f",
+  "uid": 167,
+  "user": "nova",
+  "score": 0.78895
+ },
+ {
+  "id": "85ef5e93-a50e-4bf5-be74-3a3f1d4879c5",
+  "uid": 82,
+  "user": "sb-06",
+  "score": 0.78835
+ },
+ {
+  "id": "60bcab29-93f3-4135-bb05-a0c6f4ad444b",
+  "uid": 14,
+  "user": null,
+  "score": 0.78835
+ }
+]

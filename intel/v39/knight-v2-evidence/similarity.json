@@ -1,0 +1,433 @@
+{
+  "model": "sentence-transformers/all-mpnet-base-v2",
+  "target_sha256": {
+    "SKILL.md": "5846fd25b9811e4c010272ed1ddf76e5b461e5d7cd6f6fc756a1b7ebc5825a7c",
+    "references/account-briefs.md": "afc97b42c8f42c72788ab465bf1131e1760e5ccceca2543cb3d213a159116db2"
+  },
+  "comparison_bundles": 53,
+  "missing_top20_bundles": [
+    "17-951481c9-0.91166",
+    "19-4fb0f0bd-0.91016"
+  ],
+  "limitations": [
+    "Local embedding proxy; no reliable conversion to upload percentages.",
+    "Corpus includes unsubmitted drafts and duplicate copies; rows are not distinct live miners.",
+    "Account-relative own/other gate is not inferred from local directory labels.",
+    "Incomplete corpus; only locally available SKILL.md and references/*.md are compared."
+  ],
+  "rows": [
+    {
+      "path": "challenges/v39-stakeholder-mapping/accounts/knight/v3-memo",
+      "bundle_similarity": 0.9445652961730957,
+      "skill_similarity": 0.9624759554862976,
+      "reference_files": [
+        "references/account-briefs.md"
+      ]
+    },
+    {
+      "path": "intel/v39-top20/10-94fcb8e9-0.92084",
+      "bundle_similarity": 0.9030091762542725,
+      "skill_similarity": 0.8922593593597412,
+      "reference_files": [
+        "references/before-you-send.md",
+        "references/maps.md"
+      ]
+    },
+    {
+      "path": "intel/v39-top10/06-Marada-0.92069",
+      "bundle_similarity": 0.9003353714942932,
+      "skill_similarity": 0.8711301684379578,
+      "reference_files": [
+        "references/examples.md"
+      ]
+    },
+    {
+      "path": "intel/v39-top20/11-4dcd41c1-0.92069",
+      "bundle_similarity": 0.9003353714942932,
+      "skill_similarity": 0.8711301684379578,
+      "reference_files": [
+        "references/examples.md"
+      ]
+    },
+    {
+      "path": "intel/v39-top20/02-ef71800d-0.94815",
+      "bundle_similarity": 0.8918585777282715,
+      "skill_similarity": 0.8759251832962036,
+      "reference_files": [
+        "references/examples.md"
+      ]
+    },
+    {
+      "path": "intel/v39-top10/04-aigbedestinyic-0.92468",
+      "bundle_similarity": 0.8914287090301514,
+      "skill_similarity": 0.8752166032791138,
+      "reference_files": [
+        "references/worked-maps.md"
+      ]
+    },
+    {
+      "path": "intel/v39-top20/07-2a90a064-0.92468",
+      "bundle_similarity": 0.8914287090301514,
+      "skill_similarity": 0.8752166032791138,
+      "reference_files": [
+        "references/worked-maps.md"
+      ]
+    },
+    {
+      "path": "intel/v39-top20/20-079968c2-0.90989",
+      "bundle_similarity": 0.8841937780380249,
+      "skill_similarity": 0.8715512156486511,
+      "reference_files": [
+        "references/examples.md"
+      ]
+    },
+    {
+      "path": "intel/v39-top20/03-cde69e07-0.93859",
+      "bundle_similarity": 0.8836256861686707,
+      "skill_similarity": 0.8684399127960205,
+      "reference_files": [
+        "references/worked-cases.md"
+      ]
+    },
+    {
+      "path": "intel/v39-top20/04-081903b6-0.93616",
+      "bundle_similarity": 0.8827577829360962,
+      "skill_similarity": 0.9171615839004517,
+      "reference_files": [
+        "references/field-notes.md",
+        "references/zz-archive-renewal.md"
+      ]
+    },
+    {
+      "path": "intel/v39-top10/01-nagaominori666-0.93616",
+      "bundle_similarity": 0.8827577233314514,
+      "skill_similarity": 0.9171615839004517,
+      "reference_files": [
+        "references/field-notes.md",
+        "references/zz-archive-renewal.md"
+      ]
+    },
+    {
+      "path": "intel/v39-top20/15-c1e749dd-0.91589",
+      "bundle_similarity": 0.878753662109375,
+      "skill_similarity": 0.8654833436012268,
+      "reference_files": [
+        "references/water-utility-maps.md"
+      ]
+    },
+    {
+      "path": "intel/v39-top10/09-cleanmind777-0.91630",
+      "bundle_similarity": 0.87657630443573,
+      "skill_similarity": 0.8979555368423462,
+      "reference_files": [
+        "references/worked-maps.md"
+      ]
+    },
+    {
+      "path": "intel/v39-top20/14-09049bba-0.9163",
+      "bundle_similarity": 0.87657630443573,
+      "skill_similarity": 0.8979555368423462,
+      "reference_files": [
+        "references/worked-maps.md"
+      ]
+    },
+    {
+      "path": "intel/v39-top20/05-de4694e9-0.92942",
+      "bundle_similarity": 0.8749032020568848,
+      "skill_similarity": 0.8966032266616821,
+      "reference_files": [
+        "references/field-examples.md"
+      ]
+    },
+    {
+      "path": "intel/v39-top20/08-ce67993b-0.92395",
+      "bundle_similarity": 0.8745840787887573,
+      "skill_similarity": 0.8904612064361572,
+      "reference_files": [
+        "references/worked-accounts.md"
+      ]
+    },
+    {
+      "path": "challenges/v39-stakeholder-mapping/accounts/piero/v2-counsel-submitted",
+      "bundle_similarity": 0.8668855428695679,
+      "skill_similarity": 0.8539847135543823,
+      "reference_files": [
+        "references/counsel-cases.md"
+      ]
+    },
+    {
+      "path": "intel/v39-top20/13-56e40eb6-0.9172",
+      "bundle_similarity": 0.8668855428695679,
+      "skill_similarity": 0.8539847135543823,
+      "reference_files": [
+        "references/counsel-cases.md"
+      ]
+    },
+    {
+      "path": "intel/v39-top10/03-wesley-0.92674",
+      "bundle_similarity": 0.866745114326477,
+      "skill_similarity": 0.8561344146728516,
+      "reference_files": [
+        "references/worked-map.md"
+      ]
+    },
+    {
+      "path": "intel/v39-top20/06-9f59fa24-0.92674",
+      "bundle_similarity": 0.866745114326477,
+      "skill_similarity": 0.8561344146728516,
+      "reference_files": [
+        "references/worked-map.md"
+      ]
+    },
+    {
+      "path": "intel/v39-top20/01-ddd00cf5-0.95508",
+      "bundle_similarity": 0.8663493394851685,
+      "skill_similarity": 0.8586195707321167,
+      "reference_files": [
+        "references/four-maps.md"
+      ]
+    },
+    {
+      "path": "intel/v39-top10/10-weirdcat-0.91396",
+      "bundle_similarity": 0.8651185035705566,
+      "skill_similarity": 0.8586941361427307,
+      "reference_files": [
+        "references/worked-cases.md"
+      ]
+    },
+    {
+      "path": "intel/v39-top20/16-ced34bc7-0.91221",
+      "bundle_similarity": 0.8641236424446106,
+      "skill_similarity": 0.9003759622573853,
+      "reference_files": [
+        "references/worked-account.md"
+      ]
+    },
+    {
+      "path": "challenges/v39-stakeholder-mapping/accounts/piero/v3-plain",
+      "bundle_similarity": 0.8634506464004517,
+      "skill_similarity": 0.8532933592796326,
+      "reference_files": [
+        "references/counsel-cases.md"
+      ]
+    },
+    {
+      "path": "challenges/v39-stakeholder-mapping/accounts/piero/v2-counsel",
+      "bundle_similarity": 0.8625137805938721,
+      "skill_similarity": 0.8734350204467773,
+      "reference_files": [
+        "references/counsel-cases.md"
+      ]
+    },
+    {
+      "path": "challenges/v39-stakeholder-mapping/accounts/piero/v4-surgical",
+      "bundle_similarity": 0.8620645403862,
+      "skill_similarity": 0.8544664978981018,
+      "reference_files": [
+        "references/counsel-cases.md"
+      ]
+    },
+    {
+      "path": "challenges/v39-stakeholder-mapping/accounts/knight/v1-sign-off",
+      "bundle_similarity": 0.8615638017654419,
+      "skill_similarity": 0.8063297867774963,
+      "reference_files": [
+        "references/reviewed-account.md"
+      ]
+    },
+    {
+      "path": "intel/v39-top10/07-jackwolfskin0905-0.91891",
+      "bundle_similarity": 0.8599485158920288,
+      "skill_similarity": 0.8930870294570923,
+      "reference_files": [
+        "references/worked-account.md"
+      ]
+    },
+    {
+      "path": "intel/v39-top10/02-john-0.93314",
+      "bundle_similarity": 0.8536461591720581,
+      "skill_similarity": 0.8853100538253784,
+      "reference_files": [
+        "references/three-maps.md"
+      ]
+    },
+    {
+      "path": "intel/v39-top10/05-tomascool0777-0.92123",
+      "bundle_similarity": 0.8525441884994507,
+      "skill_similarity": 0.9166293144226074,
+      "reference_files": [
+        "references/worked-account.md"
+      ]
+    },
+    {
+      "path": "intel/v39-top20/09-79a66b82-0.92123",
+      "bundle_similarity": 0.8525441884994507,
+      "skill_similarity": 0.9166293144226074,
+      "reference_files": [
+        "references/worked-account.md"
+      ]
+    },
+    {
+      "path": "challenges/v39-stakeholder-mapping/accounts/knight/v1-fieldmemos",
+      "bundle_similarity": 0.852075457572937,
+      "skill_similarity": 0.8792024850845337,
+      "reference_files": [
+        "references/field-memos.md"
+      ]
+    },
+    {
+      "path": "challenges/v39-stakeholder-mapping/intel-leader",
+      "bundle_similarity": 0.8502961993217468,
+      "skill_similarity": 0.8759251832962036,
+      "reference_files": [
+        "references/three-maps.md"
+      ]
+    },
+    {
+      "path": "challenges/v39-stakeholder-mapping/accounts/piero/v1-working-note",
+      "bundle_similarity": 0.849126935005188,
+      "skill_similarity": 0.7859241962432861,
+      "reference_files": [
+        "references/worked-account.md"
+      ]
+    },
+    {
+      "path": "challenges/v39-stakeholder-mapping/accounts/captain/v2-graded",
+      "bundle_similarity": 0.8482730388641357,
+      "skill_similarity": 0.869331419467926,
+      "reference_files": [
+        "references/graded-cases.md"
+      ]
+    },
+    {
+      "path": "challenges/v39-stakeholder-mapping/accounts/captain/v3-audit",
+      "bundle_similarity": 0.8432875871658325,
+      "skill_similarity": 0.8085461258888245,
+      "reference_files": [
+        "references/audit-cases.md"
+      ]
+    },
+    {
+      "path": "challenges/v39-stakeholder-mapping/accounts/toby/v1-decision-log",
+      "bundle_similarity": 0.8378835916519165,
+      "skill_similarity": 0.7770170569419861,
+      "reference_files": [
+        "references/logged-account.md"
+      ]
+    },
+    {
+      "path": "challenges/v39-stakeholder-mapping/accounts/astro/v1-two-passes",
+      "bundle_similarity": 0.8288801908493042,
+      "skill_similarity": 0.8086116313934326,
+      "reference_files": [
+        "references/two-pass-account.md"
+      ]
+    },
+    {
+      "path": "challenges/v39-stakeholder-mapping/accounts/kelvin/v2-tally",
+      "bundle_similarity": 0.8281797170639038,
+      "skill_similarity": 0.7567873597145081,
+      "reference_files": [
+        "references/settled-account.md"
+      ]
+    },
+    {
+      "path": "intel/v39-iterators/de4694e9",
+      "bundle_similarity": 0.824892520904541,
+      "skill_similarity": 0.8966033458709717,
+      "reference_files": []
+    },
+    {
+      "path": "challenges/v39-stakeholder-mapping/accounts/kelvin/v1-tally",
+      "bundle_similarity": 0.8176929950714111,
+      "skill_similarity": 0.7567873597145081,
+      "reference_files": [
+        "references/settled-account.md"
+      ]
+    },
+    {
+      "path": "intel/v39-iterators/be11664d",
+      "bundle_similarity": 0.81352299451828,
+      "skill_similarity": 0.8663040399551392,
+      "reference_files": []
+    },
+    {
+      "path": "challenges/v39-stakeholder-mapping/accounts/dragon/v1-sharpening",
+      "bundle_similarity": 0.8129987716674805,
+      "skill_similarity": 0.7570350170135498,
+      "reference_files": [
+        "references/sharp-account.md"
+      ]
+    },
+    {
+      "path": "intel/v39-iterators/c2108e10",
+      "bundle_similarity": 0.8102531433105469,
+      "skill_similarity": 0.8930870294570923,
+      "reference_files": []
+    },
+    {
+      "path": "challenges/v39-stakeholder-mapping/accounts/captain/v1-marginalia",
+      "bundle_similarity": 0.8080354928970337,
+      "skill_similarity": 0.7525242567062378,
+      "reference_files": [
+        "references/marked-account.md"
+      ]
+    },
+    {
+      "path": "intel/v39-iterators/ce67993b",
+      "bundle_similarity": 0.8078619241714478,
+      "skill_similarity": 0.8904612064361572,
+      "reference_files": []
+    },
+    {
+      "path": "intel/v39-iterators/514a3ff9",
+      "bundle_similarity": 0.8066827654838562,
+      "skill_similarity": 0.8586941361427307,
+      "reference_files": []
+    },
+    {
+      "path": "intel/v39-top10/08-solvc4u-0.91743",
+      "bundle_similarity": 0.803439736366272,
+      "skill_similarity": 0.7656172513961792,
+      "reference_files": [
+        "references/bus-depots.md"
+      ]
+    },
+    {
+      "path": "intel/v39-top20/12-f5b25577-0.91743",
+      "bundle_similarity": 0.803439736366272,
+      "skill_similarity": 0.7656172513961792,
+      "reference_files": [
+        "references/bus-depots.md"
+      ]
+    },
+    {
+      "path": "intel/v39-iterators/4dcd41c1",
+      "bundle_similarity": 0.7980858087539673,
+      "skill_similarity": 0.8711301684379578,
+      "reference_files": []
+    },
+    {
+      "path": "intel/v39-top20/18-be461750-0.91028",
+      "bundle_similarity": 0.7947386503219604,
+      "skill_similarity": 0.8637646436691284,
+      "reference_files": [
+        "references/mapping-notes.md"
+      ]
+    },
+    {
+      "path": "intel/v39-iterators/bef108da",
+      "bundle_similarity": 0.7894969582557678,
+      "skill_similarity": 0.8347536325454712,
+      "reference_files": []
+    },
+    {
+      "path": "challenges/v39-stakeholder-mapping/accounts/star/v1-dispositions",
+      "bundle_similarity": 0.785107433795929,
+      "skill_similarity": 0.69718337059021,
+      "reference_files": [
+        "references/fired-account.md"
+      ]
+    }
+  ]
+}

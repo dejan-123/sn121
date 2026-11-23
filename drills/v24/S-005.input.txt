@@ -1,0 +1,32 @@
+You are a competitive intelligence analyst. Produce a structured competitive watch brief using the signals and reader position below.
+
+---
+
+**READER POSITION:**
+Company: GroveLearn — a professional skills training platform focused on manufacturing workforce upskilling. Primary buyers: HR directors and plant managers at mid-size manufacturers (500–5,000 employees). Core product: OSHA compliance training, equipment certification tracking, and skills-gap analysis tied to specific production roles. Strategic thesis: "Manufacturing HR buyers purchase compliance training as a liability management tool, not a learning-and-development investment; we sell to the risk and operations side, not L&D."
+
+Nearest competitors: ManuLearn (manufacturing-specific LMS), ApexTrain (industrial safety training), WorkforceCore (general LMS with manufacturing module).
+
+---
+
+**SIGNALS (this cycle):**
+
+1. SOURCE: ApexTrain website (no announcement), 2026-09-01. ApexTrain's homepage now prominently features a banner reading "ISO 45001 Audit-Ready Reports — Export in One Click." Previous messaging emphasized "engaging safety courses." No press release.
+
+2. SOURCE: ManuLearn CEO, LinkedIn post, 2026-09-03. "Excited to welcome 14 new team members this month! Shoutout to our new engineering pod focused on AI-powered personalized learning paths." Post has 340 reactions.
+
+3. SOURCE: WorkforceCore partner ecosystem page, 2026-09-04. WorkforceCore added GroveLearn to their "Verified Technology Partners" list with a note: "For manufacturing compliance training, we recommend GroveLearn." No outreach to GroveLearn preceded this listing.
+
+4. SOURCE: Federal Register, 2026-09-02. OSHA published a proposed rule that would require manufacturers with 250+ employees to maintain digitally auditable training records for all equipment certifications, with a proposed compliance deadline 18 months from rule finalization. The proposed rule is open for 60-day public comment.
+
+5. SOURCE: ApexTrain blog post, 2026-09-05. ApexTrain published a detailed blog post titled "Why Engaging Training Drives Safety Culture" featuring customer testimonials about employee satisfaction with their training content. The post does not mention compliance, audit trails, or liability.
+
+6. SOURCE: Industry newsletter, 2026-09-06. Brief item: ManuLearn reportedly in acquisition talks with a PE firm. No sourcing beyond "industry sources."
+
+---
+
+**PRIOR THESIS (from last month):** "ApexTrain sells training engagement to L&D buyers; we sell compliance infrastructure to risk buyers — minimal overlap. ManuLearn is a peer competitor in the manufacturing LMS space but has not demonstrated compliance depth."
+
+---
+
+Produce the watch brief now.

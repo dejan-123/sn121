@@ -1,0 +1,426 @@
+{
+ "tasks": [
+  {
+   "id": "c9b53aa6-6193-4a15-b60a-f106246402ed",
+   "submission_id": "c43c9e37-3bd0-4c04-926c-62ef6b312cbb",
+   "validator_id": "a311305f-7bf6-4405-abfd-438789eeeb32",
+   "task_payload": {
+    "task_id": "a0f9204b-5a4b-4e06-a241-681ae61006b1-9f2345a6-1953-4c3a-9ae6-cbfddd2047cb-c43c9e37-3bd0-4c04-926c-62ef6b312cbb-a311305f-7bf6-4405-abfd-438789eeeb32",
+    "metadata": {
+     "challenge_id": "9f2345a6-1953-4c3a-9ae6-cbfddd2047cb",
+     "miner_hotkey": "5HeNddnvc95wTFHUhYgT8eGtxwV6nWLvqP2PzuA34bnemzzB",
+     "submission_id": "c43c9e37-3bd0-4c04-926c-62ef6b312cbb",
+     "competition_id": "9f2345a6-1953-4c3a-9ae6-cbfddd2047cb",
+     "challenge_title": "Manager Coaching and 1-on-1 Preparation Skill"
+    },
+    "priority": 1,
+    "skill_file_path": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/c43c9e37-3bd0-4c04-926c-62ef6b312cbb/skill.md",
+    "suite_file_path": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/challenges/9f2345a6-1953-4c3a-9ae6-cbfddd2047cb/CJF1u0WyHTLnN8hI/suite.yaml",
+    "rubric_file_path": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/challenges/9f2345a6-1953-4c3a-9ae6-cbfddd2047cb/aYWD5o0RnKzAOwy9/rubric.txt",
+    "dataset_file_path": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/challenges/9f2345a6-1953-4c3a-9ae6-cbfddd2047cb/ziPcAY8vG7GcArwU/dataset.jsonl",
+    "skill_reference_files": [
+     {
+      "url": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/c43c9e37-3bd0-4c04-926c-62ef6b312cbb/references/tower-drills.md",
+      "path": "tower-drills.md"
+     }
+    ],
+    "skill_backup_file_path": "https://gcikyqenfadlhgpmoqco.supabase.co/storage/v1/object/public/agent-submissions/c43c9e37-3bd0-4c04-926c-62ef6b312cbb/skill.md",
+    "suite_backup_file_path": null,
+    "rubric_backup_file_path": null,
+    "dataset_backup_file_path": null
+   },
+   "status": "completed",
+   "result_data": {
+    "score": 0.87524,
+    "results": [
+     {
+      "id": "S-001",
+      "input": null,
+      "score": 0.9319000000000001,
+      "skill": null,
+      "domain": null,
+      "tokens": 13155,
+      "difficulty": null,
+      "grades_by_key": {
+       "rubric": {
+        "score": 0.91,
+        "feedback": "Meets the rubric."
+       },
+       "skill_use": {
+        "score": 0.9375,
+        "feedback": "Met: Novel knowledge, Knowledge applied, Situational judgment, Output naturalness."
+       },
+       "novelty_check": {
+        "score": 1,
+        "rationale": "First sample in novelty group \u2014 no comparison"
+       },
+       "dataset_derived": {
+        "score": 0.72
+       },
+       "skill_alignment": {
+        "score": 0.9
+       },
+       "scenario_quality": {
+        "score": 0.9255,
+        "feedback": "5 of 5 scenario criteria met."
+       },
+       "skill_redundancy": {
+        "score": 1,
+        "rationale": "No verbatim redundancy detected"
+       }
+      },
+      "references_read": [
+       {
+        "path": "tower-drills.md",
+        "chars": 11623
+       }
+      ],
+      "capability_cluster": null
+     },
+     {
+      "id": "S-003",
+      "input": null,
+      "score": 0.87775,
+      "skill": null,
+      "domain": null,
+      "tokens": 12245,
+      "difficulty": null,
+      "grades_by_key": {
+       "rubric": {
+        "score": 0.93,
+        "feedback": "Meets the rubric."
+       },
+       "skill_use": {
+        "score": 0.6875,
+        "feedback": "Met: Novel knowledge, Knowledge applied, Situational judgment. Partly met: Output naturalness."
+       },
+       "novelty_check": {
+        "score": 1,
+        "rationale": "Novel response (max similarity 0.114 < 0.75, group=A, compared against 1 prior)"
+       },
+       "dataset_derived": {
+        "score": 0.72
+       },
+       "skill_alignment": {
+        "score": 0.9
+       },
+       "scenario_quality": {
+        "score": 0.975,
+        "feedback": "5 of 5 scenario criteria met."
+       },
+       "skill_redundancy": {
+        "score": 1,
+        "rationale": "No verbatim redundancy detected"
+       }
+      },
+      "references_read": [
+       {
+        "path": "tower-drills.md",
+        "chars": 11623
+       }
+      ],
+      "capability_cluster": null
+     },
+     {
+      "id": "S-005",
+      "input": null,
+      "score": 0.8822500000000001,
+      "skill": null,
+      "domain": null,
+      "tokens": 12199,
+      "difficulty": null,
+      "grades_by_key": {
+       "rubric": {
+        "score": 0.92,
+        "feedback": "Meets the rubric."
+       },
+       "skill_use": {
+        "score": 0.75,
+        "feedback": "Met: Novel knowledge, Knowledge applied, Situational judgment, Output naturalness."
+       },
+       "novelty_check": {
+        "score": 1,
+        "rationale": "First sample in novelty group \u2014 no comparison"
+       },
+       "dataset_derived": {
+        "score": 0.72
+       },
+       "skill_alignment": {
+        "score": 0.9
+       },
+       "scenario_quality": {
+        "score": 0.9375,
+        "feedback": "5 of 5 scenario criteria met."
+       },
+       "skill_redundancy": {
+        "score": 1,
+        "rationale": "No verbatim redundancy detected"
+       }
+      },
+      "references_read": [
+       {
+        "path": "tower-drills.md",
+        "chars": 11623
+       }
+      ],
+      "capability_cluster": null
+     },
+     {
+      "id": "S-007",
+      "input": null,
+      "score": 0.8582500000000002,
+      "skill": null,
+      "domain": null,
+      "tokens": 11071,
+      "difficulty": null,
+      "grades_by_key": {
+       "rubric": {
+        "score": 0.93,
+        "feedback": "Meets the rubric."
+       },
+       "skill_use": {
+        "score": 0.6875,
+        "feedback": "Met: Novel knowledge, Knowledge applied, Situational judgment. Partly met: Output naturalness."
+       },
+       "novelty_check": {
+        "score": 1,
+        "rationale": "First sample in novelty group \u2014 no comparison"
+       },
+       "dataset_derived": {
+        "score": 0.72
+       },
+       "skill_alignment": {
+        "score": 0.9
+       },
+       "scenario_quality": {
+        "score": 0.91,
+        "feedback": "5 of 5 scenario criteria met."
+       },
+       "skill_redundancy": {
+        "score": 1,
+        "rationale": "No verbatim redundancy detected"
+       }
+      },
+      "references_read": [
+       {
+        "path": "tower-drills.md",
+        "chars": 11623
+       }
+      ],
+      "capability_cluster": null
+     },
+     {
+      "id": "S-010",
+      "input": null,
+      "score": 0.8831500000000001,
+      "skill": null,
+      "domain": null,
+      "tokens": 12453,
+      "difficulty": null,
+      "grades_by_key": {
+       "rubric": {
+        "score": 0.93,
+        "feedback": "Meets the rubric."
+       },
+       "skill_use": {
+        "score": 0.75,
+        "feedback": "Met: Novel knowledge, Knowledge applied, Situational judgment, Output naturalness."
+       },
+       "novelty_check": {
+        "score": 1,
+        "rationale": "Novel response (max similarity 0.286 < 0.75, group=B, compared against 1 prior)"
+       },
+       "dataset_derived": {
+        "score": 0.72
+       },
+       "skill_alignment": {
+        "score": 0.9
+       },
+       "scenario_quality": {
+        "score": 0.9305,
+        "feedback": "5 of 5 scenario criteria met."
+       },
+       "skill_redundancy": {
+        "score": 1,
+        "rationale": "No verbatim redundancy detected"
+       }
+      },
+      "references_read": [
+       {
+        "path": "tower-drills.md",
+        "chars": 11623
+       }
+      ],
+      "capability_cluster": null
+     },
+     {
+      "id": "S-004",
+      "input": null,
+      "score": 0.9377500000000001,
+      "skill": null,
+      "domain": null,
+      "tokens": 11486,
+      "difficulty": null,
+      "grades_by_key": {
+       "rubric": {
+        "score": 1,
+        "feedback": "Meets the rubric."
+       },
+       "skill_use": {
+        "score": 0.875,
+        "feedback": "Met: Novel knowledge, Knowledge applied, Situational judgment, Output naturalness."
+       },
+       "novelty_check": {
+        "score": 1,
+        "rationale": "First sample in novelty group \u2014 no comparison"
+       },
+       "dataset_derived": {
+        "score": 0.72
+       },
+       "skill_alignment": {
+        "score": 0.9
+       },
+       "scenario_quality": {
+        "score": 0.9175,
+        "feedback": "5 of 5 scenario criteria met."
+       },
+       "skill_redundancy": {
+        "score": 1,
+        "rationale": "No verbatim redundancy detected"
+       }
+      },
+      "references_read": [
+       {
+        "path": "tower-drills.md",
+        "chars": 11623
+       }
+      ],
+      "capability_cluster": null
+     },
+     {
+      "id": "S-009",
+      "input": null,
+      "score": 0.83935,
+      "skill": null,
+      "domain": null,
+      "tokens": 12382,
+      "difficulty": null,
+      "grades_by_key": {
+       "rubric": {
+        "score": 0.93,
+        "feedback": "Meets the rubric."
+       },
+       "skill_use": {
+        "score": 0.6875,
+        "feedback": "Met: Novel knowledge, Knowledge applied, Situational judgment. Partly met: Output naturalness."
+       },
+       "novelty_check": {
+        "score": 1,
+        "rationale": "Novel response (max similarity 0.393 < 0.75, group=D, compared against 1 prior)"
+       },
+       "dataset_derived": {
+        "score": 0.72
+       },
+       "skill_alignment": {
+        "score": 0.9
+       },
+       "scenario_quality": {
+        "score": 0.847,
+        "feedback": "5 of 5 scenario criteria met."
+       },
+       "skill_redundancy": {
+        "score": 1,
+        "rationale": "No verbatim redundancy detected"
+       }
+      },
+      "references_read": [
+       {
+        "path": "tower-drills.md",
+        "chars": 11623
+       }
+      ],
+      "capability_cluster": null
+     },
+     {
+      "id": "S-008",
+      "input": null,
+      "score": 0.7915000000000001,
+      "skill": null,
+      "domain": null,
+      "tokens": 12774,
+      "difficulty": null,
+      "grades_by_key": {
+       "rubric": {
+        "score": 0.91,
+        "feedback": "Meets the rubric."
+       },
+       "skill_use": {
+        "score": 0.6875,
+        "feedback": "Met: Novel knowledge, Knowledge applied, Situational judgment. Partly met: Output naturalness."
+       },
+       "novelty_check": {
+        "score": 1,
+        "rationale": "Novel response (max similarity 0.607 < 0.75, group=A, compared against 2 prior)"
+       },
+       "dataset_derived": {
+        "score": 0.72
+       },
+       "skill_alignment": {
+        "score": 0.9
+       },
+       "scenario_quality": {
+        "score": 0.7075,
+        "feedback": "4 of 5 scenario criteria met, 1 partly met."
+       },
+       "skill_redundancy": {
+        "score": 1,
+        "rationale": "No verbatim redundancy detected"
+       }
+      },
+      "references_read": [
+       {
+        "path": "tower-drills.md",
+        "chars": 11623
+       }
+      ],
+      "capability_cluster": null
+     }
+    ],
+    "scoring": {
+     "score": 0.87524,
+     "taskId": "c9b53aa6-6193-4a15-b60a-f106246402ed",
+     "verdict": "passed",
+     "timestamp": "2026-11-18T04:18:56.197Z",
+     "miner_hotkey": "5HeNddnvc95wTFHUhYgT8eGtxwV6nWLvqP2PzuA34bnemzzB",
+     "competition_id": "9f2345a6-1953-4c3a-9ae6-cbfddd2047cb",
+     "validator_hotkey": "5EL9y2gdesAcPiPmoyFKABToiui3RkXewiKxdTMmes34ZdNf"
+    },
+    "timestamp": "2026-11-18T04:18:56.197Z",
+    "tests_count": 8,
+    "skill_bundle": {
+     "reference_chars": 11623,
+     "reference_files": 1,
+     "reference_reads": {
+      "tower-drills.md": 8
+     }
+    },
+    "total_tokens": 97765,
+    "integrity_hash": "sha256:18d3f07fbd6907331f1a5a9af93d21d746e45e4c94440fd57ae5661614ece848",
+    "duration_seconds": 173.688
+   },
+   "error_message": null,
+   "score": 0.87524,
+   "created_at": "2026-11-18T04:12:22.140385+00:00",
+   "updated_at": "2026-11-18T04:18:56.934326+00:00",
+   "completed_at": "2026-11-18T04:18:56.788+00:00",
+   "tests_count": 8,
+   "raw_result_url": null,
+   "failure_reason": null,
+   "claimed_at": "2026-11-18T04:15:55.284+00:00",
+   "requeue_count": 0,
+   "validator_display_name": "SB Validator - London",
+   "validator_hotkey": "0x64410a7cec508c13b54984236b3239782c14ae2acbf6fc11d337d1ef4bf95221",
+   "rationales_withheld": true
+  }
+ ]
+}

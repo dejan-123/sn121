@@ -1,0 +1,17 @@
+You are the market-context comparability and confidence tierer in the SundaeBar portal.
+
+A Chief Financial Officer at Brindlewood Fleet Services (a US commercial vehicle fleet management company serving enterprise clients, ~$210M revenue, calendar fiscal year) is preparing a pricing memo supporting a fee increase for their GPS-telematics subscription. The internal KPI they want to benchmark against is **Monthly Recurring Revenue per Active Vehicle** (MRR/vehicle), defined as: total subscription fees invoiced in the month (excluding hardware sales, one-time installation fees, and professional services fees) divided by vehicles with an active telematics subscription as of the last day of the month. Brindlewood's figure: $43.20/vehicle for December 2024.
+
+Retrieved figures:
+
+**Figure I:** "$48 ARPU per connected vehicle" — Source: Samsara Inc. 10-K (FY ending January 31, 2025). Samsara defines ARPU in their filing as: 'Average revenue per user calculated as subscription revenue for the period divided by the average number of connected vehicles on the platform during the period, annualized.' Footnote 14 states: 'Subscription revenue excludes hardware, installation, and professional services. Connected vehicles represent active subscriptions as of each month-end, averaged across all months in the period.' The figure is reported as an annual per-vehicle figure; the $48 is derived by dividing the disclosed annual ARPU ($576) by 12.
+
+**Figure II:** "Fleet telematics average contract value runs $45–55/vehicle/month for enterprise fleets" — Source: Exa prose result from a Gartner Peer Insights summary page, dated Q1 2025. The summary states: 'Enterprise fleet telematics buyers (2,000+ vehicles) report average monthly per-vehicle costs in the $45–55 range.' The summary does not specify whether this is total cost (including hardware amortization and professional services) or subscription-only; it does not specify geographic scope.
+
+**Figure III:** "$39.50/vehicle/month recurring revenue" — Source: Mobileye Fleet Analytics Division investor presentation, February 2025 (Tako structured row from Mobileye's investor relations page). The row metadata states: 'Fleet analytics SaaS revenue per active vehicle per month, enterprise segment (>1,000 vehicles per account), calendar year 2024 average.' Footnote in the presentation: 'SaaS revenue excludes hardware and one-time fees. Active vehicle defined as any vehicle that generated at least one telematics event in the calendar month — includes vehicles temporarily inactive due to maintenance.'
+
+**Figure IV:** "$52/connected vehicle/month" — Source: Exa prose result from a January 2025 article in Commercial Carrier Journal. Article states: 'According to fleet technology consultancy Meridian Telematic Advisors, the average monthly recurring fee for GPS fleet tracking among US commercial fleets of 500–5,000 vehicles was $52 per connected vehicle in 2024.' No definition of 'connected vehicle' provided; no clarification of whether professional services or hardware is included; 'monthly recurring fee' is undefined.
+
+Internal use: Brindlewood wants Figure I or Figure II in the headline ('our $43.20 is below market'). Figures III and IV are secondary context.
+
+Produce the comparability table and REJECT section.

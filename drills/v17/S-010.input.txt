@@ -1,0 +1,32 @@
+Here's a forwarded email thread I need you to turn into an exec ask for our Director of Finance. I'll paste it below:
+
+---
+From: Kenji Watanabe <kenji@company.com>
+To: Priya Mehta <priya@company.com>
+Date: March 3
+Subject: Re: Re: Re: Office lease renewal
+
+Priya — agreed on the coworking option, but have you talked to Facilities about the security badge issue? I think we need their input before we go to finance.
+
+---
+From: Priya Mehta <priya@company.com>
+To: Kenji Watanabe, Dara Osei <dara@company.com>
+Date: March 2
+
+OK so my take: we should NOT renew the current lease at $42K/month. Our utilization data shows we're at 31% average occupancy. We could move to a coworking solution for probably $15K/month and save $27K/month. I think Kenji agrees. Dara, what's your take? Also someone needs to loop in Legal.
+
+---
+From: Dara Osei <dara@company.com>
+To: Priya Mehta
+Date: March 1
+
+Priya — just to flag, our current lease has a 90-day termination notice requirement and it expires June 30. If we don't act by April 1, we auto-renew for another year. So we need to make a decision soon. The coworking option I've been looking at is WeWork or Industrious. Haven't fully evaluated yet.
+
+---
+From: Kenji Watanabe <kenji@company.com>
+To: Priya Mehta
+Date: Feb 28
+
+Have we looked at subleasing part of our current space instead? That might be a better option. Also, the $15K/month number Priya has — is that total or per person?
+
+---

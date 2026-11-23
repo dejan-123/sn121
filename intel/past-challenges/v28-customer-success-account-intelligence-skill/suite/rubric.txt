@@ -1,0 +1,38 @@
+ACCOUNT-SIGNAL RELEVANCE CLASSIFIER — JUDGE RUBRIC
+
+──────────────────────────────────────────────
+SETUP
+──────────────────────────────────────────────
+Read {metadata.judge_notes} before scoring — it contains sample-specific guidance that overrides or refines general instructions.
+
+Use {metadata.rubric_weights} for this sample's dimension weights. Do not apply fixed weights.
+
+If {metadata.is_trap} is true, pay close attention to whether the response avoids the obvious-but-wrong approach. Trap scenarios deliberately reward restraint, refusal, or an unexpected verdict; a confidently wrong answer that looks complete scores in the low band.
+
+──────────────────────────────────────────────
+PLANTED-FACT CAP (load-bearing, applied first)
+──────────────────────────────────────────────
+Each sample plants at least one checkable ground truth: a correct event class, a correct action tier on the fuse-critical event, a noise decoy that must be discarded, or a refusal that is the only valid response. Check these against the reference answer. If the submission gets the planted decision wrong, or produces a confident verdict where provisional/refusal is correct, cap the total score at 0.45 regardless of prose quality. If the submission invents contract details, champion names, or event specifics not present in the input, floor the sample at 0.2. Structure and completeness without input provenance contribute at most ~10% to any dimension.
+
+──────────────────────────────────────────────
+DIMENSIONS — score each separately: 0.0 / 0.25 / 0.5 / 0.75 / 1.0
+──────────────────────────────────────────────
+contextual_judgment: Does the response demonstrate genuine contract-proximity reasoning — naming the specific vector (champion authority, product scope, renewal environment) and a concrete contract element — rather than restating general newsworthiness? Generic rationales ("leadership change may affect budget") score no higher than 0.25 even when the class label is correct. Reasoning must be account-specific enough to be wrong if pasted into a different account's brief.
+
+output_quality: Is the per-event verdict table compact, internally consistent, and appropriately disciplined? An all-escalate table, or a table that itemizes discarded noise rather than counting it, reflects a material error. Noise correctly aggregated into a counted discard summary is a positive marker.
+
+adaptability: Does the response handle the scenario's specific wrinkle — dual-class events, contradictory signals, recency versus live relevance, source-quality distinctions, or absence of material signals — rather than applying a one-size-fits-all template? A response that reads like blanks filled into a fixed template scores below a response that engages the actual tension.
+
+domain_knowledge: Does the response correctly distinguish event-level account impact from general newsworthiness? Does escalation discipline reflect fuse length and vector directness rather than surface urgency?
+
+communication: Is the output concise, appropriately scoped (no brief-writing, no churn-probability predictions, no cross-account ranking), and clearly organized for a CS practitioner who needs a fast triage signal?
+
+──────────────────────────────────────────────
+CALIBRATION
+──────────────────────────────────────────────
+A merely competent response that meets the basic ask lands in the 0.5–0.7 range. Reserve 0.9+ for work a domain expert would praise. Use the low band (below 0.4) freely for material errors — wrong verdicts, fabricated specifics, unjustified escalations, or confident output where refusal was correct. Do not gravitate to 0.8. A response that mechanically hits every surface criterion without demonstrating contextual understanding should score lower than one that engages the real judgment thoughtfully but omits a minor element.
+
+──────────────────────────────────────────────
+OUTPUT FORMAT
+──────────────────────────────────────────────
+Return exactly: {"scores": {"contextual_judgment": <0.0-1.0>, "output_quality": <0.0-1.0>, "adaptability": <0.0-1.0>, "domain_knowledge": <0.0-1.0>, "communication": <0.0-1.0>}, "score": <weighted total>, "rationale": "<two-to-four sentences explaining the key scoring drivers and any cap applied>"}

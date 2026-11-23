@@ -1,0 +1,99 @@
+==================== S-001 | hard | trap:True | ood:False | C5 | grp A
+ name: Biotech IP dispute with scope-limited patent register absence
+ type: compound_trap_elevation
+ weights: {"contextual_judgment": 0.38, "output_quality": 0.25, "adaptability": 0.18, "domain_knowledge": 0.12, "communication": 0.07}
+  [contextual_judgment] Does the response correctly recognize that the dismissal without prejudice (Row 6) does NOT clear the walk-away condition, and that the USPTO absence is scope-limited rather than a confirmed clearance — requiring both rows to be must-address rather than treating the dismissal as resolution?
+  [output_quality] Are the three must-address actions each specific to their respective signal (not generic 'assign counsel'), naming the register, document type, and timing?
+  [adaptability] Does the response resist the temptation to treat two PACER docket entries as corroboration of each other (they are the same proceeding, not independent sources)?
+  [domain_knowledge] Does the agent correctly classify dismissal without prejudice as legally unresolved and understand why a licensing term sheet in negotiation does not constitute IP clearance?
+  [communication] Does the 'What this means' block explain why the dispute is unresolved (not just that there was a lawsuit) and why the scope-limited absence required elevation?
+
+==================== S-002 | medium | trap:False | ood:False | C2 | grp B
+ name: SaaS ARR overstatement class action with single-source denial
+ type: evidence_sufficiency_and_corroboration
+ weights: {"contextual_judgment": 0.3, "output_quality": 0.28, "adaptability": 0.22, "domain_knowledge": 0.12, "communication": 0.08}
+  [contextual_judgment] Does the response correctly identify that the PACER docket entry plus the article independently citing and linking the complaint are two independent origins (making Row 1 corroborated), while the same article quoting Clovermark's PR denial is single-source and does not reduce the corroborated allegation?
+  [output_quality] Is the must-address action for Row 1 specific — naming both the financial workstream (contract schedule reconciliation) and legal counsel (quantum assessment), with a 'before close' timing?
+  [adaptability] Does the response correctly hold the customer-churn absence at deeper-diligence (not must-address) because no numeric walk-away threshold was stated, even though the thesis is SaaS contract value?
+  [domain_knowledge] Does the agent recognize that two outlets quoting the same Clovermark spokesperson constitute one origin, and that a target's own PR denial is single-source regardless of how widely it is quoted?
+  [communication] Does the 'What this means' block explain why the denial does not offset the corroborated complaint, and why the churn absence stays at deeper-diligence?
+
+==================== S-003 | hard | trap:True | ood:False | C3 | grp A
+ name: Defense-sector export compliance with entity name mismatch and dual absent registries
+ type: attribution_and_elevation
+ weights: {"contextual_judgment": 0.35, "output_quality": 0.22, "adaptability": 0.25, "domain_knowledge": 0.1, "communication": 0.08}
+  [contextual_judgment] Does the response correctly hold Row 6 at deeper-diligence (not must-address) because 'Vandermeer' ≠ 'Vandermoor' and attribution is unresolved — even though the topic (BIS warning letter) would trigger the walk-away if confirmed? And does it correctly elevate both scope-limited absences (Rows 4 and 7) to must-address because all three elevation conditions hold?
+  [output_quality] Are the two must-address actions specific: naming export counsel, the specific database (BIS enforcement + DDTC USML), and before-LOI timing?
+  [adaptability] Does the response correctly parse the LinkedIn company page as target-authored (single-source) rather than treating it as an independent corroboration of the Manufacturing Today article?
+  [domain_knowledge] Does the agent correctly recognize that IAQG OASIS and Bureau Veritas share a certification-chain origin, requiring a practitioner judgment about whether they constitute independent corroboration of the certification fact?
+  [communication] Does the 'What this means' block explain why Row 6 is held at deeper-diligence despite the alarming content, and why the two scope-limited absences are must-address?
+
+==================== S-004 | hard | trap:False | ood:True | C9 | grp C
+ name: Data broker CCPA certification cross-signal: accreditor suspension imperils price condition
+ type: cross_signal_compound_cluster
+ weights: {"contextual_judgment": 0.32, "output_quality": 0.26, "adaptability": 0.2, "domain_knowledge": 0.14, "communication": 0.08}
+  [contextual_judgment] Does the response identify the cross-signal compound cluster (DataRight accreditation suspension in Row 3 directly affects the value of the certification in Rows 1-2) and correctly elevate Row 3 to must-address because it hits the price condition, while holding Rows 1-2 at deeper-diligence?
+  [output_quality] Is the must-address action for Row 3 specific — naming legal counsel, the specific determination needed (certification standing post-suspension), and a 'before close' timing?
+  [adaptability] Does the response correctly separate the evidence-independence question (Rows 1-2 are independently documented) from the cross-signal value question (the certification's standing depends on Row 3), without conflating them?
+  [domain_knowledge] Does the agent correctly treat Row 4 (unnamed regulator, blog post) as noise rather than deeper-diligence, and correctly recognize that Row 6 (FTC guidance, Pellucid not named) is noise under the attribution rule?
+  [communication] Does the 'What this means' block explain why zero monitor rows exist and correctly narrate the cross-signal link between Rows 3 and the price condition?
+
+==================== S-005 | hard | trap:False | ood:False | C11 | grp B
+ name: ESG advisory key-person walk-away with single-source departure rumor
+ type: walk_away_threshold_and_single_source_elevation
+ weights: {"contextual_judgment": 0.36, "output_quality": 0.22, "adaptability": 0.2, "domain_knowledge": 0.12, "communication": 0.1}
+  [contextual_judgment] Does the response correctly elevate Row 5 (single-source anonymous departure rumor) to must-address because the walk-away condition is binary and targets exactly the named person — without pretending the single-source claim is corroborated? And does it correctly hold Row 7 (Fulton absence) at deeper-diligence rather than must-address, because no concentration walk-away threshold was stated for that specific gap?
+  [output_quality] Is the must-address action for Row 5 specific — naming direct written confirmation from Voss (not spokesperson), board records, and before-LOI timing?
+  [adaptability] Does the response correctly fold Row 2 into Row 1 as same-origin noise, rather than treating the ESG Investor 'expanding client base' characterisation as an independent signal?
+  [domain_knowledge] Does the agent correctly recognize that Vortex's own earnings call is an independent source (a third party's own document) even though the underlying relationship is bilateral, confirming the Vortex client relationship without requiring Stonebridge's confirmation?
+  [communication] Does the 'What this means' block explain the unusual elevation rationale for Row 5 (binary walk-away on named person, cannot wait) and why Row 7 stays at deeper-diligence?
+
+==================== S-006 | medium | trap:True | ood:False | C4 | grp C
+ name: Robotics target with zero must-address findings and compound talent attrition cluster
+ type: zero_must_address_and_cross_signal
+ weights: {"contextual_judgment": 0.28, "output_quality": 0.3, "adaptability": 0.22, "domain_knowledge": 0.12, "communication": 0.08}
+  [contextual_judgment] Does the response correctly produce zero must-address rows — no walk-away thresholds stated, no corroborated adverse finding of repricing magnitude — rather than inflating severity to populate the must-address column?
+  [output_quality] Are all five deeper-diligence actions specific and differentiated (not identical template text), with the talent attrition cluster recognized as a cross-signal compound without inflating either row's tier?
+  [adaptability] Does the response correctly identify that Rows 1-2 are independent origins (target press release + Kelso Foods own annual report), making the Kelso contract corroborated at monitor, while Rows 3 (two outlets, one Hatch press release) remain single-source?
+  [domain_knowledge] Does the agent correctly hold Row 8 (product safety absence) at deeper-diligence rather than must-address, because no walk-away threshold was stated for product safety?
+  [communication] Does the 'What this means' block explicitly state that zero must-address findings exist and explain why, without hedging into 'no current must-address issues found pending further review' language?
+
+==================== S-007 | medium | trap:False | ood:False | C5 | grp D
+ name: Fleet encumbrance price condition with corroborated lender confirmation and UCC absence
+ type: compound_cluster_price_condition
+ weights: {"contextual_judgment": 0.33, "output_quality": 0.27, "adaptability": 0.22, "domain_knowledge": 0.1, "communication": 0.08}
+  [contextual_judgment] Does the response correctly identify the three-origin corroboration of the financing event (TBJ, Corland Bank IR, Terrapin press release), elevate the compound cluster to must-address because the price condition and walk-away threshold directly depend on it, and correctly label Row 4 (scope-limited UCC absence) as must-address for the same reason?
+  [output_quality] Does the response correctly collapse Rows 3 and 4 into a single combined workstream action (UCC search before LOI), rather than writing separate disconnected actions?
+  [adaptability] Does the response correctly identify that FreightWire reprints TBJ (one origin, not two) in Row 1, while still treating Corland Bank's own IR disclosure as an independent origin that corroborates the event?
+  [domain_knowledge] Does the agent correctly hold Row 7 (DuraTemp 450 recall) as noise under the attribution rule — no link to Terrapin's equipment — rather than elevating it because Terrapin operates refrigerated trucks?
+  [communication] Does the 'What this means' block explain zero deeper-diligence rows and why, and correctly identify that the must-address cluster is a single combined pre-LOI action?
+
+==================== S-008 | medium | trap:True | ood:False | C3 | grp D
+ name: Biopharma Phase 2b clinical hold watch: sector GLP-1 hold is noise, zero must-address
+ type: attribution_noise_zero_must_address
+ weights: {"contextual_judgment": 0.34, "output_quality": 0.24, "adaptability": 0.24, "domain_knowledge": 0.1, "communication": 0.08}
+  [contextual_judgment] Does the response correctly classify Row 3 (unnamed company GLP-1 clinical hold) as noise under the attribution rule — even though it involves the same compound class and the walk-away condition is a clinical hold — and correctly produce zero must-address rows?
+  [output_quality] Does the response note the retrieval-date lag caveat for Row 2 (ClinicalTrials.gov updated October 28) without inflating this to a must-address row?
+  [adaptability] Does the response correctly identify that Rows 1 and 2 (FDA Fast Track + ClinicalTrials.gov) are independent origins that corroborate the positive development status, without over-relying on the target's own press release?
+  [domain_knowledge] Does the agent correctly hold Row 5 (FDA Warning Letter absence) at deeper-diligence rather than must-address, because no walk-away threshold was stated specifically for GCP/manufacturing compliance?
+  [communication] Does the 'What this means' block explicitly explain why zero must-address rows exist, why Row 3 is noise despite compound-class relevance, and note the retrieval-date caveat for the ClinicalTrials.gov entry?
+
+==================== S-009 | hard | trap:False | ood:False | C5 | grp B
+ name: Consumer finance FCA review rumor with scope-limited sanctions register and NIM walk-away
+ type: walk_away_and_price_condition_dual_must_address
+ weights: {"contextual_judgment": 0.35, "output_quality": 0.25, "adaptability": 0.2, "domain_knowledge": 0.12, "communication": 0.08}
+  [contextual_judgment] Does the response correctly elevate Row 6 (single-source unnamed FCA review report) to must-address because it names the target and directly bears on the price condition — without claiming it is corroborated? And does it correctly hold Row 7 (compliance hire) at deeper-diligence rather than must-address?
+  [output_quality] Are the two must-address actions specific and differentiated: Row 4 (run FCA Register/Supervisory Notice search) and Row 6 (confirm active review status, direct FCA liaison if permissible)?
+  [adaptability] Does the response correctly identify that Rows 1 and 2 together (press + Companies House accounts) are corroborated for the NIM figure, placing it comfortably above the walk-away threshold at monitor?
+  [domain_knowledge] Does the agent correctly recognize that CCTA membership (Row 3) is not regulatory clearance, and that the FCA Register absence (Row 4) cannot be satisfied by CCTA membership status?
+  [communication] Does the 'What this means' block explain why Row 6 (single-source) is must-address (price condition, cannot wait) and explicitly note that the NIM figure is corroborated above the walk-away threshold?
+
+==================== S-010 | hard | trap:False | ood:True | C9 | grp D
+ name: AgTech IP portfolio audit: USPTO entity mismatch, lapsed undisclosed patent, talent departure cross-signal
+ type: cross_signal_ip_portfolio
+ weights: {"contextual_judgment": 0.3, "output_quality": 0.28, "adaptability": 0.22, "domain_knowledge": 0.12, "communication": 0.08}
+  [contextual_judgment] Does the response split Row 3 into three sub-rows (3a active patents, 3b entity mismatch, 3c lapsed patent) rather than treating the USPTO result as a single row, and does it correctly zero-must-address because no walk-away threshold was stated?
+  [output_quality] Are the five deeper-diligence actions differentiated — Row 3b (identity/ownership of LLC entity), Row 3c (maintenance fee history + IP disclosure completeness), Row 4 (APHIS clearance), Row 7 (inventorship and IP assignment for departing breeders) — with no identical template text?
+  [adaptability] Does the response correctly classify Row 6 (peer-reviewed paper on consistent mechanism class, Calloway not named) as noise under the attribution rule, rather than treating it as corroboration of Calloway's patent strength?
+  [domain_knowledge] Does the agent correctly identify that LinkedIn profiles published by the individuals themselves are independent of both Calloway and AgTech Chronicle, making the two confirmed departures corroborated at the signal level while the third is single-source?
+  [communication] Does the 'What this means' block correctly state zero must-address, name the most important absence gap (the differently named entity's patent), and explain the cross-signal link between the lapsed patent and talent departures to Dunes BioAg?

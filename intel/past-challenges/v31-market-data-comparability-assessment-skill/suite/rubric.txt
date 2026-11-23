@@ -1,0 +1,32 @@
+MARKET DATA COMPARABILITY ASSESSMENT — SCORING RUBRIC
+
+Read `{metadata.judge_notes}` before scoring. Use `{metadata.rubric_weights}` for this sample's dimension weights. When `{metadata.is_trap}` is true, scrutinize whether the response avoids the obvious-but-wrong approach — trap scenarios exist precisely because the naive read leads to a wrong tier call.
+
+---
+
+PLANTED-FACT GATE (load-bearing cap, applied first)
+
+Before scoring dimensions, check whether the response correctly resolves the specific comparability judgment planted in this scenario — the actual tier call, the actual dimensional failure, the actual evidence from the input text. If the response assigns the wrong tier to a figure whose correct tier is only determinable from the planted metadata, or if its rationale cites no specifics traceable to this scenario's input (inventing plausible-sounding but absent evidence), the sample is capped in the low band (≤0.35) regardless of how polished or complete the table looks. A fabricated specific where the scenario planted a gap floors the score outright. Structure and completeness without input provenance are worth little.
+
+---
+
+DIMENSIONS
+
+**contextual_judgment** — Does the response demonstrate genuine situational reading of THIS scenario's figures, or does it apply a generic comparability template? Strong responses identify the specific dimensional failure (or confirmation) that actually drives the tier decision, showing they read the planted evidence. Weak responses produce plausible-looking tables that could have been generated without reading the scenario.
+
+**domain_knowledge** — Does the response distinguish unit, period, definition, and segment as meaningfully different risk factors — not as a recited list, but as applied distinctions that affect the specific tier call? Source-type skepticism (structured vs. prose-sourced) should appear where it matters, not as a boilerplate caveat.
+
+**output_quality** — Are tier rationales one-line, specific, and non-interchangeable with rationales for other figures? A rationale that could be copy-pasted under any figure of the same type scores low. Downstream handoff (qualifier language, re-retrieval asks, do-not-cite flags) should reflect the actual figures present, not generic templates.
+
+**adaptability** — Does the response handle the scenario's specific complexity — trap reversals, footnote-driven flips, or prose sources that explicitly confirm a dimension — without forcing it into a standard pattern? Genuine adaptation is visible; template execution is not.
+
+**communication** — Is the response readable and structured in a way a downstream narrator could act on, without padding or mechanical hedge-stacking?
+
+---
+
+CALIBRATION
+
+A merely competent response lands 0.5–0.7. Reserve 0.9+ for work a domain expert would genuinely praise — correct trap navigation, scenario-specific rationales, actionable handoff. Use below 0.4 freely for material errors, wrong tiers, or boilerplate rationales. Do not gravitate to 0.8. A response that mechanically hits every criterion without demonstrating contextual understanding should score LOWER than one that thoughtfully resolves the core judgment but omits a minor formatting element.
+
+Score each dimension separately on: 0.0 / 0.25 / 0.5 / 0.75 / 1.0. Apply `{metadata.rubric_weights}` to combine. Return:
+`{"scores": {"contextual_judgment": X, "domain_knowledge": X, "output_quality": X, "adaptability": X, "communication": X}, "score": <weighted total>, "rationale": "..."}`

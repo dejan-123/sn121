@@ -1,0 +1,37 @@
+You are a business-review metrics narrator. Load your skill and produce a complete monthly business-review briefing from the following package.
+
+---
+## Oakhaven Property Management — Residential MBR | May
+
+### KPI Table
+
+| Metric | Actual | Target | Prior Month (Apr) | Notes ID |
+|--------|--------|--------|-------------------|----------|
+| Portfolio Occupancy Rate (%) | 95.8 | 95.0 | 94.6 | N-01 |
+| Average Days to Lease (days) | 12.4 | 14.0 | 15.2 | — |
+| Lease Renewal Rate (%) | 68.2 | 72.0 | 70.1 | N-02 |
+| Rent Growth on New Leases (%) | +6.8 | +5.0 | +4.3 | N-03 |
+| Maintenance Request Completion Rate (%) | 81.4 | 90.0 | 88.7 | N-04 |
+| Average Maintenance Cost per Unit ($) | 187 | 160 | 154 | N-05 |
+| Resident Satisfaction Score (1–10) | 7.1 | 8.0 | 7.8 | N-06 |
+| Collections Rate (%) | 98.7 | 99.0 | 99.2 | N-07 |
+| Employee Turnover Rate (%) [property managers] | 18.0 | 12.0 | 11.5 | N-08 |
+| Capital Expenditure Completion (% of monthly budget) | — | 100 | 82 | — |
+| Delinquency Rate (% of units) | 3.2 | 2.5 | 2.1 | N-09 |
+| Unit Inspection Compliance (%) | 94.0 | 92.0 | 91.5 | — |
+
+### Context Notes
+
+- **N-01**: Portfolio occupancy 95.8% vs. 95.0% target. Favorable vs. target and improving trend. Driver: spring leasing season (April–June historically shows 2–3% occupancy lift vs. Q1). The spring season effect is expected to partially reverse in August–September as summer move-outs accelerate.
+- **N-02**: Lease renewal rate 68.2% vs. 72.0% target (−3.8 pts). Driver: exit surveys from non-renewing residents cite maintenance response time and quality as the primary dissatisfaction driver in 64% of exit interviews. Directly linked to N-04 maintenance completion rate shortfall.
+- **N-03**: Rent growth on new leases +6.8% vs. +5.0% target. Beat is partially seasonal (spring market tightening drives higher ask rents; similar pattern in prior two years). Underlying structural rent growth estimated at approximately +4.5% after seasonal adjustment — slightly below the +5.0% target. No separate seasonal adjustment methodology documented in available notes.
+- **N-04**: Maintenance request completion rate 81.4% vs. 90.0% target (−8.6 pts; −9.6% below target). Driver: property manager turnover (N-08) has left three properties understaffed; maintenance work order routing and follow-up falling through gaps in management coverage. This is a structural driver, not a one-month event — it will persist until PM staffing is restored.
+- **N-05**: Average maintenance cost per unit $187 vs. $160 target (+$27, +16.9% above target). Two drivers: (a) deferred maintenance backlog from prior months being addressed (catch-up work increases unit-cost temporarily); (b) emergency repair rate elevated due to deferred work. Both linked to N-04 completion rate shortfall.
+- **N-06**: Resident satisfaction 7.1 vs. 8.0 target (−0.9 pts; −11.3% below target). Survey verbatims cite maintenance response time as the top complaint; aligns with N-02 exit interview data and N-04 driver. Secondary complaint: parking lot condition at two properties — root cause of parking lot issue not further identified in available notes.
+- **N-07**: Collections rate 98.7% vs. 99.0% target (−0.3 pts; −0.3% below target). Driver: delinquency uptick in May (see N-09). Slightly below target but within rounding; driver is linked.
+- **N-08**: Employee turnover rate (property managers) 18.0% vs. 12.0% target (+6.0 pts; +50% above target for lower-is-better metric). Driver: two property managers resigned in April; one was managing three properties simultaneously. No replacement hires started as of May month-end. Open requisitions posted; market timeline to hire estimated at 6–8 weeks.
+- **N-09**: Delinquency rate 3.2% vs. 2.5% target (+0.7 pts; +28% above target for lower-is-better metric). Driver: collections follow-up has weakened at the three properties without dedicated PM coverage (same understaffing driver as N-04 and N-08). Root cause is structural and shared.
+- **Capital Expenditure**: No May actual reported; budgeting system transition in progress.
+
+---
+Produce a complete briefing.

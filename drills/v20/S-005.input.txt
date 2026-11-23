@@ -1,0 +1,17 @@
+As of 2026-10-05, please provide the weekly sales-ops rollup for our APAC Commercial team.
+
+Closed Won and Closed Lost deals are included in the export — please handle appropriately.
+
+Quota:
+- Fiona Larke | Commercial | Q4 Remaining Quota: $550,000
+- Devraj Sinha | Commercial | Q4 Remaining Quota: $480,000
+
+Pipeline export:
+Deal | Rep | Stage | ARR | Close Date | Last Activity | Stage-Entry Date | Forecast Category | Next Step
+Quorum Infrastructure | Fiona Larke | Proposal | $195,000 | 2026-11-15 | 2026-09-28 | 2026-09-14 | Best Case | Revised proposal draft to be sent
+Pacific Union Bank | Fiona Larke | Closed Won | $310,000 | 2026-09-30 | 2026-09-29 | — | — | —
+Helix Imports | Devraj Sinha | Evaluation | $140,000 | 2026-12-15 | 2026-09-25 | 2026-09-10 | Pipeline | Technical requirements doc under review
+Central Crane Co | Devraj Sinha | Closed Lost | $220,000 | 2026-09-15 | 2026-09-14 | — | — | —
+Northshore Freight | Fiona Larke | Negotiation | $280,000 | 2026-10-20 | 2026-10-04 | 2026-09-28 | Commit | MSA draft sent to customer 10/4
+Crestwood Advisory | Devraj Sinha | Discovery | $410,000 | 2026-11-30 | 2026-09-30 | 2026-09-15 | Best Case | Stakeholder mapping in progress
+Orbital Systems | Devraj Sinha | Proposal | $175,000 | 2026-10-25 | 2026-09-15 | 2026-09-20 | Best Case | Demo follow-up email sent 9/15
