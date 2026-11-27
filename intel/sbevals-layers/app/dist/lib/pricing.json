@@ -1,0 +1,38 @@
+{
+    "_comment": "Canonical per-provider, per-model pricing for sb-evals cost attribution. USD per MILLION tokens. This is the source-of-truth table for the cost-tracking workstream (Track A); sn121-suite-builder/scripts/production_budget.py and sn121-dashboard/src/lib/pricing.ts should be synced FROM this file (same numbers already, sync mechanism is a follow-up). OpenRouter cost is read MEASURED from usage.cost and never priced from this table — these openrouter entries are a fallback only. 'cacheWrite' is the rate for cache-CREATION tokens (Anthropic bills these at 1.25x input); when absent the computeCost path defaults cacheWrite to the input rate. 'cached' is the cache-READ (hit) rate. Unknown (provider, model) combos return no rate and the caller uses a blended estimate.",
+    "_source": "provider pricing pages / OpenRouter catalog mirror, 2026-06-18",
+    "blendedRatePerMillion": 7,
+    "providers": {
+        "chutes": {
+            "google/gemma-4-31B-turbo-TEE": { "input": 0.15, "output": 0.42, "cached": 0.02 },
+            "MiniMaxAI/MiniMax-M2.5-TEE": { "input": 0.15, "output": 1.2, "cached": 0.02 },
+            "Qwen/Qwen3-32B-TEE": { "input": 0.2, "output": 1.0, "cached": 0.02 },
+            "Qwen/Qwen3.6-27B-TEE": { "input": 0.3, "output": 2.0, "cached": 0.03 },
+            "moonshotai/Kimi-K2.5-TEE": { "input": 0.44, "output": 2.0, "cached": 0.04 },
+            "Qwen/Qwen3.5-397B-A17B-TEE": { "input": 0.45, "output": 3.0, "cached": 0.05 },
+            "moonshotai/Kimi-K2.6-TEE": { "input": 0.74, "output": 3.5, "cached": 0.07 },
+            "zai-org/GLM-5-TEE": { "input": 0.95, "output": 2.55, "cached": 0.1 },
+            "zai-org/GLM-5.1-TEE": { "input": 1.2, "output": 4.0, "cached": 0.12 },
+            "deepseek-ai/DeepSeek-V3.2-TEE": { "input": 0.5, "output": 2.5, "cached": 0.05 },
+            "Qwen/Qwen3-235B-A22B-Thinking-2507-TEE": { "input": 0.7, "output": 3.0, "cached": 0.07 },
+            "unsloth/Mistral-Nemo-Instruct-2407-TEE": { "input": 0.15, "output": 0.4, "cached": 0.02 }
+        },
+        "anthropic": {
+            "claude-haiku-4-5-20251001": { "input": 0.8, "output": 4.0, "cached": 0.08, "cacheWrite": 1.0 },
+            "claude-sonnet-4-6": { "input": 3.0, "output": 15.0, "cached": 0.3, "cacheWrite": 3.75 },
+            "claude-sonnet-4-6-20250514": { "input": 3.0, "output": 15.0, "cached": 0.3, "cacheWrite": 3.75 },
+            "claude-opus-4-7": { "input": 15.0, "output": 75.0, "cached": 1.5, "cacheWrite": 18.75 }
+        },
+        "openrouter": {
+            "anthropic/claude-opus-4.7": { "input": 15.0, "output": 75.0, "cached": 1.5 },
+            "anthropic/claude-sonnet-4.6": { "input": 3.0, "output": 15.0, "cached": 0.3 },
+            "anthropic/claude-haiku-4.5": { "input": 0.8, "output": 4.0, "cached": 0.08 },
+            "openai/gpt-5.1": { "input": 5.0, "output": 15.0, "cached": 0.5 },
+            "deepseek/deepseek-chat-v3-0324": { "input": 0.27, "output": 1.1, "cached": 0.027 }
+        },
+        "openai": {
+            "gpt-5.1": { "input": 5.0, "output": 15.0, "cached": 0.5 },
+            "gpt-4o": { "input": 2.5, "output": 10.0, "cached": 1.25 }
+        }
+    }
+}

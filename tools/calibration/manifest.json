@@ -1,0 +1,20 @@
+[
+  {"file": "su100_S-001.md", "expected_su": 1.0,
+   "source": "v39 ef71800d (0.94815) skill_use=1.0 x6; local outputs generated during live campaign (haiku-era, Nov 19)"},
+  {"file": "su100_S-003.md", "expected_su": 1.0,
+   "source": "v39 ef71800d (0.94815) skill_use=1.0 x6; local outputs generated during live campaign (haiku-era, Nov 19)"},
+  {"file": "su100_S-005.md", "expected_su": 1.0,
+   "source": "v39 ef71800d (0.94815) skill_use=1.0 x6; local outputs generated during live campaign (haiku-era, Nov 19)"},
+  {"file": "su094_S-003.md", "expected_su": 0.9375,
+   "source": "v39 piero v2-counsel (0.9172) skill_use .9375x5 + 1.0x1; campaign-era outputs"},
+  {"file": "su094_S-004.md", "expected_su": 0.9375,
+   "source": "v39 piero v2-counsel (0.9172) skill_use .9375x5 + 1.0x1; campaign-era outputs"},
+  {"file": "su094_S-005.md", "expected_su": 0.9375,
+   "source": "v39 piero v2-counsel (0.9172) skill_use .9375x5 + 1.0x1; campaign-era outputs"},
+  {"file": "su075_S-001.md", "expected_su": 0.75,
+   "source": "v38 toby scout-plain-v1 (0.85131) skill_use .750 flat; campaign-era outputs"},
+  {"file": "su075_S-003.md", "expected_su": 0.75,
+   "source": "v38 toby scout-plain-v1 (0.85131) skill_use .750 flat; campaign-era outputs"},
+  {"file": "su075_S-004.md", "expected_su": 0.75,
+   "source": "v38 toby scout-plain-v1 (0.85131) skill_use .750 flat; campaign-era outputs"}
+]

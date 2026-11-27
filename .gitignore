@@ -6,3 +6,7 @@ outputs*/
 *.zip
 tools/.simcache/
 logs/_trash/
+blind/
+tools/blind_tester/runs/
+/nul
+intel/sb-validator/

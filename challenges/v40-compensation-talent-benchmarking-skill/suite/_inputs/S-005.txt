@@ -1,0 +1,44 @@
+You are a compensation benchmark narrator. Below is a classified external evidence table and an internal snapshot for Cloudmere Infrastructure, a Series D cloud-infrastructure company (410 employees, San Francisco CA headquarters; some roles are remote-US with no metro anchoring).
+
+## INTERNAL SNAPSHOT — Cloudmere Infrastructure
+
+**Headcount by function/level:**
+| Role Family | Level | Current HC | Band Min | Band Midpoint | Band Max |
+|---|---|---|---|---|---|
+| Site Reliability Engineering | Staff | 8 | $205,000 | $224,000 | $247,000 |
+| Technical Program Management | Senior | 10 | $168,000 | $184,000 | $202,000 |
+| Developer Relations | Senior | 5 | $148,000 | $163,000 | $180,000 |
+| Finance & Accounting | Senior Analyst | 6 | £74,000 | £82,000 | £91,000 |
+
+**Note:** Finance & Accounting team is UK-based (London). Band figures are in GBP.
+
+**Active open roles (priority tier):**
+- Staff SRE: P1
+- Senior Developer Relations: P2
+
+**Recent offer data (last 12 months):**
+- Staff SRE: two accepted offers at $229,000 base and $232,000 base
+- Senior TPM: one accepted offer at $191,000 base
+- Developer Relations Senior: no recent offers
+- Finance Senior Analyst (UK): no recent offers
+
+**Data window:** points older than 12 months (before October 2025) are out of window.
+
+## EXTERNAL EVIDENCE TABLE — Classified signals, retrieved 2026-10-05
+
+| ID | Source | Type | Date | Role Title | Geo | Company Stage | Comp Figures | Notes |
+|---|---|---|---|---|---|---|---|---|
+| E-01 | Himalayas MCP | Offer (accepted) | 2026-08 | Staff Site Reliability Engineer | San Francisco CA | Series D | $228,000 base | |
+| E-02 | Himalayas MCP | Posted range | 2026-09 | Staff SRE | San Francisco CA | Series D | $215,000–$260,000 base | CA mandate |
+| E-03 | Himalayas MCP | Posted range | 2026-07 | Staff SRE | Remote-US | Series D | $195,000–$240,000 base | No metro declared; national range |
+| E-04 | Himalayas MCP | Offer (accepted) | 2026-09 | Staff SRE | San Francisco CA | Series C | $218,000 base | 1 stage below Cloudmere |
+| E-05 | Himalayas MCP | Offer (accepted) | 2026-08 | Senior Technical Program Manager | San Francisco CA | Series D | $192,000 base | |
+| E-06 | Himalayas MCP | Posted range | 2026-09 | Senior Technical Program Manager | Remote-US | Series C | $170,000–$210,000 base | No metro declared |
+| E-07 | Himalayas MCP | Posted range | 2026-08 | Senior Developer Advocate / DevRel | San Francisco CA | Series D | $155,000–$195,000 base | CA mandate |
+| E-08 | Himalayas MCP | Posted range | 2026-09 | Senior Developer Relations | NYC | Series D | $160,000–$198,000 base | NY mandate |
+| E-09 | Himalayas MCP | Posted range | 2026-07 | Senior Developer Relations | Austin TX | Series B | $130,000–$158,000 base | Voluntarily posted |
+| E-10 | Himalayas MCP | Posted range | 2026-08 | Senior Finance Analyst | London UK | Series D | £68,000–£85,000 base | |
+| E-11 | Himalayas MCP | Offer (accepted) | 2026-09 | Senior Finance Analyst | London UK | Series C | £71,000 base | 1 stage below Cloudmere |
+| E-12 | Himalayas MCP | Posted range | 2026-06 | Senior Finance Analyst | New York NY | Series D | $98,000–$125,000 base | NY mandate; figures in USD |
+
+Produce the benchmark table.

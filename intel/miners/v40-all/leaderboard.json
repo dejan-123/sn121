@@ -1,0 +1,762 @@
+[
+ {
+  "dir": "juel-85bbc4b1-0.71163",
+  "id": "85bbc4b1-5d9c-4ff4-97c6-d9eca0ff22d7",
+  "user": "juel",
+  "uid": 92,
+  "score": 0.71163,
+  "created": "2026-11-26T06:24:44.550479+00:00"
+ },
+ {
+  "dir": "juel-c98c7f92-0.71069",
+  "id": "c98c7f92-3cf9-4efb-8642-67c502b53c49",
+  "user": "juel",
+  "uid": 92,
+  "score": 0.71069,
+  "created": "2026-11-26T02:51:46.547137+00:00"
+ },
+ {
+  "dir": "yeliz-cfbe0005-0.70328",
+  "id": "cfbe0005-0496-44c1-8014-8ab0bd7e6bcc",
+  "user": "yeliz",
+  "uid": 217,
+  "score": 0.70328,
+  "created": "2026-11-26T06:06:23.439282+00:00"
+ },
+ {
+  "dir": "astertwo-f87b622e-0.70216",
+  "id": "f87b622e-ef2d-4e9b-831f-035902d72e45",
+  "user": "astertwo",
+  "uid": 90,
+  "score": 0.70216,
+  "created": "2026-11-26T06:45:06.541086+00:00"
+ },
+ {
+  "dir": "john-7dd8914a-0.70023",
+  "id": "7dd8914a-e3ce-4313-95d1-1f3d97e952d0",
+  "user": "john",
+  "uid": 36,
+  "score": 0.70023,
+  "created": "2026-11-26T07:38:36.796438+00:00"
+ },
+ {
+  "dir": "john-b68068b5-0.70002",
+  "id": "b68068b5-baca-492b-a7f5-c1b3f44e95f9",
+  "user": "john",
+  "uid": 36,
+  "score": 0.70002,
+  "created": "2026-11-26T09:23:39.241593+00:00"
+ },
+ {
+  "dir": "phantom-f64855ea-0.68526",
+  "id": "f64855ea-34c7-4938-b7cb-b591497daf87",
+  "user": "phantom",
+  "uid": 169,
+  "score": 0.68526,
+  "created": "2026-11-26T08:12:24.296222+00:00"
+ },
+ {
+  "dir": "astertwo-b3ebe386-0.68369",
+  "id": "b3ebe386-7fbc-451c-8a78-f9f4a4ca2208",
+  "user": "astertwo",
+  "uid": 90,
+  "score": 0.68369,
+  "created": "2026-11-25T19:00:12.943184+00:00"
+ },
+ {
+  "dir": "kathyannetorres-9aa0eb7d-0.68331",
+  "id": "9aa0eb7d-68ba-43c4-a9ca-88cc1f62dbb6",
+  "user": "kathyannetorres",
+  "uid": 157,
+  "score": 0.68331,
+  "created": "2026-11-26T02:37:36.504669+00:00"
+ },
+ {
+  "dir": "kulhawikb-b4814069-0.68181",
+  "id": "b4814069-dc87-46b7-b320-1678cdc29e3c",
+  "user": "kulhawikb",
+  "uid": 159,
+  "score": 0.68181,
+  "created": "2026-11-26T07:39:41.267525+00:00"
+ },
+ {
+  "dir": "Sakura03-5c7a191a-0.68144",
+  "id": "5c7a191a-b5bd-4e4d-8771-74d8795a149b",
+  "user": "Sakura03",
+  "uid": 250,
+  "score": 0.68144,
+  "created": "2026-11-25T19:08:20.728326+00:00"
+ },
+ {
+  "dir": "jisankhanagd864-60e8663b-0.68078",
+  "id": "60e8663b-849f-461f-a222-7064fbb40142",
+  "user": "jisankhanagd864",
+  "uid": 59,
+  "score": 0.68078,
+  "created": "2026-11-26T09:00:33.057537+00:00"
+ },
+ {
+  "dir": "bruce-d7217832-0.67956",
+  "id": "d7217832-cb52-41c6-8727-e90f487107b2",
+  "user": "bruce",
+  "uid": 89,
+  "score": 0.67956,
+  "created": "2026-11-26T03:37:01.104751+00:00"
+ },
+ {
+  "dir": "juel-70180de5-0.67778",
+  "id": "70180de5-e8bf-43da-a8ed-63d56f79b912",
+  "user": "juel",
+  "uid": 92,
+  "score": 0.67778,
+  "created": "2026-11-25T19:21:02.049786+00:00"
+ },
+ {
+  "dir": "Hinata03-47f74e5a-0.6744",
+  "id": "47f74e5a-7dbe-48f6-a527-3da3bcabd1ee",
+  "user": "Hinata03",
+  "uid": 234,
+  "score": 0.6744,
+  "created": "2026-11-26T07:27:26.019754+00:00"
+ },
+ {
+  "dir": "kulhawikb-3a5e6a5c-0.67177",
+  "id": "3a5e6a5c-0831-43c1-9024-576713506270",
+  "user": "kulhawikb",
+  "uid": 159,
+  "score": 0.67177,
+  "created": "2026-11-25T23:34:27.23996+00:00"
+ },
+ {
+  "dir": "pham-dd251052-0.67131",
+  "id": "dd251052-c358-4c27-acf0-86c4ddc9911d",
+  "user": "pham",
+  "uid": 102,
+  "score": 0.67131,
+  "created": "2026-11-26T06:11:07.13277+00:00"
+ },
+ {
+  "dir": "Hinata03-38470b2a-0.67075",
+  "id": "38470b2a-3200-4fc5-81ee-02633f9a1c28",
+  "user": "Hinata03",
+  "uid": 234,
+  "score": 0.67075,
+  "created": "2026-11-26T04:43:45.469712+00:00"
+ },
+ {
+  "dir": "kathyannetorres-874daa14-0.66983",
+  "id": "874daa14-4cf6-44e9-ba72-15bf792abe80",
+  "user": "kathyannetorres",
+  "uid": 157,
+  "score": 0.66983,
+  "created": "2026-11-26T08:02:50.329522+00:00"
+ },
+ {
+  "dir": "grayson_chen-49d42f58-0.66634",
+  "id": "49d42f58-2ada-4802-b886-93f2209ae357",
+  "user": "grayson_chen",
+  "uid": 97,
+  "score": 0.66634,
+  "created": "2026-11-25T20:01:46.512023+00:00"
+ },
+ {
+  "dir": "grayson_chen-709dea62-0.66494",
+  "id": "709dea62-a7c2-42ad-9304-f38f664b6449",
+  "user": "grayson_chen",
+  "uid": 97,
+  "score": 0.66494,
+  "created": "2026-11-26T14:22:38.139308+00:00"
+ },
+ {
+  "dir": "pham-8b8ab2df-0.66396",
+  "id": "8b8ab2df-06c7-4cc5-a58f-1b9bed9742b4",
+  "user": "pham",
+  "uid": 102,
+  "score": 0.66396,
+  "created": "2026-11-26T10:22:59.874119+00:00"
+ },
+ {
+  "dir": "Hinata03-973ab380-0.65991",
+  "id": "973ab380-4492-4a34-9d1f-5318bb896f85",
+  "user": "Hinata03",
+  "uid": 234,
+  "score": 0.65991,
+  "created": "2026-11-26T12:46:53.816268+00:00"
+ },
+ {
+  "dir": "nagaominori666-9b62662d-0.65605",
+  "id": "9b62662d-aea8-46b8-9e04-4ec762a130b2",
+  "user": "nagaominori666",
+  "uid": 16,
+  "score": 0.65605,
+  "created": "2026-11-26T07:52:02.17628+00:00"
+ },
+ {
+  "dir": "astertwo-4e0b3f02-0.6546",
+  "id": "4e0b3f02-3ae7-4a11-8f1c-87e0df0769e7",
+  "user": "astertwo",
+  "uid": 90,
+  "score": 0.6546,
+  "created": "2026-11-25T20:59:10.169589+00:00"
+ },
+ {
+  "dir": "Jose-e06637fb-0.65383",
+  "id": "e06637fb-2685-4815-ac36-ffd3b0e5b393",
+  "user": "Jose",
+  "uid": 106,
+  "score": 0.65383,
+  "created": "2026-11-26T02:44:35.900669+00:00"
+ },
+ {
+  "dir": "aigbedestinyic-d7d6522f-0.64516",
+  "id": "d7d6522f-80d1-46c1-aee0-88a1a8e8407b",
+  "user": "aigbedestinyic",
+  "uid": 91,
+  "score": 0.64516,
+  "created": "2026-11-25T19:07:25.348088+00:00"
+ },
+ {
+  "dir": "tomjerry950710-f1fb0766-0.6421",
+  "id": "f1fb0766-bcf7-4a10-95a6-e2a7c256caf0",
+  "user": "tomjerry950710",
+  "uid": 66,
+  "score": 0.6421,
+  "created": "2026-11-25T23:40:49.740635+00:00"
+ },
+ {
+  "dir": "aigbedestinyic-67d986f7-0.64206",
+  "id": "67d986f7-121a-49ce-98ea-c8044b6c39d8",
+  "user": "aigbedestinyic",
+  "uid": 91,
+  "score": 0.64206,
+  "created": "2026-11-26T12:19:02.321924+00:00"
+ },
+ {
+  "dir": "john-bed555e1-0.64124",
+  "id": "bed555e1-39c6-4441-9bca-32f405bdfdbd",
+  "user": "john",
+  "uid": 36,
+  "score": 0.64124,
+  "created": "2026-11-25T19:00:11.15253+00:00"
+ },
+ {
+  "dir": "minoraincoin-153c4e4b-0.64103",
+  "id": "153c4e4b-af19-4338-ba90-5b7b4b0d84f0",
+  "user": "minoraincoin",
+  "uid": 98,
+  "score": 0.64103,
+  "created": "2026-11-26T03:00:14.730602+00:00"
+ },
+ {
+  "dir": "TopMiner-0ddf4c19-0.64006",
+  "id": "0ddf4c19-be83-4334-8996-904db389a208",
+  "user": "TopMiner",
+  "uid": 207,
+  "score": 0.64006,
+  "created": "2026-11-25T21:30:18.688971+00:00"
+ },
+ {
+  "dir": "Hinata03-58d6dfb6-0.63994",
+  "id": "58d6dfb6-8100-48d3-8a65-7d318587dc03",
+  "user": "Hinata03",
+  "uid": 234,
+  "score": 0.63994,
+  "created": "2026-11-25T21:39:26.34271+00:00"
+ },
+ {
+  "dir": "dustindraaijer417-5e746dcd-0.63888",
+  "id": "5e746dcd-e5ce-4a1a-adde-d04360042195",
+  "user": "dustindraaijer417",
+  "uid": 12,
+  "score": 0.63888,
+  "created": "2026-11-25T19:21:11.688546+00:00"
+ },
+ {
+  "dir": "pham-87deddc4-0.63813",
+  "id": "87deddc4-d3b8-4760-a83a-dfdaff24837b",
+  "user": "pham",
+  "uid": 102,
+  "score": 0.63813,
+  "created": "2026-11-26T09:08:48.947422+00:00"
+ },
+ {
+  "dir": "Hinata03-6e9fd68a-0.63634",
+  "id": "6e9fd68a-c451-4836-a71b-be33f7dc9004",
+  "user": "Hinata03",
+  "uid": 234,
+  "score": 0.63634,
+  "created": "2026-11-26T02:06:06.604083+00:00"
+ },
+ {
+  "dir": "Marada-f651ae61-0.63606",
+  "id": "f651ae61-89a7-4d82-b2b5-965c3d01d133",
+  "user": "Marada",
+  "uid": 252,
+  "score": 0.63606,
+  "created": "2026-11-25T20:57:04.266359+00:00"
+ },
+ {
+  "dir": "nagaominori666-7d2dc8c4-0.63475",
+  "id": "7d2dc8c4-3843-40ff-8af3-855499d6adda",
+  "user": "nagaominori666",
+  "uid": 16,
+  "score": 0.63475,
+  "created": "2026-11-26T05:09:40.451014+00:00"
+ },
+ {
+  "dir": "bruce-964fa5c3-0.63419",
+  "id": "964fa5c3-9877-4578-a136-483399c4618c",
+  "user": "bruce",
+  "uid": 89,
+  "score": 0.63419,
+  "created": "2026-11-25T19:02:01.303829+00:00"
+ },
+ {
+  "dir": "dilcok8-55b896b3-0.63288",
+  "id": "55b896b3-ee23-49ff-9083-1d4b30c8b9f2",
+  "user": "dilcok8",
+  "uid": 99,
+  "score": 0.63288,
+  "created": "2026-11-26T00:29:00.087425+00:00"
+ },
+ {
+  "dir": "yeliz-02bc356a-0.63138",
+  "id": "02bc356a-185e-429e-9bfc-8bb12274dabd",
+  "user": "yeliz",
+  "uid": 217,
+  "score": 0.63138,
+  "created": "2026-11-26T13:05:01.760297+00:00"
+ },
+ {
+  "dir": "dustindraaijer417-2a553ae3-0.63128",
+  "id": "2a553ae3-d90f-4cbd-a055-e1ae87fbb9fa",
+  "user": "dustindraaijer417",
+  "uid": 12,
+  "score": 0.63128,
+  "created": "2026-11-26T06:29:30.930384+00:00"
+ },
+ {
+  "dir": "phantom-799495f9-0.62518",
+  "id": "799495f9-aff2-4886-ab50-aa54c1c79fdf",
+  "user": "phantom",
+  "uid": 169,
+  "score": 0.62518,
+  "created": "2026-11-25T19:36:59.829326+00:00"
+ },
+ {
+  "dir": "dustindraaijer417-23c4c84a-0.62449",
+  "id": "23c4c84a-a15a-469a-8461-190631084e29",
+  "user": "dustindraaijer417",
+  "uid": 12,
+  "score": 0.62449,
+  "created": "2026-11-26T10:04:03.289301+00:00"
+ },
+ {
+  "dir": "tomjerry950710-2c55f6d9-0.62359",
+  "id": "2c55f6d9-0fad-4bf5-a489-4fbbae4b6fbc",
+  "user": "tomjerry950710",
+  "uid": 66,
+  "score": 0.62359,
+  "created": "2026-11-26T14:16:12.933985+00:00"
+ },
+ {
+  "dir": "jisankhanagd864-229780d6-0.62125",
+  "id": "229780d6-f3f2-417d-8151-2f67550113f8",
+  "user": "jisankhanagd864",
+  "uid": 59,
+  "score": 0.62125,
+  "created": "2026-11-25T19:01:24.044779+00:00"
+ },
+ {
+  "dir": "pham-755736f9-0.62083",
+  "id": "755736f9-6c8f-49b3-87f3-3c582a5b1552",
+  "user": "pham",
+  "uid": 102,
+  "score": 0.62083,
+  "created": "2026-11-26T06:57:50.400019+00:00"
+ },
+ {
+  "dir": "yeliz-f2306713-0.61947",
+  "id": "f2306713-9b53-4874-90a1-4fc74740d305",
+  "user": "yeliz",
+  "uid": 217,
+  "score": 0.61947,
+  "created": "2026-11-25T19:01:23.374159+00:00"
+ },
+ {
+  "dir": "Sunbnetghost-44532f40-0.61855",
+  "id": "44532f40-62bd-4fa2-8678-742c99232e86",
+  "user": "Sunbnetghost",
+  "uid": 23,
+  "score": 0.61855,
+  "created": "2026-11-26T01:22:48.383389+00:00"
+ },
+ {
+  "dir": "minghuixie1993-5ad9a9a9-0.61478",
+  "id": "5ad9a9a9-ff8c-4f7f-9165-0ccc42089ac1",
+  "user": "minghuixie1993",
+  "uid": 88,
+  "score": 0.61478,
+  "created": "2026-11-25T23:42:17.054515+00:00"
+ },
+ {
+  "dir": "juel-965f4c67-0.61469",
+  "id": "965f4c67-aa90-43ed-b484-be5ff1ff3b20",
+  "user": "juel",
+  "uid": 92,
+  "score": 0.61469,
+  "created": "2026-11-25T22:02:02.559244+00:00"
+ },
+ {
+  "dir": "rintaro-ed136766-0.61197",
+  "id": "ed136766-7939-4c56-86a3-226ee2ae9d7a",
+  "user": "rintaro",
+  "uid": 107,
+  "score": 0.61197,
+  "created": "2026-11-25T19:17:33.861105+00:00"
+ },
+ {
+  "dir": "yeliz-97749283-0.60953",
+  "id": "97749283-180a-46d2-afd7-406fdb4442af",
+  "user": "yeliz",
+  "uid": 217,
+  "score": 0.60953,
+  "created": "2026-11-26T00:39:31.415526+00:00"
+ },
+ {
+  "dir": "rvictorino287-490e97ce-0.60794",
+  "id": "490e97ce-a69d-479b-a188-81c2a85b176d",
+  "user": "rvictorino287",
+  "uid": 30,
+  "score": 0.60794,
+  "created": "2026-11-25T20:48:12.313663+00:00"
+ },
+ {
+  "dir": "Sunbnetghost-baa54c0d-0.60696",
+  "id": "baa54c0d-3e7a-41c7-be28-3ff5c01d3686",
+  "user": "Sunbnetghost",
+  "uid": 23,
+  "score": 0.60696,
+  "created": "2026-11-25T21:11:23.095498+00:00"
+ },
+ {
+  "dir": "sncollins27-c97ecff6-0.6055",
+  "id": "c97ecff6-d1b5-4c10-b8d8-6b259547e390",
+  "user": "sncollins27",
+  "uid": 107,
+  "score": 0.6055,
+  "created": "2026-11-26T09:33:39.106943+00:00"
+ },
+ {
+  "dir": "Phoenix-dev11-35fcd70c-0.60346",
+  "id": "35fcd70c-6a42-40a5-9356-7ffbb81dad2a",
+  "user": "Phoenix-dev11",
+  "uid": 53,
+  "score": 0.60346,
+  "created": "2026-11-25T19:32:09.949743+00:00"
+ },
+ {
+  "dir": "Hera34-b6d8248f-0.60335",
+  "id": "b6d8248f-3e87-4454-acde-5de06aea3ac3",
+  "user": "Hera34",
+  "uid": 251,
+  "score": 0.60335,
+  "created": "2026-11-25T19:10:59.222201+00:00"
+ },
+ {
+  "dir": "atopfreelancer-9a0ebe48-0.60325",
+  "id": "9a0ebe48-9c7d-4582-8f0c-e8c64dde73d1",
+  "user": "atopfreelancer",
+  "uid": 76,
+  "score": 0.60325,
+  "created": "2026-11-26T06:22:51.7913+00:00"
+ },
+ {
+  "dir": "tsunami-ec40413c-0.60282",
+  "id": "ec40413c-ddcb-4cb9-9b17-25362a4dfd51",
+  "user": "tsunami",
+  "uid": 39,
+  "score": 0.60282,
+  "created": "2026-11-25T19:00:20.835345+00:00"
+ },
+ {
+  "dir": "tomjerry950710-0592afa4-0.60166",
+  "id": "0592afa4-91d4-4c07-afb7-542941378d00",
+  "user": "tomjerry950710",
+  "uid": 66,
+  "score": 0.60166,
+  "created": "2026-11-26T02:28:27.312207+00:00"
+ },
+ {
+  "dir": "atopfreelancer-2f358246-0.60044",
+  "id": "2f358246-74bd-4032-8687-1aa51a16b3bc",
+  "user": "atopfreelancer",
+  "uid": 76,
+  "score": 0.60044,
+  "created": "2026-11-25T19:17:25.215209+00:00"
+ },
+ {
+  "dir": "kathyannetorres-e73d7817-0.59744",
+  "id": "e73d7817-fe87-46c5-814a-d678c4cb9b76",
+  "user": "kathyannetorres",
+  "uid": 157,
+  "score": 0.59744,
+  "created": "2026-11-25T19:28:25.021061+00:00"
+ },
+ {
+  "dir": "pham-b102637a-0.5965",
+  "id": "b102637a-2743-4616-9710-11282e4d72f0",
+  "user": "pham",
+  "uid": 102,
+  "score": 0.5965,
+  "created": "2026-11-26T00:12:46.511918+00:00"
+ },
+ {
+  "dir": "Jose-44f7b026-0.59595",
+  "id": "44f7b026-fbd4-4b15-bd21-1af5eed5c947",
+  "user": "Jose",
+  "uid": 106,
+  "score": 0.59595,
+  "created": "2026-11-26T07:18:55.233999+00:00"
+ },
+ {
+  "dir": "tetrixcorps-45047a59-0.59453",
+  "id": "45047a59-a89e-4021-ae23-6291474b1d85",
+  "user": "tetrixcorps",
+  "uid": 108,
+  "score": 0.59453,
+  "created": "2026-11-26T10:28:24.292387+00:00"
+ },
+ {
+  "dir": "yurii-8eaaf58c-0.59078",
+  "id": "8eaaf58c-6827-46f7-8b3d-5164977f2e6d",
+  "user": "yurii",
+  "uid": 104,
+  "score": 0.59078,
+  "created": "2026-11-26T00:12:25.193972+00:00"
+ },
+ {
+  "dir": "minoraincoin-3243ac50-0.58975",
+  "id": "3243ac50-ff2d-48c9-9ff4-b4d861cd3255",
+  "user": "minoraincoin",
+  "uid": 98,
+  "score": 0.58975,
+  "created": "2026-11-25T20:15:36.374645+00:00"
+ },
+ {
+  "dir": "iqbalteing37-08192e81-0.57653",
+  "id": "08192e81-f81c-42ad-84f2-34b218b14b7c",
+  "user": "iqbalteing37",
+  "uid": 101,
+  "score": 0.57653,
+  "created": "2026-11-26T03:52:44.176833+00:00"
+ },
+ {
+  "dir": "dilcok8-174296f9-0.56575",
+  "id": "174296f9-02b6-48b3-b146-3c8887b1358a",
+  "user": "dilcok8",
+  "uid": 99,
+  "score": 0.56575,
+  "created": "2026-11-26T08:01:48.633291+00:00"
+ },
+ {
+  "dir": "iqbalteing37-72c07b23-0.56322",
+  "id": "72c07b23-5eef-47b7-82d6-4bb7b4a95aae",
+  "user": "iqbalteing37",
+  "uid": 101,
+  "score": 0.56322,
+  "created": "2026-11-25T21:00:47.567426+00:00"
+ },
+ {
+  "dir": "tarantula11-65fd306f-0.56219",
+  "id": "65fd306f-e353-4df1-92b1-92d770c141e0",
+  "user": "tarantula11",
+  "uid": 75,
+  "score": 0.56219,
+  "created": "2026-11-25T19:57:45.696459+00:00"
+ },
+ {
+  "dir": "minghuixie1993-74099c65-0.55778",
+  "id": "74099c65-4e5b-401b-ad14-6039ba557f06",
+  "user": "minghuixie1993",
+  "uid": 88,
+  "score": 0.55778,
+  "created": "2026-11-25T19:01:58.56049+00:00"
+ },
+ {
+  "dir": "dilcok17-267fb469-0.55234",
+  "id": "267fb469-ec0f-4c13-a74c-52f54814a1e7",
+  "user": "dilcok17",
+  "uid": 100,
+  "score": 0.55234,
+  "created": "2026-11-25T20:18:59.387773+00:00"
+ },
+ {
+  "dir": "dilcok14-457d7c5b-0.54794",
+  "id": "457d7c5b-9578-4787-b90d-cc58ec96d3a9",
+  "user": "dilcok14",
+  "uid": 96,
+  "score": 0.54794,
+  "created": "2026-11-25T19:54:37.117002+00:00"
+ },
+ {
+  "dir": "legend-6e29529c-0.53678",
+  "id": "6e29529c-0ef8-4d56-89e6-ec4ed7116b43",
+  "user": "legend",
+  "uid": 81,
+  "score": 0.53678,
+  "created": "2026-11-25T19:43:05.024646+00:00"
+ },
+ {
+  "dir": "cleanmind777-a2889888-0.53502",
+  "id": "a2889888-dd55-4263-a240-9d9fed296ef7",
+  "user": "cleanmind777",
+  "uid": 202,
+  "score": 0.53502,
+  "created": "2026-11-25T19:21:57.502362+00:00"
+ },
+ {
+  "dir": "dilcok8-a8a15f68-0.53341",
+  "id": "a8a15f68-879d-48f2-ad20-cd129af5d089",
+  "user": "dilcok8",
+  "uid": 99,
+  "score": 0.53341,
+  "created": "2026-11-26T06:26:59.474843+00:00"
+ },
+ {
+  "dir": "dilcok8-a8a3c428-0.52825",
+  "id": "a8a3c428-074a-4248-9aeb-e07e1043f626",
+  "user": "dilcok8",
+  "uid": 99,
+  "score": 0.52825,
+  "created": "2026-11-26T13:34:49.240543+00:00"
+ },
+ {
+  "dir": "0xGuru524-a52c074d-0.51972",
+  "id": "a52c074d-cb06-4a75-bd90-b821c41d38cf",
+  "user": "0xGuru524",
+  "uid": 55,
+  "score": 0.51972,
+  "created": "2026-11-25T19:33:11.879389+00:00"
+ },
+ {
+  "dir": "kenniejason19960129-7b20697a-0.51475",
+  "id": "7b20697a-06cf-4c0c-8d84-28fe852b9745",
+  "user": "kenniejason19960129",
+  "uid": 96,
+  "score": 0.51475,
+  "created": "2026-11-25T19:43:12.758605+00:00"
+ },
+ {
+  "dir": "dilcok8-310455cf-0.50209",
+  "id": "310455cf-c613-426d-8267-7d1a7580a4f3",
+  "user": "dilcok8",
+  "uid": 99,
+  "score": 0.50209,
+  "created": "2026-11-26T05:54:27.764654+00:00"
+ },
+ {
+  "dir": "john-eb765a10-0",
+  "id": "eb765a10-98ef-4f94-bf16-1a81ef537ff2",
+  "user": "john",
+  "uid": 36,
+  "score": 0,
+  "created": "2026-11-26T01:03:37.901234+00:00"
+ },
+ {
+  "dir": "jisankhanagd864-3182adae-0",
+  "id": "3182adae-27ef-4ade-a2fb-ca40bab93647",
+  "user": "jisankhanagd864",
+  "uid": 59,
+  "score": 0,
+  "created": "2026-11-26T00:20:39.499167+00:00"
+ },
+ {
+  "dir": "TopMiner-18b87e05-0",
+  "id": "18b87e05-3dca-4bae-a8e9-b7b93b385c90",
+  "user": "TopMiner",
+  "uid": 207,
+  "score": 0,
+  "created": "2026-11-25T19:01:33.794919+00:00"
+ },
+ {
+  "dir": "john-f9ad5c35-0.69391",
+  "id": "f9ad5c35-9f72-41d7-84a0-6cbbeb858ece",
+  "user": "john",
+  "uid": 36,
+  "score": 0.69391,
+  "created": "2026-11-26T18:28:53.872448+00:00"
+ },
+ {
+  "dir": "yeliz-daea9070-0.68594",
+  "id": "daea9070-d35e-4998-8b1c-fa41920625c4",
+  "user": "yeliz",
+  "uid": 217,
+  "score": 0.68594,
+  "created": "2026-11-26T20:42:01.145513+00:00"
+ },
+ {
+  "dir": "yeliz-04f5c0c6-0.68509",
+  "id": "04f5c0c6-7e3c-4f61-aa82-bff5935adab6",
+  "user": "yeliz",
+  "uid": 217,
+  "score": 0.68509,
+  "created": "2026-11-26T19:20:38.577735+00:00"
+ },
+ {
+  "dir": "juel-7e0925ff-0.67056",
+  "id": "7e0925ff-af0d-4a4b-b1df-b16d8c178e12",
+  "user": "juel",
+  "uid": 92,
+  "score": 0.67056,
+  "created": "2026-11-26T22:44:40.596316+00:00"
+ },
+ {
+  "dir": "astertwo-eaeef9c4-0.66822",
+  "id": "eaeef9c4-d227-45e9-a723-d9358542c18e",
+  "user": "astertwo",
+  "uid": 90,
+  "score": 0.66822,
+  "created": "2026-11-26T16:05:36.273298+00:00"
+ },
+ {
+  "dir": "TopMiner-85a1bfa4-0.65519",
+  "id": "85a1bfa4-85ae-46c1-9ff9-e543d2e66a1f",
+  "user": "TopMiner",
+  "uid": 207,
+  "score": 0.65519,
+  "created": "2026-11-26T15:25:27.229713+00:00"
+ },
+ {
+  "dir": "Sunbnetghost-b1422672-0.64536",
+  "id": "b1422672-e1bb-4f3b-89a8-c0778604ab17",
+  "user": "Sunbnetghost",
+  "uid": 23,
+  "score": 0.64536,
+  "created": "2026-11-26T13:35:34.130434+00:00"
+ },
+ {
+  "dir": "grayson_chen-1bdf6bf2-0.63719",
+  "id": "1bdf6bf2-3c5c-45c5-949b-e8e203f36a68",
+  "user": "grayson_chen",
+  "uid": 97,
+  "score": 0.63719,
+  "created": "2026-11-26T16:46:58.401718+00:00"
+ },
+ {
+  "dir": "jisankhanagd864-0d6ff078-0.61513",
+  "id": "0d6ff078-9213-4c59-93b7-0c4427cc31a1",
+  "user": "jisankhanagd864",
+  "uid": 59,
+  "score": 0.61513,
+  "created": "2026-11-26T18:29:12.467422+00:00"
+ },
+ {
+  "dir": "iqbalteing37-706d9374-0.00000",
+  "id": "706d9374-4a02-4850-828e-06f476a9440b",
+  "user": "iqbalteing37",
+  "uid": 101,
+  "score": 0,
+  "created": "2026-11-26T16:49:02.214348+00:00"
+ }
+]

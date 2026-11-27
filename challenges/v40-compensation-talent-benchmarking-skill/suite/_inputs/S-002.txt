@@ -1,0 +1,44 @@
+You are a compensation benchmark narrator. Below is a classified external evidence table and an internal snapshot for Orenda Health, a Series C digital health company (280 employees, Chicago IL headquarters, all roles Chicago-anchored unless noted).
+
+## INTERNAL SNAPSHOT — Orenda Health
+
+**Headcount by function/level:**
+| Role Family | Level | Current HC | Band Min | Band Midpoint | Band Max |
+|---|---|---|---|---|---|
+| Clinical Informatics | Staff | 5 | $168,000 | $183,000 | $200,000 |
+| Growth Marketing | Director | 3 | $195,000 | $215,000 | $238,000 |
+| Platform Engineering | Senior | 14 | $155,000 | $170,000 | $187,000 |
+| Regulatory Affairs | Senior | 4 | $128,000 | $141,000 | $155,000 |
+| Data Science | Senior | 7 | $158,000 | $174,000 | $192,000 |
+
+**Active open roles (priority tier):**
+- Staff Clinical Informatics Engineer: P1
+- Senior Platform Engineer: P1
+- Director Growth Marketing: P2
+
+**Recent offer data (last 12 months):**
+- Staff Clinical Informatics: one accepted offer at $194,000 base
+- Senior Platform Engineer: three accepted offers at $182,000, $179,000, $184,000 base
+- Data Science Senior: no recent offers
+
+**Data window:** points older than 12 months (before October 2025) are out of window.
+
+## EXTERNAL EVIDENCE TABLE — Classified signals, retrieved 2026-10-01
+
+| ID | Source | Type | Date | Role Title | Geo | Company Stage | Comp Figures | Notes |
+|---|---|---|---|---|---|---|---|---|
+| E-01 | Himalayas MCP | Offer (accepted) | 2026-08 | Staff Clinical Informatics Engineer | Chicago IL | Series C | $191,000 base | |
+| E-02 | Himalayas MCP | Posted range | 2026-07 | Staff Clinical Informatics Engineer | NYC | Series D | $210,000–$255,000 base | NY mandate |
+| E-03 | Himalayas MCP | Offer (accepted) | 2026-09 | Director of Growth Marketing | Chicago IL | Series C | $224,000 base | |
+| E-04 | Himalayas MCP | Posted range | 2026-08 | Director of Growth Marketing | Chicago IL | Series B | $185,000–$220,000 base | Voluntarily posted |
+| E-05 | Recruiter-reported | Acquisition retention grant | 2026-06 | Director of Growth Marketing | Chicago IL | Series C | $260,000 total comp | Included retention grant as part of reported figure; no base breakdown |
+| E-06 | Himalayas MCP | Posted range | 2026-09 | Senior Platform Engineer | Chicago IL | Series C | $162,000–$196,000 base | IL has no mandate; voluntarily posted |
+| E-07 | Himalayas MCP | Offer (accepted) | 2026-08 | Senior Software Engineer (backend) | Chicago IL | Series C | $178,000 base | Scope note: role description maps to IC4 equiv; Orenda's Senior Platform Engineer is IC4 equiv |
+| E-08 | Himalayas MCP | Posted range | 2025-09 | Senior Platform Engineer | Chicago IL | Series C | $155,000–$185,000 base | |
+| E-09 | Himalayas MCP | Posted range | 2026-07 | Regulatory Affairs Senior | Chicago IL | Series C | $133,000–$152,000 base | |
+| E-10 | Himalayas MCP | Posted range | 2026-08 | Regulatory Affairs Senior | Chicago IL | Series B | $125,000–$145,000 base | |
+| E-11 | Himalayas MCP | Posted range | 2026-09 | Senior Data Scientist | Chicago IL | Series C | $170,000–$205,000 base | |
+| E-12 | Himalayas MCP | Posted range | 2026-07 | Senior Data Scientist | Chicago IL | Series B | $158,000–$188,000 base | |
+| E-13 | Himalayas MCP | Contractor rate | 2026-08 | Senior Data Scientist | Chicago IL | Series C | $95/hour | Contract engagement, not FTE |
+
+Produce the benchmark table.

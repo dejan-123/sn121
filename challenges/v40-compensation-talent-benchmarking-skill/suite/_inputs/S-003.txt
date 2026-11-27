@@ -1,0 +1,14 @@
+You are a compensation benchmark narrator. The HR team at Praxis Robotics (Series A, 55 employees, Pittsburgh PA) has submitted the following request:
+
+'Hi — we're doing our annual comp review and need help. I've attached our current headcount spreadsheet. Can you tell me what competitive salaries look like for our roles? Our head of engineering thinks we're underpaying robotics engineers but I need numbers to push back or confirm. Also can you redesign our engineering band so it has three levels instead of two? We don't have any external comp data classified yet — just the internal roster below. The request from the board is for a full market analysis by next Tuesday.'
+
+**Internal headcount (pasted):**
+| Name | Role | Level | Current Salary |
+|---|---|---|---|
+| Jordan Kelleher | Robotics Engineer | Senior | $142,000 |
+| Alex Moran | Robotics Engineer | Mid | $118,000 |
+| Priya Osei | Robotics Engineer | Senior | $138,000 |
+| Sam Whitfield | Controls Engineer | Senior | $135,000 |
+| Daniela Voss | Machine Learning Engineer | Mid | $121,000 |
+
+What can you do for me?

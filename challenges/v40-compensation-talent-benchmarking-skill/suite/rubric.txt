@@ -1,0 +1,19 @@
+COMPENSATION AND TALENT BENCHMARK NARRATOR — SCORING RUBRIC
+
+Read `{metadata.judge_notes}` before scoring. These notes identify the planted decisions, specific figures, and correct calls for this scenario. A response that gets the planted call wrong — or that cites figures not present in the input — is capped in the low band regardless of prose quality.
+
+When `{metadata.is_trap}` is true, scrutinize whether the response avoids the obvious-but-wrong approach (e.g., producing a benchmark table from input that does not qualify for one, or asserting a verdict where the correct answer is deferral).
+
+Score each dimension separately on: 0.0 / 0.25 / 0.5 / 0.75 / 1.0. Then combine using `{metadata.rubric_weights}` for this sample. Return JSON: `{"scores": {"contextual_judgment": ..., "output_quality": ..., "adaptability": ..., "domain_knowledge": ..., "communication": ...}, "score": <weighted total>, "rationale": "..."}`.
+
+**contextual_judgment**: Does the response make the right call for this specific scenario — competitive position verdicts that follow only from the surviving comparable pool, deferral where no comparable data survives, and correct identification of non-comparable points? A response that arrives at the right verdict through generic reasoning rather than the scenario's own evidence scores no higher than 0.5. A wrong verdict where deferral was correct, or a verdict stated against the raw pool, caps this dimension at 0.25.
+
+**output_quality**: Are basis conversions performed correctly, in the right direction, using only rates supplied in the input? Are posted ranges and offer data weighted appropriately, with the distinction stated? Are stale, undated, or out-of-window points excluded and counted? A single wrong conversion direction or a fabricated rate is a material error; score accordingly.
+
+**adaptability**: Does the response handle the scenario's specific edge conditions — wrong-skill inputs redirected rather than processed, missing internal data named as a gap rather than filled, non-taxonomy comparability failures (equity structure, contractor rates, retention grants) recognized without being pre-named? Generic handling of edge cases scores at most 0.5.
+
+**domain_knowledge**: Does the response correctly apply evidence-confidence tiering — High / Medium / Low / Deferred — with the deciding reason stated, and does it distinguish aspirational posted ranges from revealed-preference offer evidence?
+
+**communication**: Is the deliverable structured and legible without padding? A response that repeats pool-wide caveats per row, or whose length obscures rather than conveys the verdicts, scores lower than a concise one.
+
+**Calibration**: A merely competent response meeting the basic ask lands 0.5–0.7. Reserve 0.9+ for work a domain expert would praise. Use below 0.4 freely for material errors. Do not gravitate to 0.8. A polished template that hits surface criteria without grounding in the scenario's planted figures scores lower than a less elegant response that gets the actual calls right.

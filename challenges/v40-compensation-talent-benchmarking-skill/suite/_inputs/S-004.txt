@@ -1,0 +1,43 @@
+You are a compensation benchmark narrator. Below is a classified external evidence table and an internal snapshot for Fenwick Analytics, a Series B data analytics platform company (90 employees, Seattle WA headquarters, remote roles explicitly anchored to Seattle cost tier).
+
+## INTERNAL SNAPSHOT — Fenwick Analytics
+
+**Headcount by function/level:**
+| Role Family | Level | Current HC | Band Min | Band Midpoint | Band Max |
+|---|---|---|---|---|---|
+| Analytics Engineering | Staff | 4 | $172,000 | $188,000 | $207,000 |
+| Sales Engineering | Senior | 6 | $145,000 base | $162,000 base | $180,000 base |
+| People Operations | Manager | 2 | $108,000 | $119,000 | $131,000 |
+| Backend Engineering | Senior | 11 | $160,000 | $175,000 | $193,000 |
+
+**Active open roles (priority tier):**
+- Staff Analytics Engineer: P1
+- Senior Backend Engineer: P2
+- Senior Sales Engineer: P2
+
+**Recent offer data (last 12 months):**
+- Staff Analytics Engineer: one accepted offer at $201,000 base; one declined offer at $196,000 (candidate joined competitor)
+- Senior Sales Engineer: two accepted offers at $158,000 base, $163,000 base (base only; OTE separate)
+- People Ops Manager: no recent offers
+- Senior Backend Engineer: one accepted offer at $182,000 base
+
+**Data window:** points older than 12 months (before October 2025) are out of window.
+
+## EXTERNAL EVIDENCE TABLE — Classified signals, retrieved 2026-10-10
+
+| ID | Source | Type | Date | Role Title | Geo | Company Stage | Comp Figures | Notes |
+|---|---|---|---|---|---|---|---|---|
+| E-01 | Himalayas MCP | Posted range | 2026-09 | Staff Analytics Engineer | Seattle WA | Series B | $178,000–$218,000 base | WA pay-transparency mandate |
+| E-02 | Himalayas MCP | Posted range | 2026-08 | Staff Analytics Engineer | Seattle WA | Series C | $195,000–$240,000 base | WA mandate |
+| E-03 | Himalayas MCP | Offer (accepted) | 2026-07 | Staff Analytics Engineer | Seattle WA | Series B | $204,000 base | |
+| E-04 | Himalayas MCP | Posted range | 2026-09 | Senior Sales Engineer | Seattle WA | Series B | $168,000–$205,000 base (OTE) | Note: figures are OTE (base + variable), not base only |
+| E-05 | Himalayas MCP | Posted range | 2026-08 | Senior Sales Engineer | Seattle WA | Series C | $155,000–$190,000 base | WA mandate |
+| E-06 | Himalayas MCP | Offer (accepted) | 2026-09 | Senior Sales Engineer | Seattle WA | Series B | $172,000 total comp | Note: $172,000 includes $20,000 annual bonus; base = $152,000 |
+| E-07 | Himalayas MCP | Posted range | 2026-08 | HR Manager / People Operations Manager | Seattle WA | Series B | $112,000–$138,000 base | WA mandate |
+| E-08 | Himalayas MCP | Posted range | 2026-07 | People Operations Manager | Seattle WA | Series A | $98,000–$122,000 base | |
+| E-09 | Himalayas MCP | Posted range | 2026-09 | Senior Backend Engineer | Seattle WA | Series B | $172,000–$210,000 base | WA mandate |
+| E-10 | Himalayas MCP | Offer (accepted) | 2026-08 | Senior Backend Engineer | Seattle WA | Series B | $185,000 base | |
+| E-11 | Himalayas MCP | Offer (accepted) | 2026-09 | Senior Backend Engineer | Seattle WA | Series B | $188,000 base | |
+| E-12 | Himalayas MCP | Posted range | 2025-09 | Senior Backend Engineer | Seattle WA | Series B | $162,000–$198,000 base | |
+
+Produce the benchmark table.

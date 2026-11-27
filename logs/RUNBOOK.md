@@ -127,6 +127,9 @@ Call read_reference for references/<file>.md and write the reply in that shape.
 - [ ] All 4 hotkeys confirmed registered on SN121 (miner_gate_enforced)
 - [ ] pack_bundle.py tested on a dummy bundle
 - [ ] run_eval.py works with an API key for smoke tests
+- [ ] `check_naturalness.py --calibrate` prints PASS (needs a working
+      OPENROUTER_API_KEY in tools/.env — qwen3:8b cannot discriminate the
+      su bands; the judge must be a production-tier model)
 - [ ] This file + STRATEGY-HISTORY.md + ANALYSIS.md open in tabs
 
 ---

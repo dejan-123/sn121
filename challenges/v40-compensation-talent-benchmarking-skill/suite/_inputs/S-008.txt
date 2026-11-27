@@ -1,0 +1,47 @@
+You are a compensation benchmark narrator. Below is a classified external evidence table and an internal snapshot for Nexvault Financial, a Series C fintech company (185 employees, New York NY headquarters).
+
+## INTERNAL SNAPSHOT — Nexvault Financial
+
+**Headcount by function/level:**
+| Role Family | Level | Current HC | Band Min | Band Midpoint | Band Max |
+|---|---|---|---|---|---|
+| Quantitative Research | Senior | 5 | $182,000 | $200,000 | $220,000 |
+| Compliance & Legal | Senior Counsel | 3 | $195,000 | $215,000 | $238,000 |
+| Platform Engineering | Senior | 16 | $168,000 | $185,000 | $204,000 |
+| Product – Payments | Senior PM | 4 | $172,000 | $190,000 | $210,000 |
+| Risk Analytics | Manager | 5 | $148,000 | $163,000 | $180,000 |
+
+**Active open roles (priority tier):**
+- Senior Quantitative Researcher: P1 (critical — trading desk expansion)
+- Senior Platform Engineer: P1
+- Senior PM Payments: P2
+
+**Recent offer data (last 12 months):**
+- Senior Quantitative Researcher: one accepted offer at $218,000 base; two declined offers at $210,000 and $212,000 (candidates cited competing offers 15–20% higher)
+- Senior Platform Engineer: two accepted offers at $194,000 and $197,000 base
+- Senior PM Payments: one accepted offer at $198,000 base
+- Risk Analytics Manager: no recent offers
+- Compliance Senior Counsel: no recent offers
+
+**Data window:** points older than 12 months (before October 2025) are out of window.
+
+## EXTERNAL EVIDENCE TABLE — Classified signals, retrieved 2026-10-14
+
+| ID | Source | Type | Date | Role Title | Geo | Company Stage | Comp Figures | Notes |
+|---|---|---|---|---|---|---|---|---|
+| E-01 | Himalayas MCP | Posted range | 2026-09 | Senior Quantitative Researcher | NYC | Series C | $195,000–$240,000 base | NY mandate |
+| E-02 | Himalayas MCP | Offer (accepted) | 2026-08 | Senior Quant Researcher | NYC | Series C | $232,000 base | |
+| E-03 | Himalayas MCP | Posted range | 2026-09 | Senior Quant Researcher | NYC | Public (post-IPO) | $260,000–$380,000 base | Public company; different stage |
+| E-04 | Himalayas MCP | Posted range | 2026-09 | Senior Compliance Counsel | NYC | Series C | $200,000–$248,000 base | NY mandate |
+| E-05 | Himalayas MCP | Posted range | 2026-08 | Senior Legal Counsel (Fintech) | NYC | Series B | $185,000–$220,000 base | 1 stage below |
+| E-06 | Himalayas MCP | Offer (accepted) | 2026-07 | Senior Compliance Counsel | NYC | Series D | $226,000 base | 1 stage above |
+| E-07 | Himalayas MCP | Posted range | 2026-09 | Senior Platform Engineer | NYC | Series C | $178,000–$218,000 base | NY mandate |
+| E-08 | Himalayas MCP | Offer (accepted) | 2026-08 | Senior Platform Engineer | NYC | Series C | $199,000 base | |
+| E-09 | Himalayas MCP | Offer (accepted) | 2026-09 | Senior Platform Engineer | NYC | Series C | $203,000 base | |
+| E-10 | Himalayas MCP | Posted range | 2026-09 | Senior PM – Payments | NYC | Series C | $182,000–$222,000 base | NY mandate |
+| E-11 | Himalayas MCP | Offer (accepted) | 2026-08 | Senior PM – Fintech Payments | NYC | Series C | $205,000 base | |
+| E-12 | Himalayas MCP | Posted range | 2026-07 | Risk Analytics Manager | NYC | Series C | $155,000–$188,000 base | NY mandate |
+| E-13 | Himalayas MCP | Posted range | 2026-08 | Risk Analytics Manager | NYC | Series B | $142,000–$170,000 base | 1 stage below |
+| E-14 | Himalayas MCP | Posted range | 2026-06 | Risk Analytics Manager | NYC | Series D | $175,000–$210,000 base | 1 stage above |
+
+Produce the benchmark table.

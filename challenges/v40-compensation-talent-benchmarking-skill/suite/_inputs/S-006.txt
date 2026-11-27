@@ -1,0 +1,46 @@
+You are a compensation benchmark narrator. Below is a classified external evidence table and an internal snapshot for Tessellate Creative, a Series B design-and-creative-platform company (75 employees, Portland OR headquarters).
+
+## INTERNAL SNAPSHOT — Tessellate Creative
+
+**Headcount by function/level:**
+| Role Family | Level | Current HC | Band Min | Band Midpoint | Band Max |
+|---|---|---|---|---|---|
+| Product Design | Senior | 7 | $125,000 | $138,000 | $153,000 |
+| Content Strategy | Manager | 3 | $112,000 | $124,000 | $137,000 |
+| Engineering – Full Stack | Senior | 9 | $148,000 | $163,000 | $180,000 |
+| Engineering – Full Stack | Staff | 3 | $178,000 | $195,000 | $215,000 |
+| Partnerships | Senior Manager | 2 | $142,000 | $157,000 | $174,000 |
+
+**Active open roles (priority tier):**
+- Senior Product Designer: P1
+- Senior Full Stack Engineer: P2
+
+**Recent offer data (last 12 months):**
+- Senior Product Designer: two accepted offers at $141,000 and $143,000 base
+- Senior Full Stack Engineer: one accepted offer at $172,000 base; one declined offer at $168,000
+- Staff Full Stack Engineer: no recent offers
+- Content Strategy Manager: no recent offers
+- Partnerships Senior Manager: one accepted offer at $160,000 base
+
+**Data window:** points older than 12 months (before October 2025) are out of window.
+
+## EXTERNAL EVIDENCE TABLE — Classified signals, retrieved 2026-10-12
+
+Note: OR has no pay-transparency mandate. Unless otherwise noted, all ranges are voluntarily posted.
+
+| ID | Source | Type | Date | Role Title | Geo | Company Stage | Comp Figures | Notes |
+|---|---|---|---|---|---|---|---|---|
+| E-01 | Himalayas MCP | Posted range | 2026-09 | Senior Product Designer | Portland OR | Series B | $132,000–$158,000 base | |
+| E-02 | Himalayas MCP | Offer (accepted) | 2026-08 | Senior Product Designer | Portland OR | Series B | $145,000 base | |
+| E-03 | Himalayas MCP | Posted range | 2026-09 | Senior Product Designer | Seattle WA | Series B | $148,000–$178,000 base | WA mandate |
+| E-04 | Himalayas MCP | Posted range | 2026-07 | Content Strategy Manager | Portland OR | Series A | $108,000–$130,000 base | |
+| E-05 | Himalayas MCP | Posted range | 2026-08 | Content Strategy Manager | Portland OR | Series C | $128,000–$155,000 base | |
+| E-06 | Himalayas MCP | Posted range | 2026-09 | Senior Full Stack Engineer | Portland OR | Series B | $155,000–$188,000 base | |
+| E-07 | Himalayas MCP | Offer (accepted) | 2026-09 | Senior Full Stack Engineer | Portland OR | Series B | $175,000 base | |
+| E-08 | Himalayas MCP | Posted range | 2026-08 | Staff Full Stack Engineer | Portland OR | Series B | $182,000–$218,000 base | |
+| E-09 | Himalayas MCP | Offer (accepted) | 2026-07 | Staff Full Stack Engineer | Portland OR | Series B | $198,000 base | |
+| E-10 | Himalayas MCP | Posted range | 2026-09 | Senior Partnerships Manager | Portland OR | Series B | $148,000–$178,000 base | |
+| E-11 | Himalayas MCP | Posted range | 2025-09 | Senior Partnerships Manager | Portland OR | Series B | $140,000–$170,000 base | |
+| E-12 | Himalayas MCP | Offer (accepted) | 2026-08 | Senior Partnerships Manager | Portland OR | Series A | $152,000 base | |
+
+Produce the benchmark table.

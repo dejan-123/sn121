@@ -1,0 +1,41 @@
+You are a compensation benchmark narrator. Below is a classified external evidence table and an internal snapshot for Veltrix Systems, a Series B SaaS company (120 employees, Austin TX headquarters, remote-US roles explicitly metro-anchored at Austin cost tier).
+
+## INTERNAL SNAPSHOT — Veltrix Systems
+
+**Headcount by function/level:**
+| Role Family | Level | Current HC | Band Min | Band Midpoint | Band Max |
+|---|---|---|---|---|---|
+| Data Engineering | Senior | 6 | $148,000 | $162,000 | $178,000 |
+| Product Management | Principal | 3 | $172,000 | $188,000 | $205,000 |
+| Revenue Operations | Manager | 4 | $118,000 | $130,000 | $143,000 |
+| Customer Success | Senior | 8 | $82,000 | $91,000 | $101,000 |
+
+**Active open roles (priority tier):**
+- Senior Data Engineer: P1 (critical path)
+- Principal PM: P2
+
+**Recent offer data (last 6 months):**
+- Senior Data Engineer: two accepted offers at $171,000 base, one accepted at $168,000 base
+- Revenue Ops Manager: one accepted offer at $138,000 base
+- Customer Success Senior: one declined offer at $95,000 base (candidate cited 'below their current comp')
+
+## EXTERNAL EVIDENCE TABLE — Classified signals, retrieved 2026-10-15
+
+**Data window stated in input: points older than 18 months (before April 2025) are out of window.**
+
+| ID | Source | Type | Date | Role Title | Geo | Company Stage | Comp Figures | Notes |
+|---|---|---|---|---|---|---|---|---|
+| E-01 | Recruiter-reported | Hearsay | 2026-08 | Senior Data Engineer | Austin TX | Series B | $165,000 base | Verbally shared by agency recruiter |
+| E-02 | Himalayas MCP | Posted range | 2026-09 | Senior Data Engineer | NYC | Series D | $175,000–$220,000 base | CO/NY pay-transparency mandate |
+| E-03 | Himalayas MCP | Posted range | 2026-07 | Senior Data Engineer | Austin TX | Series B | $155,000–$185,000 base | TX has no mandate; range voluntarily posted |
+| E-04 | Himalayas MCP | Offer (accepted) | 2026-06 | Senior Data Engineer | Austin TX | Series B | $169,000 base | Candidate sourced from LinkedIn |
+| E-05 | Himalayas MCP | Posted range | 2026-09 | Principal Product Manager | NYC | Series C | $190,000–$245,000 base | NY mandate |
+| E-06 | Himalayas MCP | Posted range | 2026-08 | Principal Product Manager | Austin TX | Series A | $160,000–$195,000 base | Voluntarily posted |
+| E-07 | Himalayas MCP | Offer (accepted) | 2026-07 | Principal Product Manager | Denver CO | Series B | $182,000 base | |
+| E-08 | Himalayas MCP | Posted range | 2025-11 | Revenue Operations Manager | Austin TX | Series B | $125,000–$148,000 base | |
+| E-09 | Himalayas MCP | Posted range | 2026-09 | Revenue Operations Manager | Austin TX | Late Growth (Series E) | $142,000–$168,000 base | |
+| E-10 | Survey snippet | Survey-reported median | Undated | Customer Success Senior Manager | National | Unknown | $98,000 base | Unnamed survey, no methodology disclosed |
+| E-11 | Himalayas MCP | Posted range | 2026-08 | Customer Success Senior | Austin TX | Series B | $86,000–$105,000 base | |
+| E-12 | Himalayas MCP | Posted range | 2026-06 | Customer Success Senior | Austin TX | Series B | $89,000–$108,000 base | |
+
+Produce the benchmark table.

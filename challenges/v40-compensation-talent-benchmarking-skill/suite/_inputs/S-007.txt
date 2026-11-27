@@ -1,0 +1,46 @@
+You are a compensation benchmark narrator. Below is a classified external evidence table and an internal snapshot for Auralith Therapeutics, a Series B clinical-stage biotech company (95 employees, Boston MA headquarters).
+
+## INTERNAL SNAPSHOT — Auralith Therapeutics
+
+**Headcount by function/level:**
+| Role Family | Level | Current HC | Band Min | Band Midpoint | Band Max |
+|---|---|---|---|---|---|
+| Computational Biology | Senior Scientist | 6 | $142,000 | $157,000 | $174,000 |
+| Clinical Operations | Associate Director | 4 | $168,000 | $185,000 | $204,000 |
+| Bioinformatics | Staff Scientist | 3 | $155,000 | $171,000 | $189,000 |
+| Medical Affairs | Director | 2 | $218,000 | $240,000 | $265,000 |
+| Regulatory Science | Senior | 4 | $138,000 | $153,000 | $169,000 |
+
+**Active open roles (priority tier):**
+- Senior Scientist Computational Biology: P1
+- Associate Director Clinical Ops: P1
+- Staff Scientist Bioinformatics: P2
+
+**Recent offer data (last 12 months):**
+- Senior Scientist Comp Bio: two accepted offers at $161,000 and $164,000 base
+- Clinical Ops Associate Director: one accepted offer at $193,000 base
+- Staff Scientist Bioinformatics: no recent offers
+- Medical Affairs Director: no recent offers
+- Regulatory Science Senior: no recent offers
+
+**Data window:** points older than 12 months (before October 2025) are out of window.
+
+## EXTERNAL EVIDENCE TABLE — Classified signals, retrieved 2026-10-08
+
+| ID | Source | Type | Date | Role Title | Geo | Company Stage | Comp Figures | Notes |
+|---|---|---|---|---|---|---|---|---|
+| E-01 | Himalayas MCP | Posted range | 2026-09 | Senior Computational Biologist | Boston MA | Series B | $148,000–$175,000 base | MA has no mandate; voluntarily posted |
+| E-02 | Himalayas MCP | Offer (accepted) | 2026-08 | Senior Computational Biologist | Boston MA | Series B | $162,000 base | |
+| E-03 | Himalayas MCP | Posted range | 2026-07 | Senior Computational Biologist | NYC | Series C | $170,000–$215,000 base | NY mandate |
+| E-04 | Himalayas MCP | Offer (accepted) | 2026-09 | Associate Director, Clinical Operations | Boston MA | Series B | $196,000 base | |
+| E-05 | Himalayas MCP | Posted range | 2026-08 | Associate Director Clinical Ops | Boston MA | Series C | $188,000–$228,000 base | Voluntarily posted |
+| E-06 | Himalayas MCP | Posted range | 2026-07 | Staff Bioinformatics Scientist | Boston MA | Series B | $162,000–$192,000 base | Voluntarily posted |
+| E-07 | Himalayas MCP | Posted range | 2026-09 | Staff Bioinformatics Scientist | Boston MA | Series A | $148,000–$178,000 base | Voluntarily posted |
+| E-08 | Himalayas MCP | Posted range | 2026-08 | Director, Medical Affairs | Boston MA | Series D | $265,000–$330,000 base | Voluntarily posted |
+| E-09 | Himalayas MCP | Posted range | 2026-09 | Director, Medical Affairs | Boston MA | Series B | $225,000–$278,000 base | Voluntarily posted |
+| E-10 | Himalayas MCP | Offer (accepted) | 2025-09 | Director, Medical Affairs | Boston MA | Series B | $248,000 base | |
+| E-11 | Himalayas MCP | Posted range | 2026-08 | Regulatory Science Senior | Boston MA | Series B | $144,000–$168,000 base | Voluntarily posted |
+| E-12 | Himalayas MCP | Offer (accepted) | 2026-07 | Senior Regulatory Scientist | Boston MA | Series A | $138,000 base | Stage partial |
+| E-13 | Himalayas MCP | Posted range | 2025-10 | Staff Bioinformatics Scientist | Boston MA | Series B | $158,000–$190,000 base | |
+
+Produce the benchmark table.

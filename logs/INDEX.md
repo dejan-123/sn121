@@ -4,6 +4,11 @@
   start-to-finish: hour-0 reading order, trick-finding method, first-submission
   method, scorecard analysis, surgical-update method, endgame, and the T+0
   revealed-answer-key pull. Start here.
+- `WORKED-EXAMPLES.md`: **the reference-file method** — the full recipe
+  for building references/ worked examples (anatomy, seven rules, build
+  process, pre-submit checklist). Merges STRATEGY-NEXT Phase 3,
+  ANALYSIS.md §6–9 and the v39 winner-vs-ours side-by-side. Open this at
+  hour 0 when filling reference slots.
 - `playbook.md`: measured scoring mechanics, gates, and lessons from v36.
 - `v39-KNOWLEDGE-LOG.md`: **the v39 winner autopsy** — iteration trajectories
   with own/other similarity for all top miners, line-level diffs of the
